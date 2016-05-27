@@ -8,7 +8,7 @@ class: center, middle, inverse
 
 ## Radovan Bast
 
-[info@coderefinery.org](info@coderefinery.org) - [http://coderefinery.org](http://coderefinery.org) - [https://neic.nordforsk.org](https://neic.nordforsk.org)
+[info@coderefinery.org](info@coderefinery.org) | [coderefinery.org](http://coderefinery.org) | [neic.nordforsk.org](https://neic.nordforsk.org)
 
 ---
 
@@ -33,8 +33,8 @@ code but rather about assisting in writing code more efficiently.
 
 ---
 
-## Training
+## Training (draft)
 
 ---
 
-## e-Infrastructure
+## e-Infrastructure (draft)
