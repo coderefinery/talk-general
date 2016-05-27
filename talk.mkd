@@ -1,0 +1,40 @@
+name: inverse
+layout: true
+class: center, middle, inverse
+
+---
+
+# Efficient code development with CodeRefinery
+
+## Radovan Bast
+
+[info@coderefinery.org](info@coderefinery.org) - [http://coderefinery.org](http://coderefinery.org) - [https://neic.nordforsk.org](https://neic.nordforsk.org)
+
+---
+
+layout: false
+
+## CodeRefinery
+
+This project is not about assisting user communities to write more efficient
+code but rather about assisting in writing code more efficiently.
+
+---
+
+## NeIC
+
+---
+
+## Partners
+
+---
+
+## Team
+
+---
+
+## Training
+
+---
+
+## e-Infrastructure
