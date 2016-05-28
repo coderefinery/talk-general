@@ -40,19 +40,19 @@ layout: false
   in state-of-the-art tools and practices in **modern software design and
   development**
 - Provide the necessary **e-infrastructure**
-- This project is not about writing more efficient
-  code but rather about assisting in **writing code more efficiently**
+- This project is not about efficient code
+  but rather about **efficient coding**
 
 ---
 
 .left-column[
 <img src="img/neic.png" style="height: 50px;"/>
 
-<img src="img/csc.png" style="height: 50px;"/>
+<img src="img/csc.png" style="height: 90px;"/>
 
 <img src="img/deic.png" style="height: 50px;"/>
 
-<img src="img/sigma2.jpg" style="height: 50px;"/>
+<img src="img/sigma2.jpg" style="height: 60px;"/>
 
 <img src="img/snic.png" style="height: 20px;"/>
 ]
@@ -82,8 +82,7 @@ layout: false
 - Introduction to version control and Git
 - Branching, merging, and conflict resolution in Git
 - Collaboration via distributed version control and code review
-- Working with GitHub
-- Working with GitLab
+- Working with GitHub and GitLab
 - Git branch design and release strategies
 - Modern code documentation
 - Test-driven development
@@ -99,9 +98,7 @@ layout: false
 
 ## Best practices guides (draft)
 
-- Best programming practices in Fortran
-- Best programming practices in C and C++
-- Best programming practices in Python
+- Best programming practices in Fortran, C, C++, and Python
 - Best practices in Git
 - Collaboration via distributed version control and code review
 - Git branch design and release strategies
