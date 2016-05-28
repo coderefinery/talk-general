@@ -4,11 +4,11 @@ class: center, middle, inverse
 
 ---
 
-# Efficient code development with CodeRefinery
+# Out of the tarpit with CodeRefinery
 
 ## Radovan Bast
 
-[info@coderefinery.org](info@coderefinery.org) | [coderefinery.org](http://coderefinery.org) | [neic.nordforsk.org](https://neic.nordforsk.org)
+[coderefinery.org](http://coderefinery.org) | [neic.nordforsk.org](https://neic.nordforsk.org) | [info@coderefinery.org](info@coderefinery.org)
 
 ---
 
@@ -16,25 +16,131 @@ layout: false
 
 ## CodeRefinery
 
-This project is not about assisting user communities to write more efficient
-code but rather about assisting in writing code more efficiently.
+### Situation
+
+- Software is today at the heart of basically every scientific discipline
+- There is value in Nordic research software
+- Many academic research groups develop software using inefficient or
+  outdated methodologies
 
 ---
 
-## NeIC
+## CodeRefinery
+
+### Situation
+
+- Software is today at the heart of basically every scientific discipline
+- There is value in Nordic research software
+- Many academic research groups develop software using inefficient or
+  outdated methodologies
+
+### Goals: Better science with better software
+
+- Train Nordic research groups and projects
+  in state-of-the-art tools and practices in **modern software design and
+  development**
+- Provide the necessary **e-infrastructure**
+- This project is not about writing more efficient
+  code but rather about assisting in **writing code more efficiently**
 
 ---
 
-## Partners
+.left-column[
+<img src="img/neic.png" style="height: 50px;"/>
 
----
+<img src="img/csc.png" style="height: 50px;"/>
 
-## Team
+<img src="img/deic.png" style="height: 50px;"/>
+
+<img src="img/sigma2.jpg" style="height: 50px;"/>
+
+<img src="img/snic.png" style="height: 20px;"/>
+]
+.right-column[
+## About the CodeRefinery project
+
+- Launching September 2016
+- Funded for two years
+- Nordic e-Infrastructure Collaboration project
+- Team of 6 persons located in Denmark, Finland, Norway, and Sweden
+
+### Partners
+
+- NeIC: [Nordic e-Infrastructure Collaboration](https://neic.nordforsk.org)
+  (Denmark, Finland, Norway, Island, Sweden)
+- CSC (Finland)
+- DeIC (Denmark)
+- Sigma2 (Norway)
+- SNIC (Sweden)
+]
 
 ---
 
 ## Training (draft)
 
+- Managing complexity in software development
+- Introduction to version control and Git
+- Branching, merging, and conflict resolution in Git
+- Collaboration via distributed version control and code review
+- Working with GitHub
+- Working with GitLab
+- Git branch design and release strategies
+- Modern code documentation
+- Test-driven development
+- Build tools
+- Mixed language development
+- Modular development and library design
+- Building multi-component software
+- Profiling and code optimization (aggregating references to available material)
+- Debugging tools
+- Software licensing and packaging
+
+---
+
+## Best practices guides (draft)
+
+- Best programming practices in Fortran
+- Best programming practices in C and C++
+- Best programming practices in Python
+- Best practices in Git
+- Collaboration via distributed version control and code review
+- Git branch design and release strategies
+- Modern code documentation
+- Test-driven development
+- Deploying continuous integration
+- Migrating a project from hand-written Makefiles to portable build tools
+- Best practices in mixed language development
+- Modular development and library design
+- Building multi-component software
+- Profiling and code optimization best practices
+- Best practices in debugging
+- Best practices for packaging and distribution
+
 ---
 
 ## e-Infrastructure (draft)
+
+### Source code repository hosting
+
+- Unlimited private repositories for Nordic groups and their
+  collaborations
+
+### Continuous integration service
+
+- Automatically test every changeset
+- Simplify collaboration
+
+### Source and binary distribution platform
+
+- Make it easier for researchers to distribute
+  free of charge closed-source code binary distributions
+  or for free of charge custom-license source distributions
+- Increase visibility of projects
+
+---
+
+template: inverse
+
+## Follow us on [coderefinery.org](http://coderefinery.org) and [github.com/coderefinery](https://github.com/coderefinery)!
+
+Read also "[Out of the tarpit](https://github.com/papers-we-love/papers-we-love/blob/master/design/out-of-the-tar-pit.pdf)".
