@@ -62,7 +62,7 @@ layout: false
 - Launching September 2016
 - Funded for two years
 - Nordic e-Infrastructure Collaboration project
-- Team of 6 persons located in Denmark, Finland, Norway, and Sweden
+- Team of 8 persons (2.75 FTE) located in Denmark, Finland, Norway, and Sweden
 
 ### Partners
 
@@ -133,6 +133,18 @@ layout: false
   free of charge closed-source code binary distributions
   or for free of charge custom-license source distributions
 - Increase visibility of projects
+
+---
+
+## Interdependencies to other organizations or projects
+
+- NeIC Pooling Competencies Focus Area
+
+- Software Carpentry
+
+- The Software Sustainability Institute (UK)
+
+- Sustainable Software for Chemistry and Materials (US)
 
 ---
 
