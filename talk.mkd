@@ -6,7 +6,7 @@ class: center, middle
 
 background-image: url(img/front.png)
 
-# Out of the tarpit with CodeRefinery
+# The CodeRefinery Project
 
 ## Radovan Bast
 
