@@ -146,7 +146,7 @@ layout: false
 
 - The Software Sustainability Institute (UK)
 
-- Sustainable Software for Chemistry and Materials (US)
+- The Molecular Sciences Software Institute (US)
 
 ---
 
