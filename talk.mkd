@@ -95,6 +95,7 @@ layout: false
 - Profiling and code optimization (aggregating references to available material)
 - Debugging tools
 - Software licensing and packaging
+- DevOps and automation
 
 ---
 
@@ -114,6 +115,9 @@ layout: false
 - Profiling and code optimization best practices
 - Best practices in debugging
 - Best practices for packaging and distribution
+- How to open source a project and maintain it afterwards
+- Efficient use of cloud services with DevOps
+- Setting up a software management plan
 
 ---
 
