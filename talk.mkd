@@ -251,6 +251,23 @@ def test_get_bmi():
 
 ---
 
+## NeIC Pool Competencies Focus Area
+
+- https://wiki.neic.no/wiki/Pool_Competencies
+- Pilot case: training
+- Joint calendar and a training metaportal: https://neic.nordforsk.org/training/
+- NeIC Mobility Enhancement Programme under formulation
+
+### Prioritization of next competencies to pool
+
+- Data management and data analysis
+- User support
+- Security
+- Procurements (technical benchmarking, acceptance testing, acquisition conditions)
+- Software roll-out
+
+---
+
 class: split-40-60
 
 ## Get in touch!
