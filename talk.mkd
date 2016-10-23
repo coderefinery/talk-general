@@ -228,6 +228,23 @@ def test_get_bmi():
 
 ## Code sharing platform
 
+### Open-source software
+
+- [GitHub](https://github.com)/[GitLab](https://gitlab.com)/[Bitbucket](https://bitbucket.org)
+- Often anonymous download
+
+### Closed-source software
+
+- Typically has paid maintainers
+- Own distribution websites
+
+### Open-use software
+
+- Typically no budget
+- Often "home-cooked" solutions
+- Often anonymous download not enough
+- Maintenance burden
+
 ---
 
 ## Get in touch!
