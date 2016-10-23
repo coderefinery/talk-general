@@ -161,10 +161,6 @@ class: split-60-40
 
 ---
 
-## Continuous integration service
-
----
-
 ## Code sharing platform
 
 ---
@@ -187,6 +183,35 @@ class: split-60-40
 ---
 
 ## Automated testing
+
+```python
+def get_bmi(mass_kg, height_m):
+    """
+    Calculates the body mass index.
+    """
+    return mass_kg/(height_m**2)
+
+
+def test_get_bmi():
+    bmi = get_bmi(90, 1.91)
+    expected_result = 24.670376
+    assert abs(bmi - expected_result) < 1.0e-6
+```
+
+### Bonus
+
+- Robust code
+- Simplify collaboration
+- Guides towards modular code structure
+
+---
+
+## Continuous integration service
+
+<img src="img/travis.jpg" style="width: 800px;"/>
+
+- Test every changeset
+- We plan to deploy a service which will make it easier for researchers to test their code
 
 ---
 
