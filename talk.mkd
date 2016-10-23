@@ -95,6 +95,50 @@ class: split-60-40
 
 ---
 
+## Nordic e-Infrastructure Collaboration
+
+- Over 50 persons with 20-100% involvement
+- Facilitating development and operations of e-infrastructure solutions in areas of joint Nordic interest
+
+### Vision
+
+- NeIC is a global role model for cross-border distributed and sustainable e-infrastructure services
+
+### Activities and project areas
+
+- Operating Nordic Tier-1 within Worldwide LHC Computing Grid
+- Using and sharing sensitive data
+- Cloud services
+- EISCAT_3D data handling
+- **Research software infrastructure and training**
+- Sharing e-resources, HPC
+- Environmental Sciences
+
+---
+
+## Would you recommend a colleague to work with a NeIC project?
+
+<img src="img/survey.jpg" style="width: 700px;"/>
+
+---
+
+## NeIC Pool Competencies Focus Area
+
+- https://wiki.neic.no/wiki/Pool_Competencies
+- Pilot case: training
+- Joint calendar and a training metaportal: https://neic.nordforsk.org/training/
+- NeIC Mobility Enhancement Programme under formulation
+
+### Prioritization of next competencies to pool
+
+- Data management and data analysis
+- User support
+- Security
+- Procurements (technical benchmarking, acceptance testing, acquisition conditions)
+- Software roll-out
+
+---
+
 class: split-60-40
 
 ## Coming to a city near you
@@ -257,23 +301,6 @@ class: split-60-40
 - Often "home-cooked" solutions
 - Often anonymous download not enough
 - Maintenance burden
-
----
-
-## NeIC Pool Competencies Focus Area
-
-- https://wiki.neic.no/wiki/Pool_Competencies
-- Pilot case: training
-- Joint calendar and a training metaportal: https://neic.nordforsk.org/training/
-- NeIC Mobility Enhancement Programme under formulation
-
-### Prioritization of next competencies to pool
-
-- Data management and data analysis
-- User support
-- Security
-- Procurements (technical benchmarking, acceptance testing, acquisition conditions)
-- Software roll-out
 
 ---
 
