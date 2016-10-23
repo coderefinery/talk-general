@@ -221,6 +221,14 @@ class: split-60-40
 
 ---
 
+## Code complexity/viscosity
+
+- Simple is often not easy
+
+<img src="img/development-speed.svg" style="width: 500px;"/>
+
+---
+
 ## Get in touch!
 
 ### [coderefinery.org](http://coderefinery.org)
