@@ -218,11 +218,9 @@ def test_get_bmi():
 
 ---
 
-## Code complexity/viscosity
+## Code complexity/viscosity: simple vs. easy
 
-- Simple is often not easy
-
-<img src="img/development-speed.svg" style="width: 500px;"/>
+<img src="img/development-speed.svg" style="width: 600px;"/>
 
 ---
 
