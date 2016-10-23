@@ -161,24 +161,17 @@ class: split-60-40
 
 ---
 
-## Code sharing platform
+## Version control: record every change
+
+<img src="img/commits.jpg" style="width: 800px;"/>
 
 ---
 
-## Documentation
+## Version control: make it possible to collaborate
 
-- Close to the code (minimize barrier)
-- **Versions**: If the project has versions, the documentation should too
-- Lightweight markup (LaTeX is not lightweight enough)
-- Readable on any device
-- Division into tutorials and keyword reference
-- Tutorials contain good defaults
-- Ready examples that one can copy-paste to get quickly started
-- Prose, written by humans
+<img src="img/network.jpg" style="width: 800px;"/>
 
-### Current gold standard (in my opinion):
-
-### [GitHub](https://github.com)/[GitLab](https://gitlab.com)/[Bitbucket](https://bitbucket.org/) -> [RST](http://docutils.sourceforge.net/rst.html)/[Sphinx](http://www.sphinx-doc.org) -> [Read the Docs](https://readthedocs.org)
+- We plan to deploy a Nordic-wide code repository hosting platform
 
 ---
 
@@ -215,21 +208,24 @@ def test_get_bmi():
 
 ---
 
+## Documentation
+
+- Close to the code (minimize barrier)
+- **Versions**: If the project has versions, the documentation should too
+- Lightweight markup (LaTeX is not lightweight enough)
+- Readable on any device
+- Division into tutorials and keyword reference
+- Tutorials contain good defaults
+- Ready examples that one can copy-paste to get quickly started
+- Prose, written by humans
+
+### Current gold standard (in my opinion):
+
+### [GitHub](https://github.com)/[GitLab](https://gitlab.com)/[Bitbucket](https://bitbucket.org/) -> [RST](http://docutils.sourceforge.net/rst.html)/[Sphinx](http://www.sphinx-doc.org) -> [Read the Docs](https://readthedocs.org)
+
+---
+
 ## Code review
-
----
-
-## Version control: record every change
-
-<img src="img/commits.jpg" style="width: 800px;"/>
-
----
-
-## Version control: make it possible to collaborate
-
-<img src="img/network.jpg" style="width: 800px;"/>
-
-- We plan to deploy a Nordic-wide code repository hosting platform
 
 ---
 
@@ -257,6 +253,10 @@ def test_get_bmi():
 - Simple is often not easy
 
 <img src="img/development-speed.svg" style="width: 500px;"/>
+
+---
+
+## Code sharing platform
 
 ---
 
