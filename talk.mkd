@@ -156,12 +156,18 @@ def test_get_bmi():
 
 ---
 
+<img src="img/suit.jpg" style="width: 400px;"/>
+
+---
+
 ## Continuous integration service
 
-<img src="img/travis.jpg" style="width: 800px;"/>
-
+- [Travis CI](https://travis-ci.org)
+- [Jenkins](https://jenkins.io)
 - Test every changeset
 - We plan to deploy a service which will make it easier for researchers to test their code
+
+<img src="img/travis.jpg" style="width: 800px;"/>
 
 ---
 
