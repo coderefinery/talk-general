@@ -194,6 +194,38 @@ class: split-60-40
 
 ---
 
+## Repository hosting
+
+---
+
+## Continuous integration service
+
+---
+
+## Code sharing platform
+
+---
+
+## Documentation
+
+---
+
+## Automated testing
+
+---
+
+## Code review
+
+---
+
+## Version control
+
+---
+
+## Modular code development
+
+---
+
 template: inverse
 
 ## Follow us on [coderefinery.org](http://coderefinery.org) and [github.com/coderefinery](https://github.com/coderefinery)!
