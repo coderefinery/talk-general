@@ -10,40 +10,51 @@ background-image: url(img/front.png)
 
 ## Radovan Bast
 
-[coderefinery.org](http://coderefinery.org) | [neic.nordforsk.org](https://neic.nordforsk.org) | [info@coderefinery.org](info@coderefinery.org)
+[coderefinery.org](http://coderefinery.org) | [@coderefine](https://twitter.com/coderefine) | [neic.nordforsk.org](https://neic.nordforsk.org)
 
 ---
 
 layout: false
+class: split-50-50
 
-## CodeRefinery
+## Software is transforming research
 
-### Situation
+.column[
+<img src="img/complex-machine.jpg" style="height: 500px;"/>
+]
+.column[
+- Quality of scientific software is **increasingly becoming critical** for the advancement of knowledge
 
-- Software is today at the heart of basically every scientific discipline
-- There is value in Nordic research software
-- Many academic research groups develop software using inefficient or
-  outdated methodologies
+- Scientists often **lack the necessary training** in practices to
+  enable them to collaboratively write high-quality scientific software
+]
 
 ---
 
-## CodeRefinery
+## Many researchers struggle with code complexity
 
-### Situation
+<img src="img/joe-paradiso-modular-synth-front.jpg" style="height: 450px;"/>
 
-- Software is today at the heart of basically every scientific discipline
-- There is value in Nordic research software
-- Many academic research groups develop software using inefficient or
-  outdated methodologies
+(c) Joe Paradiso
 
-### Goals: Better science with better software
+---
 
-- Train Nordic research groups and projects
-  in state-of-the-art tools and practices in **modern software design and
-  development**
-- Provide the necessary **e-infrastructure**
-- This project is not about efficient code
-  but rather about **efficient coding**
+class: split-60-40
+
+## Goals: Better science with better software
+
+.column[
+<img src="img/bromance.jpg" style="height: 360px;"/>
+
+(c) The New Yorker, Oct 17, 2016
+]
+.column[
+- Provide researchers with **infrastructure** and **training** in the necessary tools
+  and techniques to create sustainable, modular, reusable, and reproducible
+  software
+- Build **strong partnerships** with related initiatives
+- This project is not about efficient code but rather about **efficient coding**
+]
 
 ---
 
@@ -59,21 +70,50 @@ layout: false
 <img src="img/snic.png" style="height: 20px;"/>
 ]
 .right-column[
-## About the CodeRefinery project
+## CodeRefinery launched September 2016
 
-- Launching September 2016
-- Funded for two years
 - Nordic e-Infrastructure Collaboration project
-- Team of 8 persons (2.75 FTE) located in Denmark, Finland, Norway, and Sweden
+- Funded for two years
+- We are a team of enthusiasts located in DK, FI, DO, SE
 
-### Partners
+### Team
 
-- NeIC: [Nordic e-Infrastructure Collaboration](https://neic.nordforsk.org)
-  (Denmark, Finland, Norway, Island, Sweden)
-- CSC (Finland)
-- DeIC (Denmark)
-- Sigma2 (Norway)
-- SNIC (Sweden)
+- Aleksi Kallio
+- Bjørn Lindi
+- Erik Edelmann
+- Jyry Suvilehto
+- Michaela Barth
+- Nikolai Denissov
+- Pinja Koskinen
+- Radovan Bast
+- Sabry Razick
+- Sri Harsha Vathsavayi
+- Thor Wikfeldt
+]
+
+---
+
+class: split-60-40
+
+## Coming to a city near you
+
+.column[
+<img src="img/map.jpg" style="height: 380px;"/>
+]
+.column[
+- Dec 2016 - Helsinki
+- Feb 2017 - Stockholm
+- May 2017 - Copenhagen
+- May 2017 - Umeå
+- Jun 2017 - Tromsø
+- Oct 2017 - Aarhus
+- Nov 2017 - Linköping
+- Dec 2017 - Helsinki
+- Feb 2018 - Trondheim
+- Mar 2018 - Turku
+- Apr 2018 - Odense
+- May 2018 - Uppsala
+- Jun 2018 - Oslo
 ]
 
 ---
