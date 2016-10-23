@@ -161,10 +161,6 @@ class: split-60-40
 
 ---
 
-## Repository hosting
-
----
-
 ## Continuous integration service
 
 ---
@@ -198,7 +194,17 @@ class: split-60-40
 
 ---
 
-## Version control
+## Version control: record every change
+
+<img src="img/commits.jpg" style="width: 800px;"/>
+
+---
+
+## Version control: make it possible to collaborate
+
+<img src="img/network.jpg" style="width: 800px;"/>
+
+- We plan to deploy a Nordic-wide code repository hosting platform
 
 ---
 
