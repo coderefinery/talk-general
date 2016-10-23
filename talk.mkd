@@ -245,10 +245,17 @@ def test_get_bmi():
 
 ---
 
+class: split-40-60
+
 ## Get in touch!
 
+.column[
 ### [coderefinery.org](http://coderefinery.org)
 
 ### [@coderefine](https://twitter.com/coderefine)
 
 ### [github.com/coderefinery](https://github.com/coderefinery)
+]
+.column[
+<img src="img/magic.jpg" style="height: 300px;"/>
+]
