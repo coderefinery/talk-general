@@ -156,7 +156,14 @@ def test_get_bmi():
 
 ---
 
+class: split-60-40
+
+.column[
 <img src="img/suit.jpg" style="width: 400px;"/>
+]
+.column[
+- Suiting up to modify untested code
+]
 
 ---
 
