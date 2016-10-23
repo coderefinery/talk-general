@@ -204,6 +204,21 @@ class: split-60-40
 
 ## Modular code development
 
+### Modular design is good - examples:
+
+- Lego
+- Car manufacturing
+- Design of your phone or laptop
+- Modular composition when you order a laptop
+- Success of USB
+- Erasmus study program
+
+### Advantages
+
+- Separation of concerns
+- Composability
+- Leveraging functionality
+
 ---
 
 ## Get in touch!
