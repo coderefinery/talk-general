@@ -91,9 +91,9 @@ class: split-50-50
 - Using and sharing sensitive data
 - Cloud services
 - EISCAT_3D data handling
-- **Research software infrastructure and training**
 - Sharing e-resources, HPC
 - Environmental Sciences
+- **Research software infrastructure and training**
 
 ---
 
