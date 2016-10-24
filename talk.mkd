@@ -76,7 +76,7 @@ class: split-60-40
 
 - Nordic e-Infrastructure Collaboration project
 - Funded for two years
-- We are a team of enthusiasts located in DK, FI, DO, SE
+- We are a team of enthusiasts located in DK, FI, NO, SE
 
 ### Team
 
