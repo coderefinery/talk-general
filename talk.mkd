@@ -41,25 +41,6 @@ class: split-50-50
 
 ---
 
-class: split-60-40
-
-## Goals: Better science with better software
-
-.column[
-<img src="img/bromance.jpg" style="height: 360px;"/>
-
-(c) The New Yorker, Oct 17, 2016
-]
-.column[
-- Provide researchers with **infrastructure** and **training** in the necessary tools
-  and techniques to create sustainable, modular, reusable, and reproducible
-  software
-- Build **strong partnerships** with related initiatives
-- This project is not about efficient code but rather about **efficient coding**
-]
-
----
-
 .left-column[
 <img src="img/neic.png" style="height: 50px;"/>
 
@@ -136,6 +117,25 @@ class: split-60-40
 - Security
 - Procurements (technical benchmarking, acceptance testing, acquisition conditions)
 - Software roll-out
+
+---
+
+class: split-60-40
+
+## Goals: Better science with better software
+
+.column[
+<img src="img/bromance.jpg" style="height: 360px;"/>
+
+(c) The New Yorker, Oct 17, 2016
+]
+.column[
+- Provide researchers with **infrastructure** and **training** in the necessary tools
+  and techniques to create sustainable, modular, reusable, and reproducible
+  software
+- Build **strong partnerships** with related initiatives
+- This project is not about efficient code but rather about **efficient coding**
+]
 
 ---
 
