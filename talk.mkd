@@ -139,31 +139,6 @@ class: split-60-40
 
 ---
 
-class: split-60-40
-
-## Coming to a city near you
-
-.column[
-<img src="img/map.jpg" style="height: 380px;"/>
-]
-.column[
-- Dec 2016 - Helsinki
-- Feb 2017 - Stockholm
-- May 2017 - Copenhagen
-- May 2017 - Umeå
-- Jun 2017 - Tromsø
-- Oct 2017 - Aarhus
-- Nov 2017 - Linköping
-- Dec 2017 - Helsinki
-- Feb 2018 - Trondheim
-- Mar 2018 - Turku
-- Apr 2018 - Odense
-- May 2018 - Uppsala
-- Jun 2018 - Oslo
-]
-
----
-
 ## Version control: record every change
 
 <img src="img/commits.jpg" style="width: 800px;"/>
@@ -301,6 +276,31 @@ class: split-60-40
 - Often "home-cooked" solutions
 - Often anonymous download not enough
 - Maintenance burden
+
+---
+
+class: split-60-40
+
+## Coming to a city near you
+
+.column[
+<img src="img/map.jpg" style="height: 380px;"/>
+]
+.column[
+- Dec 2016 - Helsinki
+- Feb 2017 - Stockholm
+- May 2017 - Copenhagen
+- May 2017 - Umeå
+- Jun 2017 - Tromsø
+- Oct 2017 - Aarhus
+- Nov 2017 - Linköping
+- Dec 2017 - Helsinki
+- Feb 2018 - Trondheim
+- Mar 2018 - Turku
+- Apr 2018 - Odense
+- May 2018 - Uppsala
+- Jun 2018 - Oslo
+]
 
 ---
 
