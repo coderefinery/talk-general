@@ -78,8 +78,8 @@ class: split-50-50
 
 ## Nordic e-Infrastructure Collaboration
 
-- Over 50 persons with 20-100% involvement
 - Facilitating development and operations of e-infrastructure solutions in areas of joint Nordic interest
+- Over 50 persons with 20-100% involvement
 
 ### Vision
 
