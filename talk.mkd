@@ -126,6 +126,7 @@ def test_get_bmi():
 ### Bonus
 
 - Robust code
+- Best documentation
 - Simplify collaboration
 - Guides towards modular code structure
 
