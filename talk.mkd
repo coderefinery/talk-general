@@ -82,6 +82,7 @@ class: split-60-40
 - Bjørn Lindi
 - Erik Edelmann
 - Jyry Suvilehto
+- Lukasz Bartosz Berger
 - Michaela Barth
 - Nikolai Denissov
 - Pinja Koskinen
