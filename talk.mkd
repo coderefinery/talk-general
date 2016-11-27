@@ -108,6 +108,74 @@ class: split-60-40
 
 ---
 
+### Good code (pure)
+
+```python
+# function which computes the body mass index
+def get_bmi(mass_kg, height_m):
+    return mass_kg/(height_m**2)
+
+# compute the body mass index
+bmi = get_bmi(mass_kg=90.0, height_m=1.91))
+```
+
+### Worse code (stateful)
+
+```python
+mass_kg = 90.0
+height_m = 1.91
+bmi = 0.0
+
+# function which computes the body mass index
+def get_bmi():
+    global bmi
+    bmi = mass_kg/(height_m**2)
+
+# compute the body mass index
+get_bmi()
+```
+
+---
+
+## Enemy of the state
+
+.left-column[
+<img src="img/mad.jpg" style="width: 150px;"/>
+]
+.right-column[
+### Strive for pure functions, fear the state
+
+- Pure functions do not have side effects
+- Side effects lead to bugs and increase complexity
+- Pure functions are easier to
+    - Test
+    - Understand
+    - Reuse
+    - Parallelize
+    - Simplify
+    - Refactor
+    - Optimize
+
+### But we need to deal with state somewhere
+]
+
+---
+
+## Recommendations
+
+- Keep I/O on the outside and connected
+- Always read/write on the outside and pass data
+- Do not read/write deep down inside the code
+- Keep the inside of your code pure/stateless
+- Move all the state "up" to the caller
+- Keep the stateful outside shell thin
+- Unit test the inside
+- Regression test the shell
+
+![](img/good-vs-bad.svg)
+
+---
+
 ## Automated testing
 
 ```python
@@ -119,7 +187,7 @@ def get_bmi(mass_kg, height_m):
 
 
 def test_get_bmi():
-    bmi = get_bmi(90, 1.91)
+    bmi = get_bmi(90.0, 1.91)
     expected_result = 24.670376
     assert abs(bmi - expected_result) < 1.0e-6
 ```
