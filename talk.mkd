@@ -108,6 +108,42 @@ class: split-60-40
 
 ---
 
+## Automated testing
+
+```python
+def get_bmi(mass_kg, height_m):
+    """
+    Calculates the body mass index.
+    """
+    return mass_kg/(height_m**2)
+
+
+def test_get_bmi():
+    bmi = get_bmi(90.0, 1.91)
+    expected_result = 24.670376
+    assert abs(bmi - expected_result) < 1.0e-6
+```
+
+### Bonus
+
+- Robust code
+- Best documentation
+- Simplify collaboration
+- Guides towards modular code structure
+
+---
+
+class: split-60-40
+
+.column[
+<img src="img/suit.jpg" style="width: 400px;"/>
+]
+.column[
+- Suiting up to modify untested code
+]
+
+---
+
 ### Good code (pure)
 
 ```python
@@ -173,42 +209,6 @@ get_bmi()
 - Regression test the shell
 
 ![](img/good-vs-bad.svg)
-
----
-
-## Automated testing
-
-```python
-def get_bmi(mass_kg, height_m):
-    """
-    Calculates the body mass index.
-    """
-    return mass_kg/(height_m**2)
-
-
-def test_get_bmi():
-    bmi = get_bmi(90.0, 1.91)
-    expected_result = 24.670376
-    assert abs(bmi - expected_result) < 1.0e-6
-```
-
-### Bonus
-
-- Robust code
-- Best documentation
-- Simplify collaboration
-- Guides towards modular code structure
-
----
-
-class: split-60-40
-
-.column[
-<img src="img/suit.jpg" style="width: 400px;"/>
-]
-.column[
-- Suiting up to modify untested code
-]
 
 ---
 
@@ -300,9 +300,23 @@ template: inverse
 
 ---
 
-## Code complexity/viscosity: simple vs. easy
+## Automate All the Things!
 
-<img src="img/development-speed.svg" style="width: 600px;"/>
+### DevOps tools
+
+- Vagrant
+- Ansible
+- Puppet
+- Docker
+
+## Motivation
+
+- Automatize configuration of the servers
+- Build, maintain, and distribute virtual development environments
+- Fast to create a development environment
+- Everyone has identical environment
+- Reproducible environments
+- Containerisation
 
 ---
 
@@ -324,6 +338,12 @@ template: inverse
 - Often "home-cooked" solutions
 - Often anonymous download not enough
 - Maintenance burden
+
+---
+
+## Code complexity/viscosity: simple vs. easy
+
+<img src="img/development-speed.svg" style="width: 600px;"/>
 
 ---
 
@@ -350,26 +370,6 @@ class: split-60-40
 - May 2018 - Uppsala
 - Jun 2018 - Oslo
 ]
-
----
-
-## Automate All the Things!
-
-### DevOps tools
-
-- Vagrant
-- Ansible
-- Puppet
-- Docker
-
-## Motivation
-
-- Automatize configuration of the servers
-- Build, maintain, and distribute virtual development environments
-- Fast to create a development environment
-- Everyone has identical environment
-- Reproducible environments
-- Containerisation
 
 ---
 
