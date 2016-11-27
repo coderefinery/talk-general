@@ -172,6 +172,29 @@ class: split-60-40
 
 ---
 
+template: inverse
+
+## How can you publish a Nature paper?
+
+---
+
+## How to publish a Nature paper
+
+- Ask the Nature admins to give you access to their server
+- Promise to submit a high quality paper
+  in the right place and using the right format and style
+- Once you get access simply upload your article sources
+- Make sure the issue looks good
+- If somebody complains later, make corrections
+
+---
+
+<img src="img/bizzaro-world.jpg" style="height: 420px;"/>
+
+---
+
+## Use code review
+
 ### Peer review process in publishing
 
 - Papers are reviewed before they are published
@@ -186,6 +209,7 @@ class: split-60-40
 - Learning
 - Knowledge transfer
 - [GitHub](https://github.com)/[GitLab](https://gitlab.com)/[Bitbucket](https://bitbucket.org) offer a web solution for code review
+- Consider code reading sessions
 
 ---
 
