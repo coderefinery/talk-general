@@ -155,6 +155,15 @@ class: split-60-40
 
 ---
 
+## Version your code
+
+- Make it easier to reproduce results
+- Make it easier to manage dependencies
+- [Semantic Versioning](http://semver.org)
+- [Alternative opinion: Why not semver](http://faq.sealedabstract.com/why_not_semver/)
+
+---
+
 ## Documentation
 
 - Close to the code (minimize barrier)
