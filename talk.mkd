@@ -272,6 +272,7 @@ class: split-60-40
 - May 2017 - Copenhagen
 - May 2017 - Umeå
 - Jun 2017 - Tromsø
+- Aug 2017 - Reykjavík
 - Oct 2017 - Aarhus
 - Nov 2017 - Linköping
 - Dec 2017 - Helsinki
