@@ -260,6 +260,26 @@ class: split-60-40
 
 ---
 
+## Automate All the Things!
+
+### DevOps tools
+
+- Vagrant
+- Ansible
+- Puppet
+- Docker
+
+## Motivation
+
+- Automatize configuration of the servers
+- Build, maintain, and distribute virtual development environments
+- Fast to create a development environment
+- Everyone has identical environment
+- Reproducible environments
+- Containerisation
+
+---
+
 class: split-40-60
 
 ## Get in touch!
