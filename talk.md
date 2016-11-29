@@ -98,6 +98,8 @@ class: split-60-40
 
 <img src="img/commits.jpg" style="width: 800px;"/>
 
+*"I don't need version control because it is just me."*
+
 ---
 
 ## Version control: make it possible to collaborate
@@ -278,6 +280,8 @@ template: inverse
 - Knowledge transfer
 - [GitHub](https://github.com)/[GitLab](https://gitlab.com)/[Bitbucket](https://bitbucket.org) offer a web solution for code review
 - Consider code reading sessions
+
+*"We don't need code review because we are just two."*
 
 ---
 
