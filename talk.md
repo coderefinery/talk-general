@@ -49,7 +49,7 @@ class: split-60-40
 (c) The New Yorker, Oct 17, 2016
 ]
 .column[
-- Provide researchers with **infrastructure** and **training** in the necessary tools
+- Provide researchers with **infrastructure**, **training**, and **guides** in the necessary tools
   and techniques to create sustainable, modular, reusable, and reproducible
   software
 - Build **strong partnerships** with related initiatives
@@ -119,7 +119,7 @@ def get_bmi(mass_kg, height_m):
 
 
 def test_get_bmi():
-    bmi = get_bmi(90.0, 1.91)
+    bmi = get_bmi(mass_kg=90.0, height_m=1.91)
     expected_result = 24.670376
     assert abs(bmi - expected_result) < 1.0e-6
 ```
@@ -155,7 +155,7 @@ def get_bmi(mass_kg, height_m):
 bmi = get_bmi(mass_kg=90.0, height_m=1.91))
 ```
 
-### Worse code (stateful)
+### Less good code (side effects)
 
 ```python
 mass_kg = 90.0
@@ -248,7 +248,7 @@ template: inverse
 
 ## How to publish a Nature paper
 
-- Ask the Nature admins to give you access to their server
+- Ask the Nature IT admins to give you access to their server
 - Promise to submit a high quality paper
   in the right place and using the right format and style
 - Once you get access simply upload your article sources
