@@ -283,6 +283,12 @@ template: inverse
 
 ---
 
+## Code review workflow
+
+<img src="img/code-review.svg" style="height: 500px;"/>
+
+---
+
 ## Modular code development
 
 ### Modular design is good - examples:
