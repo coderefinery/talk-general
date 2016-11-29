@@ -10,6 +10,8 @@ background-image: url(img/front.png)
 
 ## Radovan Bast
 
+## slides: [bit.ly/niasc-2016](http://bit.ly/niasc-2016)
+
 [coderefinery.org](http://coderefinery.org) | [@coderefine](https://twitter.com/coderefine) | [neic.nordforsk.org](https://neic.nordforsk.org)
 
 ---
@@ -375,7 +377,7 @@ class: split-60-40
 
 class: split-40-60
 
-## Get in touch!
+## Get in touch! Slides: [bit.ly/niasc-2016](http://bit.ly/niasc-2016)
 
 .column[
 ### [coderefinery.org](http://coderefinery.org)
