@@ -175,45 +175,6 @@ get_bmi()
 
 ---
 
-## Enemy of the state
-
-.left-column[
-<img src="img/mad.jpg" style="width: 150px;"/>
-]
-.right-column[
-### Strive for pure functions, fear the state
-
-- Pure functions do not have side effects
-- Side effects lead to bugs and increase complexity
-- Pure functions are easier to
-    - Test
-    - Understand
-    - Reuse
-    - Parallelize
-    - Simplify
-    - Refactor
-    - Optimize
-
-### But we need to deal with state somewhere
-]
-
----
-
-## Recommendations
-
-- Keep I/O on the outside and connected
-- Always read/write on the outside and pass data
-- Do not read/write deep down inside the code
-- Keep the inside of your code pure/stateless
-- Move all the state "up" to the caller
-- Keep the stateful outside shell thin
-- Unit test the inside
-- Regression test the shell
-
-![](img/good-vs-bad.svg)
-
----
-
 ## Continuous integration service
 
 - [Travis CI](https://travis-ci.org)
