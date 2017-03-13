@@ -168,7 +168,7 @@ class: split-60-40
 - [Copenhagen, May 9-11](http://coderefinery.org/workshops/2017-05-09-copenhagen/)
 - Tromsø, Jun 14-16 or Jun 19-21
 
-### NeIC 2017 conference
+### [NeIC 2017 conference](http://neic2017.nordforsk.org)
 
 - [Umeå, May 29](http://neic2017.nordforsk.org/workshops/coderefinery/): Mixed Martial Arts - Interfacing Fortran, C, C++, and Python for Great Good!
 
