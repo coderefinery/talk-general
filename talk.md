@@ -137,6 +137,8 @@ class: split-60-40
 
 ## Coming to a city near you
 
+- [Typical workshop schedule](http://coderefinery.org/workshops/2017-05-09-copenhagen/)
+
 .column[
 <img src="img/map.jpg" style="height: 380px;"/>
 ]
