@@ -159,6 +159,24 @@ class: split-60-40
 
 ---
 
+## Upcoming events
+
+### 3-day workshops
+
+- [Copenhagen, May 9-11](http://coderefinery.org/workshops/2017-05-09-copenhagen/)
+- Tromsø, Jun 14-16 or Jun 19-21
+
+### NeIC 2017 conference
+
+- [Umeå, May 29](http://neic2017.nordforsk.org/workshops/coderefinery/): Mixed Martial Arts - Interfacing Fortran, C, C++, and Python for Great Good!
+
+### Seminars and meetups
+
+- [Oslo, Apr 6](http://www.uio.no/english/services/it/research/events/coderefinery-2017-april.html)
+- Stockholm, May 19
+
+---
+
 class: split-40-60
 
 ## Get in touch!
