@@ -10,6 +10,8 @@ background-image: url(img/front.png)
 
 ## Radovan Bast
 
+## slides: [bit.ly/metasenter-2017](http://bit.ly/metasenter-2017)
+
 [coderefinery.org](http://coderefinery.org) | [@coderefine](https://twitter.com/coderefine) | [neic.nordforsk.org](https://neic.nordforsk.org)
 
 ---
