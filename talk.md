@@ -185,6 +185,8 @@ class: split-40-60
 
 ## Get in touch!
 
+## slides: [bit.ly/metasenter-2017](http://bit.ly/metasenter-2017)
+
 .column[
 ### [coderefinery.org](http://coderefinery.org)
 
