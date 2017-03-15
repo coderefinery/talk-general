@@ -150,7 +150,6 @@ class: split-60-40
 - May 2017 - Copenhagen
 - May 2017 - Umeå
 - **Jun 2017 - Tromsø**
-- Aug 2017 - Reykjavík
 - Oct 2017 - Aarhus
 - Nov 2017 - Linköping
 - Dec 2017 - Helsinki
@@ -159,6 +158,7 @@ class: split-60-40
 - Apr 2018 - Odense
 - May 2018 - Uppsala
 - **Jun 2018 - Oslo**
+- Aug 2018 - Reykjavík
 ]
 
 ---
