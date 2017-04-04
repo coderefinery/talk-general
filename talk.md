@@ -310,23 +310,9 @@ template: inverse
 
 ---
 
-## Automate All the Things!
+## Code complexity/viscosity: simple vs. easy
 
-### DevOps tools
-
-- Vagrant
-- Ansible
-- Puppet
-- Docker
-
-## Motivation
-
-- Automatize configuration of the servers
-- Build, maintain, and distribute virtual development environments
-- Fast to create a development environment
-- Everyone has identical environment
-- Reproducible environments
-- Containerisation
+<img src="img/development-speed.svg" style="width: 600px;"/>
 
 ---
 
@@ -351,12 +337,6 @@ template: inverse
 
 ---
 
-## Code complexity/viscosity: simple vs. easy
-
-<img src="img/development-speed.svg" style="width: 600px;"/>
-
----
-
 class: split-60-40
 
 ## Coming to a city near you
@@ -370,7 +350,6 @@ class: split-60-40
 - May 2017 - Copenhagen
 - May 2017 - Umeå
 - Jun 2017 - Tromsø
-- Aug 2017 - Reykjavík
 - Oct 2017 - Aarhus
 - Nov 2017 - Linköping
 - Dec 2017 - Helsinki
