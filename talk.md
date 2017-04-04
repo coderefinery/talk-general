@@ -114,6 +114,17 @@ class: split-60-40
 
 ---
 
+## Motivation for version control
+
+- Undo functionality
+- Working on several features in parallel
+- People working in parallel on the same project
+- Simplify integration of external contributions
+- Reproducibility
+- Bugs can be traced back
+
+---
+
 ## Version control: make it possible to collaborate
 
 <img src="img/network.jpg" style="width: 800px;"/>
@@ -291,7 +302,6 @@ template: inverse
 - Learning
 - Knowledge transfer
 - [GitHub](https://github.com)/[GitLab](https://gitlab.com)/[Bitbucket](https://bitbucket.org) offer a web solution for code review
-- Consider code reading sessions
 
 *"We don't need code review because we are just two."*
 
@@ -300,6 +310,14 @@ template: inverse
 ## Code review workflow
 
 <img src="img/code-review.svg" style="height: 500px;"/>
+
+---
+
+## Code reading sessions
+
+- Consider code reading sessions
+
+...
 
 ---
 
@@ -374,6 +392,16 @@ class: split-60-40
 - Jun 2018 - Oslo
 - Aug 2018 - Reykjavík
 ]
+
+---
+
+## Future topics
+
+- Contribution guides
+- Open sourcing a project
+- Licensing
+- Mixed-language development
+- Reproducible science
 
 ---
 
