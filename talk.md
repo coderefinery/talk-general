@@ -429,6 +429,12 @@ class: split-60-40
 
 ---
 
+## Community building
+
+...
+
+---
+
 class: split-40-60
 
 ## Get in touch!
