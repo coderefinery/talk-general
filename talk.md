@@ -125,6 +125,12 @@ class: split-60-40
 
 ---
 
+## Branching model
+
+...
+
+---
+
 ## Version control: make it possible to collaborate
 
 <img src="img/network.jpg" style="width: 800px;"/>
