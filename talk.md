@@ -435,6 +435,12 @@ class: split-60-40
 
 ---
 
+## Visibility and credit
+
+...
+
+---
+
 class: split-40-60
 
 ## Get in touch!
