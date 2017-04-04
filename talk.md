@@ -17,6 +17,17 @@ background-image: url(img/front.png)
 layout: false
 class: split-50-50
 
+<img src="img/neic.png" style="height: 100px;"/>
+
+### Nordic e-Infrastructure Collaboration
+
+- Facilitates the development and operation of high-quality e-Infrastructure solutions in areas of joint Nordic interest
+- Distributed organisation consisting of technical experts from academic high-performance computing centres
+- Across the Nordic countries (Denmark, Finland, Iceland, Norway, Sweden)
+- Ca. 65 persons contracted by NeIC
+
+---
+
 ## Software is transforming research
 
 .column[
@@ -78,18 +89,19 @@ class: split-60-40
 
 ### Team
 
-- Aleksi Kallio
 - Bjørn Lindi
 - Erik Edelmann
 - Jyry Suvilehto
 - Lukasz Bartosz Berger
-- Michaela Barth
 - Nikolai Denissov
-- Pinja Koskinen
 - Radovan Bast
 - Sabry Razick
 - Sri Harsha Vathsavayi
 - Thor Wikfeldt
+
+### Alumni
+
+- Pinja Koskinen
 ]
 
 ---
@@ -341,6 +353,8 @@ class: split-60-40
 
 ## Coming to a city near you
 
+- [Typical workshop schedule](http://coderefinery.org/workshops/2017-05-09-copenhagen/)
+
 .column[
 <img src="img/map.jpg" style="height: 380px;"/>
 ]
@@ -358,7 +372,26 @@ class: split-60-40
 - Apr 2018 - Odense
 - May 2018 - Uppsala
 - Jun 2018 - Oslo
+- Aug 2018 - Reykjavík
 ]
+
+---
+
+## Upcoming events
+
+### 3-day workshops
+
+- [Copenhagen, May 9-11](http://coderefinery.org/workshops/2017-05-09-copenhagen/)
+- Tromsø, Jun 19-21
+
+### [NeIC 2017 conference](http://neic2017.nordforsk.org)
+
+- [Umeå, May 29](http://neic2017.nordforsk.org/workshops/coderefinery/): Mixed Martial Arts - Interfacing Fortran, C, C++, and Python for Great Good!
+
+### Seminars and meetups
+
+- [Oslo, Apr 6](http://www.uio.no/english/services/it/research/events/coderefinery-2017-april.html)
+- Stockholm, May 19
 
 ---
 
