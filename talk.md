@@ -64,9 +64,21 @@ class: split-60-40
 
 ---
 
-## Differentiation wrt SWC or SSI and other initiatives
+## FAQ: How do we differ?
 
-...
+### [Software Carpentry](https://software-carpentry.org)
+
+- Teaching basic lab skills for research computing
+
+### [The Software Sustainability Institute](https://www.software.ac.uk)
+
+- Cultivate better, more sustainable, research software to enable world-class
+  research (better software, better research).
+
+### [CodeRefinery](https://www.software.ac.uk)
+
+- Training and infrastructure for sustainable research software development
+- Managing complexity in a collaborative setting
 
 ---
 
