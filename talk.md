@@ -12,6 +12,8 @@ background-image: url(img/front.png)
 
 ### [NeIC](https://neic.nordforsk.org)/ [UiT The Arctic University of Norway](https://uit.no)
 
+### Slides: [http://bit.ly/coderefinery-oslo-2017](http://bit.ly/coderefinery-oslo-2017)
+
 Text is free to share/remix under [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/).
 Code examples: [MIT license](http://opensource.org/licenses/mit-license.html).
 
@@ -528,7 +530,9 @@ template: inverse
 
 class: split-50-50
 
-## Get in touch! Ask us anything.
+## Get in touch!
+
+### Slides: [http://bit.ly/coderefinery-oslo-2017](http://bit.ly/coderefinery-oslo-2017)
 
 .column[
 ### [coderefinery.org](http://coderefinery.org)
