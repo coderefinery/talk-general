@@ -233,12 +233,12 @@ class: split-60-40
 <img src="img/suit.jpg" style="width: 400px;"/>
 ]
 .column[
-- Suiting up to modify untested code
+### Suiting up to modify untested code
 ]
 
 ---
 
-### Good code (no side effects)
+### Good code (pure: no side effects)
 
 ```python
 # function which computes the body mass index
@@ -249,7 +249,7 @@ def get_bmi(mass_kg, height_m):
 bmi = get_bmi(mass_kg=90.0, height_m=1.91))
 ```
 
-### Less good code (side effects)
+### Less good code (impure: side effects)
 
 ```python
 mass_kg = 90.0
@@ -285,31 +285,55 @@ get_bmi()
     - Simplify
     - Refactor
     - Optimize
-
-### But we need to deal with state somewhere
 ]
 
 ---
 
-## Recommendations
+## Equational reasoning
 
-- Keep I/O on the outside and connected
-- Always read/write on the outside and pass data
-- Do not read/write deep down inside the code
-- Keep the inside of your code pure/stateless
-- Move all the state "up" to the caller
-- Keep the stateful outside shell thin
-- Unit test the inside
-- Regression test the shell
+- We start with a function:
+  $$ f(x) $$
+- We wish to evaluate this:
+  $$ y = f(a) + f(b) \times [f(c) - f(c)] $$
+- We can simplify:
+  $$ y = f(a) + f(b) \times 0 $$
+  $$ y = f(a) $$
+- Another example:
+  $$ z = f(a) + f(b) + f(c) + f(d) $$
+- We know we can rearrange (important for concurrency):
+  $$ z = f(b) + f(d) + f(c) + f(a) $$
 
-![](img/good-vs-bad.svg)
+---
+
+## Concurrency
+
+- Concurrency in imperative code is very hard
+- You are totally lost in the dark without a good thread checker
+- In a pure, immutable world concurrency is nearly trivial!
+- Prefer immutable data to mutable data
+
+<img src="img/floor-loom-diagram.jpg" style="width: 55%;"/>
+
+(Slide taken from [Complexity in software development by Jonas Juselius](https://github.com/scisoft/complexity))
+
+---
+
+## Composition
+
+- Build complex behavior from simple components
+- We can reason about the components and the composite
+- Composition is key to managing complexity
+- Modularity does not imply simplicity, but is enabled by it
+
+<img src="img/knit_vs_lego.jpg" style="width: 100%;"/>
+
+(Slide taken from [Complexity in software development by Jonas Juselius](https://github.com/scisoft/complexity))
 
 ---
 
 ## Continuous integration service
 
-- [Travis CI](https://travis-ci.org)
-- [Jenkins](https://jenkins.io)
+- [Travis CI](https://travis-ci.org), [GitLab CI](https://about.gitlab.com/gitlab-ci/), [Jenkins](https://jenkins.io), [Drone](https://github.com/drone/drone), [AppVeyor](https://www.appveyor.com), ...
 - Test every changeset
 - We plan to deploy a service which will make it easier for researchers to test their code
 
