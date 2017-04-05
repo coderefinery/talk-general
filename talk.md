@@ -1,6 +1,6 @@
 name: inverse
 layout: true
-class: center, middle
+class: middle
 
 ---
 
@@ -9,6 +9,11 @@ background-image: url(img/front.png)
 # The CodeRefinery Project
 
 ## Radovan Bast
+
+### [NeIC](https://neic.nordforsk.org)/ [UiT The Arctic University of Norway](https://uit.no)
+
+Text is free to share/remix under [CC-BY-SA-4.0](https://creativecommons.org/licenses/by-sa/4.0/).
+Code examples: [MIT license](http://opensource.org/licenses/mit-license.html).
 
 [coderefinery.org](http://coderefinery.org) | [@coderefine](https://twitter.com/coderefine) | [neic.nordforsk.org](https://neic.nordforsk.org)
 
@@ -416,7 +421,8 @@ class: split-60-40
 ### 3-day workshops
 
 - [Copenhagen, May 9-11](http://coderefinery.org/workshops/2017-05-09-copenhagen/)
-- Tromsø, Jun 19-21
+- [Tromsø, Jun 19-21](http://coderefinery.org/workshops/2017-06-19-tromso/)
+- Many more after summer
 
 ### [NeIC 2017 conference](http://neic2017.nordforsk.org)
 
@@ -424,8 +430,7 @@ class: split-60-40
 
 ### Seminars and meetups
 
-- [Oslo, Apr 6](http://www.uio.no/english/services/it/research/events/coderefinery-2017-april.html)
-- Stockholm, May 19
+- [Stockholm, May 19](http://coderefinery.org/workshops/2017-05-19-stockholm/)
 
 ---
 
@@ -437,11 +442,12 @@ class: split-60-40
 
 ## Visibility and credit
 
-...
+- Discoverable
+- Citable
 
 ---
 
-class: split-40-60
+class: split-50-50
 
 ## Get in touch!
 
@@ -451,7 +457,9 @@ class: split-40-60
 ### [@coderefine](https://twitter.com/coderefine)
 
 ### [github.com/coderefinery](https://github.com/coderefinery)
+
+### [coderefinery@googlegroups.com](https://groups.google.com/group/coderefinery)
 ]
 .column[
-<img src="img/magic.jpg" style="height: 300px;"/>
+<img src="img/magic.jpg" style="height: 280px;"/>
 ]
