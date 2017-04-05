@@ -203,7 +203,7 @@ template: inverse
 
 ## Branching model
 
-- https://dev-cafe.github.io/branching-model/
+<img src="img/branches.jpg" style="height: 360px;"/>
 
 ---
 
