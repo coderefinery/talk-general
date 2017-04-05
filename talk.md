@@ -15,8 +15,6 @@ background-image: url(img/front.png)
 Text is free to share/remix under [CC-BY-SA-4.0](https://creativecommons.org/licenses/by-sa/4.0/).
 Code examples: [MIT license](http://opensource.org/licenses/mit-license.html).
 
-[coderefinery.org](http://coderefinery.org) | [@coderefine](https://twitter.com/coderefine) | [neic.nordforsk.org](https://neic.nordforsk.org)
-
 ---
 
 layout: false
