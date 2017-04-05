@@ -205,7 +205,7 @@ template: inverse
 
 ## Branching model
 
-- https://dev-cafe.github.io/branching-model/
+<img src="img/branches.jpg" style="height: 360px;"/>
 
 ---
 
@@ -411,6 +411,18 @@ template: inverse
 
 ---
 
+## Code review workflow
+
+<img src="img/centralized.svg" style="height: 500px;"/>
+
+---
+
+## Forking workflow
+
+<img src="img/forking-overview.svg" style="height: 500px;"/>
+
+---
+
 ## Use code review
 
 ### Peer review process in publishing
@@ -429,12 +441,6 @@ template: inverse
 - [GitHub](https://github.com)/[GitLab](https://gitlab.com)/[Bitbucket](https://bitbucket.org) offer a web solution for code review
 
 *"We don't need code review because we are just two."*
-
----
-
-## Code review workflow
-
-<img src="img/code-review.svg" style="height: 500px;"/>
 
 ---
 
