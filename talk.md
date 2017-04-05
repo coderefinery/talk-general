@@ -20,7 +20,7 @@ Code examples: [MIT license](http://opensource.org/licenses/mit-license.html).
 layout: false
 class: split-50-50
 
-<img src="img/neic.png" style="height: 100px;"/>
+<img src="img/neic.png" style="height: 80px;"/>
 
 ### Nordic e-Infrastructure Collaboration
 
@@ -37,19 +37,11 @@ class: split-50-50
 <img src="img/complex-machine.jpg" style="height: 500px;"/>
 ]
 .column[
-- Quality of scientific software is **increasingly becoming critical** for the advancement of knowledge
+- Quality of scientific software is **critical to modern research**
 
 - Scientists often **lack the necessary training** in practices to
   enable them to collaboratively write high-quality scientific software
 ]
-
----
-
-## Many researchers struggle with code complexity
-
-<img src="img/joe-paradiso-modular-synth-front.jpg" style="height: 450px;"/>
-
-(c) Joe Paradiso
 
 ---
 
@@ -69,6 +61,20 @@ class: split-60-40
 - Build **strong partnerships** with related initiatives
 - This project is not about efficient code but rather about **efficient coding**
 ]
+
+---
+
+## Differentiation wrt SWC or SSI and other initiatives
+
+...
+
+---
+
+## Many researchers struggle with code complexity
+
+<img src="img/joe-paradiso-modular-synth-front.jpg" style="height: 450px;"/>
+
+(c) Joe Paradiso
 
 ---
 
@@ -109,17 +115,29 @@ class: split-60-40
 
 ---
 
-## Version control: record every change
+## Version control: record snapshots as you develop
 
 <img src="img/commits.jpg" style="width: 800px;"/>
 
 ---
 
+template: inverse
+
+## "I don't need version control because ..."
+
+- ... it is just me.
+- ... we are only two people.
+- ... I carefully test my code.
+- ... we do not distribute the code.
+- ... we are a research group and not a software company.
+- ... I do not have time to learn it. It's publish or perish.
+- ... I am interested in science and not in software engineering.
+
+---
+
 ## Motivation for version control
 
-*"I don't need version control because it is just me."*
-
-### Relevant also for a single-person universe
+### Relevant also in a single-person universe
 
 - Undo functionality
 - Working on several features in parallel
@@ -136,8 +154,6 @@ class: split-60-40
 ## Version control: make it possible to collaborate
 
 <img src="img/network.jpg" style="width: 800px;"/>
-
-- We plan to deploy a Nordic-wide code repository hosting platform
 
 ---
 
@@ -163,11 +179,12 @@ def test_get_bmi():
     assert abs(bmi - expected_result) < 1.0e-6
 ```
 
-### Bonus
+### Motivation
 
-- Robust code
-- Best documentation
+- More robust code
 - Simplify collaboration
+- Documentation which is up to date by definition
+- Make it easier to contribute code
 - Guides towards modular code structure
 
 ---
@@ -183,7 +200,7 @@ class: split-60-40
 
 ---
 
-### Good code (pure)
+### Good code (no side effects)
 
 ```python
 # function which computes the body mass index
@@ -446,6 +463,10 @@ class: split-60-40
 ## Community building
 
 ...
+
+---
+
+- We plan to deploy a Nordic-wide code repository hosting platform
 
 ---
 
