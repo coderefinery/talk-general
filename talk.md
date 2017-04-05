@@ -90,6 +90,12 @@ class: split-60-40
 
 ---
 
+## Code complexity/viscosity: simple vs. easy
+
+<img src="img/development-speed.svg" style="width: 600px;"/>
+
+---
+
 .left-column[
 <img src="img/neic.png" style="height: 50px;"/>
 
@@ -331,6 +337,25 @@ get_bmi()
 
 ---
 
+## Modular code development
+
+### Modular design is good - examples:
+
+- Lego
+- Car manufacturing
+- Design of your phone or laptop
+- Modular composition when you order a laptop
+- Success of USB
+- Erasmus study program
+
+### Advantages
+
+- Separation of concerns
+- Composability
+- Leveraging functionality
+
+---
+
 ## Documentation
 
 - Close to the code (minimize barrier to contribute)
@@ -348,6 +373,12 @@ get_bmi()
 - Markup: [RST](http://docutils.sourceforge.net/rst.html) or [Markdown](http://daringfireball.net/projects/markdown/)
 - Rendering: [Sphinx](http://www.sphinx-doc.org) or [GitBook](https://www.gitbook.com)
 - Deployed to: [Read the Docs](https://readthedocs.org) or [GitBook](https://www.gitbook.com)
+
+---
+
+## Building code
+
+...
 
 ---
 
@@ -399,52 +430,31 @@ template: inverse
 
 ---
 
-## Code reading sessions
+## Suggestion: Code reading sessions
 
-- Consider code reading sessions
+- Read and discuss code written in your group
+- Read code written by others
+- Read code in the standard library
 
-...
 
----
-
-## Modular code development
-
-### Modular design is good - examples:
-
-- Lego
-- Car manufacturing
-- Design of your phone or laptop
-- Modular composition when you order a laptop
-- Success of USB
-- Erasmus study program
-
-### Advantages
-
-- Separation of concerns
-- Composability
-- Leveraging functionality
+### "Whenever you write, strive for originality, but if you have to steal, steal from the best."
+(Woody Allen in Anything Else, 2003)
 
 ---
 
-## Code complexity/viscosity: simple vs. easy
-
-<img src="img/development-speed.svg" style="width: 600px;"/>
-
----
-
-## Future topics
+## Suggestions for future topics
 
 - Contribution guides
-- Open sourcing a project
-- Licensing
+- How to open-source a project
+- Software licenses
 - Mixed-language development
 - Reproducible science
 
 ---
 
-## Building code
+template: inverse
 
-...
+## Infrastructure plans
 
 ---
 
