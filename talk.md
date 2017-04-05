@@ -534,7 +534,7 @@ template: inverse
 
 class: split-50-50
 
-## Get in touch! Ask us anything.
+## Get in touch!
 
 .column[
 ### [coderefinery.org](http://coderefinery.org)
