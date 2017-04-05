@@ -113,24 +113,23 @@ class: split-60-40
 
 <img src="img/commits.jpg" style="width: 800px;"/>
 
-*"I don't need version control because it is just me."*
-
 ---
 
 ## Motivation for version control
 
+*"I don't need version control because it is just me."*
+
+### Relevant also for a single-person universe
+
 - Undo functionality
 - Working on several features in parallel
+- Reproducibility
+- Bug exposure can be traced back: **code history is extremely valuable**
+
+### Working with others
+
 - People working in parallel on the same project
 - Simplify integration of external contributions
-- Reproducibility
-- Bugs can be traced back
-
----
-
-## Branching model
-
-...
 
 ---
 
@@ -139,6 +138,12 @@ class: split-60-40
 <img src="img/network.jpg" style="width: 800px;"/>
 
 - We plan to deploy a Nordic-wide code repository hosting platform
+
+---
+
+## Branching model
+
+- https://dev-cafe.github.io/branching-model/
 
 ---
 
