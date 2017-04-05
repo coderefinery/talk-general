@@ -376,9 +376,15 @@ get_bmi()
 
 ---
 
-## Building code
+## Building portable and modular code with CMake
 
-...
+- Separation of source and build path
+- Portability
+- Language support
+- Supports modular code development
+- Provides tools
+- Popular
+- General
 
 ---
 
