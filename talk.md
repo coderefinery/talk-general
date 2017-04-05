@@ -115,6 +115,32 @@ class: split-60-40
 
 ---
 
+class: split-60-40
+
+## Coming to a city near you
+
+.column[
+<img src="img/map.jpg" style="height: 380px;"/>
+]
+.column[
+- Dec 2016 - Helsinki
+- Feb 2017 - Stockholm
+- May 2017 - Copenhagen
+- May 2017 - Umeå
+- Jun 2017 - Tromsø
+- Oct 2017 - Aarhus
+- Nov 2017 - Linköping
+- Dec 2017 - Helsinki
+- Feb 2018 - Trondheim
+- Mar 2018 - Turku
+- Apr 2018 - Odense
+- May 2018 - Uppsala
+- Jun 2018 - Oslo
+- Aug 2018 - Reykjavík
+]
+
+---
+
 ## Version control: record snapshots as you develop
 
 <img src="img/commits.jpg" style="width: 800px;"/>
@@ -398,34 +424,6 @@ template: inverse
 
 ---
 
-class: split-60-40
-
-## Coming to a city near you
-
-- [Typical workshop schedule](http://coderefinery.org/workshops/2017-05-09-copenhagen/)
-
-.column[
-<img src="img/map.jpg" style="height: 380px;"/>
-]
-.column[
-- Dec 2016 - Helsinki
-- Feb 2017 - Stockholm
-- May 2017 - Copenhagen
-- May 2017 - Umeå
-- Jun 2017 - Tromsø
-- Oct 2017 - Aarhus
-- Nov 2017 - Linköping
-- Dec 2017 - Helsinki
-- Feb 2018 - Trondheim
-- Mar 2018 - Turku
-- Apr 2018 - Odense
-- May 2018 - Uppsala
-- Jun 2018 - Oslo
-- Aug 2018 - Reykjavík
-]
-
----
-
 ## Future topics
 
 - Contribution guides
@@ -479,7 +477,7 @@ class: split-60-40
 
 class: split-50-50
 
-## Get in touch!
+## Get in touch! Ask us anything.
 
 .column[
 ### [coderefinery.org](http://coderefinery.org)
