@@ -90,12 +90,6 @@ class: split-60-40
 
 ---
 
-## Code complexity/viscosity: simple vs. easy
-
-<img src="img/development-speed.svg" style="width: 600px;"/>
-
----
-
 .left-column[
 <img src="img/neic.png" style="height: 50px;"/>
 
@@ -156,6 +150,12 @@ class: split-60-40
 - Jun 2018 - Oslo
 - Aug 2018 - Reykjavík
 ]
+
+---
+
+## Code complexity/viscosity: simple vs. easy
+
+<img src="img/development-speed.svg" style="width: 600px;"/>
 
 ---
 
