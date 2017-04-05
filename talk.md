@@ -343,18 +343,21 @@ get_bmi()
 
 ## Documentation
 
-- Close to the code (minimize barrier)
-- **Versions**: If the project has versions, the documentation should too
-- Lightweight markup (LaTeX is not lightweight enough)
+- Close to the code (minimize barrier to contribute)
+- **Versions**
+- **Branches**
+- Lightweight markup
 - Readable on any device
 - Division into tutorials and keyword reference
 - Tutorials contain good defaults
 - Ready examples that one can copy-paste to get quickly started
-- Prose, written by humans
 
-### Current gold standard (in my opinion):
+### Current gold standard
 
-### [GitHub](https://github.com)/[GitLab](https://gitlab.com)/[Bitbucket](https://bitbucket.org) -> [RST](http://docutils.sourceforge.net/rst.html)/[Sphinx](http://www.sphinx-doc.org) -> [Read the Docs](https://readthedocs.org)
+- Hosting: [GitHub](https://github.com) or [GitLab](https://gitlab.com) or [Bitbucket](https://bitbucket.org)
+- Markup: [RST](http://docutils.sourceforge.net/rst.html) or [Markdown](http://daringfireball.net/projects/markdown/)
+- Rendering: [Sphinx](http://www.sphinx-doc.org) or [GitBook](https://www.gitbook.com)
+- Deployed to: [Read the Docs](https://readthedocs.org) or [GitBook](https://www.gitbook.com)
 
 ---
 
