@@ -12,7 +12,7 @@ background-image: url(img/front.png)
 
 ### [NeIC](https://neic.nordforsk.org)/ [UiT The Arctic University of Norway](https://uit.no)
 
-Text is free to share/remix under [CC-BY-SA-4.0](https://creativecommons.org/licenses/by-sa/4.0/).
+Text is free to share/remix under [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/).
 Code examples: [MIT license](http://opensource.org/licenses/mit-license.html).
 
 ---
@@ -331,16 +331,6 @@ get_bmi()
 
 ---
 
-## Continuous integration service
-
-- [Travis CI](https://travis-ci.org), [GitLab CI](https://about.gitlab.com/gitlab-ci/), [Jenkins](https://jenkins.io), [Drone](https://github.com/drone/drone), [AppVeyor](https://www.appveyor.com), ...
-- Test every changeset
-- We plan to deploy a service which will make it easier for researchers to test their code
-
-<img src="img/travis.jpg" style="width: 800px;"/>
-
----
-
 ## Documentation
 
 - Close to the code (minimize barrier to contribute)
@@ -442,7 +432,46 @@ template: inverse
 
 ---
 
-## Code sharing platform
+## Future topics
+
+- Contribution guides
+- Open sourcing a project
+- Licensing
+- Mixed-language development
+- Reproducible science
+
+---
+
+## Building code
+
+...
+
+---
+
+## Plan: Nordic-wide code repository hosting platform
+
+- Repository hosting
+- Code review
+- Issue tracking
+- Documentation
+
+<img src="img/gitlab-logo.png" style="width: 400px;"/>
+
+.cite[By Ty Wilkins - https://about.gitlab.com/2015/07/03/our-new-logo/, CC BY-SA 4.0]
+
+---
+
+## Plan: Continuous integration service
+
+- [Travis CI](https://travis-ci.org), [GitLab CI](https://about.gitlab.com/gitlab-ci/), [Jenkins](https://jenkins.io), [Drone](https://github.com/drone/drone), [AppVeyor](https://www.appveyor.com), ...
+- Test every changeset
+- We plan to deploy a service which will make it easier for researchers to test their code
+
+<img src="img/travis.jpg" style="width: 800px;"/>
+
+---
+
+## Idea: Code sharing platform - discoverable and citable
 
 ### Open-source software
 
@@ -463,16 +492,6 @@ template: inverse
 
 ---
 
-## Future topics
-
-- Contribution guides
-- Open sourcing a project
-- Licensing
-- Mixed-language development
-- Reproducible science
-
----
-
 ## Upcoming events
 
 ### 3-day workshops
@@ -488,29 +507,6 @@ template: inverse
 ### Seminars and meetups
 
 - [Stockholm, May 19](http://coderefinery.org/workshops/2017-05-19-stockholm/)
-
----
-
-## Building code
-
-...
-
----
-
-## Community building
-
-...
-
----
-
-- We plan to deploy a Nordic-wide code repository hosting platform
-
----
-
-## Visibility and credit
-
-- Discoverable
-- Citable
 
 ---
 
