@@ -437,6 +437,12 @@ class: split-60-40
 
 ---
 
+## Building code
+
+...
+
+---
+
 ## Community building
 
 ...
