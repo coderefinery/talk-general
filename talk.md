@@ -326,19 +326,6 @@ get_bmi()
 
 ---
 
-## Composition
-
-- Build complex behavior from simple components
-- We can reason about the components and the composite
-- Composition is key to managing complexity
-- Modularity does not imply simplicity, but is enabled by it
-
-<img src="img/knit_vs_lego.jpg" style="width: 100%;"/>
-
-(Slide taken from [Complexity in software development by Jonas Juselius](https://github.com/scisoft/complexity))
-
----
-
 ## Modular code development
 
 ### Modular design is good - examples:
@@ -355,6 +342,19 @@ get_bmi()
 - Separation of concerns
 - Composability
 - Leveraging functionality
+
+---
+
+## Composition
+
+- Build complex behavior from simple components
+- We can reason about the components and the composite
+- Composition is key to managing complexity
+- Modularity does not imply simplicity, but is enabled by it
+
+<img src="img/knit_vs_lego.jpg" style="width: 100%;"/>
+
+(Slide taken from [Complexity in software development by Jonas Juselius](https://github.com/scisoft/complexity))
 
 ---
 
