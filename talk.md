@@ -406,27 +406,6 @@ get_bmi()
 
 ---
 
-template: inverse
-
-## How can you publish a Nature paper?
-
----
-
-## How to publish a Nature paper
-
-- Ask the Nature IT admins to give you access to their server
-- Promise to submit a high quality paper
-  in the right place and using the right format and style
-- Once you get access simply upload your article sources
-- Make sure the issue looks good
-- If somebody complains later, make corrections
-
----
-
-<img src="img/bizzaro-world.jpg" style="height: 420px;"/>
-
----
-
 class: split-50-50
 
 .column[
@@ -454,34 +433,10 @@ class: split-50-50
 ### Code review
 
 - Code is reviewed before it is integrated
-- Improve quality
-- Learning
+- Improve **quality**
+- **Learning**
 - Knowledge transfer
 - [GitHub](https://github.com)/[GitLab](https://gitlab.com)/[Bitbucket](https://bitbucket.org) offer a web solution for code review
-
-*"We don't need code review because we are just two."*
-
----
-
-## Suggestion: Code reading sessions
-
-- Read and discuss code written in your group
-- Read code written by others
-- Read code in the standard library
-
-
-### "Whenever you write, strive for originality, but if you have to steal, steal from the best."
-(Woody Allen in Anything Else, 2003)
-
----
-
-## Suggestions for future topics
-
-- Contribution guides
-- How to open-source a project
-- Software licenses
-- Mixed-language development
-- Reproducible science
 
 ---
 
@@ -511,45 +466,6 @@ template: inverse
 - We plan to deploy a service which will make it easier for researchers to test their code
 
 <img src="img/travis.jpg" style="width: 800px;"/>
-
----
-
-## Idea: Code sharing platform - discoverable and citable
-
-### Open-source software
-
-- [GitHub](https://github.com)/[GitLab](https://gitlab.com)/[Bitbucket](https://bitbucket.org)
-- Often anonymous download
-
-### Closed-source software
-
-- Typically has paid maintainers
-- Own distribution websites
-
-### Open-use software
-
-- Typically no budget
-- Often "home-cooked" solutions
-- Often anonymous download not enough
-- Maintenance burden
-
----
-
-## Upcoming events
-
-### 3-day workshops
-
-- [Copenhagen, May 9-11](http://coderefinery.org/workshops/2017-05-09-copenhagen/)
-- [Tromsø, Jun 19-21](http://coderefinery.org/workshops/2017-06-19-tromso/)
-- Many more after summer
-
-### [NeIC 2017 conference](http://neic2017.nordforsk.org)
-
-- [Umeå, May 29](http://neic2017.nordforsk.org/workshops/coderefinery/): Mixed Martial Arts - Interfacing Fortran, C, C++, and Python for Great Good!
-
-### Seminars and meetups
-
-- [Stockholm, May 19](http://coderefinery.org/workshops/2017-05-19-stockholm/)
 
 ---
 
