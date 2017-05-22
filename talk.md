@@ -79,6 +79,7 @@ class: split-60-40
 
 - Training and infrastructure for sustainable research software development
 - Managing complexity in a collaborative setting
+- Provide infrastructure services
 
 ---
 
