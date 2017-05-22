@@ -91,6 +91,23 @@ class: split-60-40
 
 ---
 
+## [Ten simple rules for making research software more robust](https://doi.org/10.1371/journal.pcbi.1005412)
+
+**M. Taschuk, G. Wilson** (2017). PLoS Comput Biol 13(4): e1005412.
+
+- Use **version control**
+- **Document** your code and usage
+- Make common operations easy to control
+- **Version** your releases
+- **Reuse** software (within reason)
+- Rely on **build tools** and package managers for installation
+- Do not require root or other special privileges to install or run
+- Eliminate hard-coded paths
+- Include a small **test set** that can be run to ensure the software is actually working
+- Produce identical results when given identical inputs
+
+---
+
 .left-column[
 <img src="img/neic.png" style="height: 50px;"/>
 
@@ -410,15 +427,18 @@ template: inverse
 
 ---
 
+class: split-50-50
+
+.column[
 ## Code review workflow
 
-<img src="img/centralized.svg" style="height: 500px;"/>
-
----
-
+<img src="img/centralized.svg" style="height: 400px;"/>
+]
+.column[
 ## Forking workflow
 
-<img src="img/forking-overview.svg" style="height: 500px;"/>
+<img src="img/forking-overview.svg" style="height: 400px;"/>
+]
 
 ---
 
@@ -480,7 +500,7 @@ template: inverse
 
 <img src="img/gitlab-logo.png" style="width: 400px;"/>
 
-.cite[By Ty Wilkins - https://about.gitlab.com/2015/07/03/our-new-logo/, CC BY-SA 4.0]
+(Ty Wilkins - https://about.gitlab.com/2015/07/03/our-new-logo/, CC BY-SA 4.0)
 
 ---
 
