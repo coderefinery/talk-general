@@ -6,7 +6,7 @@ class: middle
 
 background-image: url(img/front.png)
 
-# The CodeRefinery Project
+# [@coderefine](https://twitter.com/coderefine)ry project
 
 ## Radovan Bast
 
