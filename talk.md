@@ -47,7 +47,6 @@ class: split-60-40
   and techniques to create sustainable, modular, reusable, and reproducible
   software
 - Build **strong partnerships** with related initiatives
-- This project is not about efficient code but rather about **efficient coding**
 ]
 
 ---
