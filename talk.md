@@ -104,6 +104,7 @@ class: split-60-40
 - Lukasz Bartosz Berger
 - Nikolai Denissov
 - Radovan Bast
+- Risto Laurikainen
 - Sabry Razick
 - Sri Harsha Vathsavayi
 - Thor Wikfeldt
@@ -138,6 +139,8 @@ class: split-60-40
 
 .column[
 <img src="img/map.jpg" style="height: 380px;"/>
+
+### Challenge: disciplines are at different levels
 ]
 .column[
 - Dec 2016 - Helsinki
@@ -208,6 +211,8 @@ template: inverse
 <img src="img/gitlab-logo.png" style="width: 400px;"/>
 
 (Ty Wilkins - https://about.gitlab.com/2015/07/03/our-new-logo/, CC BY-SA 4.0)
+
+### Challenge: long term funding
 
 ---
 
