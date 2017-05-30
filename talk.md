@@ -536,8 +536,6 @@ template: inverse
 
 <img src="img/gitlab-logo.png" style="width: 400px;"/>
 
-(Ty Wilkins - https://about.gitlab.com/2015/07/03/our-new-logo/, CC BY-SA 4.0)
-
 ### Challenge: long term funding
 
 ---
