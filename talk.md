@@ -151,6 +151,8 @@ class: split-60-40
 
 .column[
 <img src="img/map.jpg" style="height: 380px;"/>
+
+### Challenge: disciplines are at different levels
 ]
 .column[
 - Dec 2016 - Helsinki
