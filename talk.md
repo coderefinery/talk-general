@@ -84,8 +84,8 @@ class: split-60-40
 
 ### [CodeRefinery](https://www.software.ac.uk)
 
-- Training in skills and tools for students/researchers who already write code.
-- Managing complexity and modular development in a collaborative setting.
+- Training in skills and tools for students/researchers who write code.
+- Managing complexity and collaborative modular development.
 - Provide infrastructure services.
 
 ---
