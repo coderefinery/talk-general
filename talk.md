@@ -164,12 +164,12 @@ class: split-60-40
 class: split-50-50
 
 .column[
-## Code review workflow
+## Centralized workflow
 
 <img src="img/centralized.svg" style="height: 400px;"/>
 ]
 .column[
-## Forking workflow
+## Code review workflow
 
 <img src="img/forking-overview.svg" style="height: 400px;"/>
 ]
