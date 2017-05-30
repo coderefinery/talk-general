@@ -116,6 +116,7 @@ class: split-60-40
 - Lukasz Bartosz Berger
 - Nikolai Denissov
 - Radovan Bast
+- Risto Laurikainen
 - Sabry Razick
 - Sri Harsha Vathsavayi
 - Thor Wikfeldt
