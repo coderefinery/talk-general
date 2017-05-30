@@ -6,9 +6,9 @@ class: middle
 
 background-image: url(img/front.png)
 
-# [@coderefine](https://twitter.com/coderefine)ry project
+# The CodeRefinery Project [@coderefine](https://twitter.com/coderefine)
 
-## Radovan Bast
+## Radovan Bast [@__radovan](https://twitter.com/__radovan)
 
 ### [NeIC](https://neic.nordforsk.org)/ [UiT The Arctic University of Norway](https://uit.no)
 
