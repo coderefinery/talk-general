@@ -33,6 +33,14 @@ layout: false
 
 ---
 
+## Many researchers struggle with code complexity
+
+<img src="img/joe-paradiso-modular-synth-front.jpg" style="height: 450px;"/>
+
+(c) Joe Paradiso
+
+---
+
 class: split-60-40
 
 ## Goals: Better science with better software
@@ -70,31 +78,6 @@ class: split-60-40
 
 ---
 
-## Many researchers struggle with code complexity
-
-<img src="img/joe-paradiso-modular-synth-front.jpg" style="height: 450px;"/>
-
-(c) Joe Paradiso
-
----
-
-## [Ten simple rules for making research software more robust](https://doi.org/10.1371/journal.pcbi.1005412)
-
-**M. Taschuk, G. Wilson** (2017). PLoS Comput Biol 13(4): e1005412.
-
-- Use **version control**
-- **Document** your code and usage
-- Make common operations easy to control
-- **Version** your releases
-- **Reuse** software (within reason)
-- Rely on **build tools** and package managers for installation
-- Do not require root or other special privileges to install or run
-- Eliminate hard-coded paths
-- Include a small **test set** that can be run to ensure the software is actually working
-- Produce identical results when given identical inputs
-
----
-
 .left-column[
 <img src="img/neic.png" style="height: 50px;"/>
 
@@ -129,6 +112,23 @@ class: split-60-40
 
 - Pinja Koskinen
 ]
+
+---
+
+## [Ten simple rules for making research software more robust](https://doi.org/10.1371/journal.pcbi.1005412)
+
+**M. Taschuk, G. Wilson** (2017). PLoS Comput Biol 13(4): e1005412.
+
+- Use **version control**
+- **Document** your code and usage
+- Make common operations easy to control
+- **Version** your releases
+- **Reuse** software (within reason)
+- Rely on **build tools** and package managers for installation
+- Do not require root or other special privileges to install or run
+- Eliminate hard-coded paths
+- Include a small **test set** that can be run to ensure the software is actually working
+- Produce identical results when given identical inputs
 
 ---
 
