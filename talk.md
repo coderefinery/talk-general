@@ -210,25 +210,6 @@ class: split-50-50
 
 ---
 
-## Use code review
-
-### Peer review process in publishing
-
-- Papers are reviewed before they are published
-- Maintain standards of quality
-- Improve performance
-- Provide credibility
-
-### Code review
-
-- Code is reviewed before it is integrated
-- Improve **quality**
-- **Learning**
-- Knowledge transfer
-- [GitHub](https://github.com)/[GitLab](https://gitlab.com)/[Bitbucket](https://bitbucket.org) offer a web solution for code review
-
----
-
 template: inverse
 
 ## Infrastructure plans
