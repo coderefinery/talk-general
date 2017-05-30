@@ -176,6 +176,40 @@ class: split-50-50
 
 ---
 
+## .blue[2017: Are you using peer review in publishing?]
+
+### *Of course! What else?*
+
+---
+
+## .blue[2017: Are you using peer review in publishing?]
+
+### *Of course! What else?*
+
+## .blue[2017: Are you using code review in code development?]
+
+### *I don't know what it is.*
+### *I don't know how to do it.*
+### *I don't have time to do it.*
+
+---
+
+## .blue[2017: Are you using peer review in publishing?]
+
+### *Of course! What else?*
+
+## .blue[2017: Are you using code review in code development?]
+
+### *I don't know what it is.*
+### *I don't know how to do it.*
+### *I don't have time to do it.*
+
+## .blue[202X: Are you using code review in code development?]
+
+### *Of course! What else?*
+
+---
+
 ## Use code review
 
 ### Peer review process in publishing
