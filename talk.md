@@ -228,7 +228,7 @@ template: inverse
 
 class: split-50-50
 
-## Get in touch!
+## Get in touch! Slides: [bit.ly/neic-2017-coderefinery](http://bit.ly/neic-2017-coderefinery)
 
 .column[
 ### [coderefinery.org](http://coderefinery.org)
