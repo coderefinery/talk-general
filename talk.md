@@ -55,7 +55,7 @@ class: split-60-40
 
 ### [Software Carpentry](https://software-carpentry.org)
 
-- Teaching basic lab skills for research computing
+- Teaching basic lab skills for research computing.
 
 ### [The Software Sustainability Institute](https://www.software.ac.uk)
 
@@ -64,9 +64,9 @@ class: split-60-40
 
 ### [CodeRefinery](https://www.software.ac.uk)
 
-- Training and infrastructure for sustainable research software development
-- Managing complexity in a collaborative setting
-- Provide infrastructure services
+- Training in skills and tools for students/researchers who already write code.
+- Managing complexity and modular development in a collaborative setting.
+- Provide infrastructure services.
 
 ---
 
