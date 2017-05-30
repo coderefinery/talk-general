@@ -4,16 +4,7 @@ class: middle
 
 ---
 
-background-image: url(img/front.png)
-
-# The CodeRefinery Project [@coderefine](https://twitter.com/coderefine)
-
-## Radovan Bast [@__radovan](https://twitter.com/__radovan)
-
-### [NeIC](https://neic.nordforsk.org)/ [UiT The Arctic University of Norway](https://uit.no)
-
-Text is free to share/remix under [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/).
-Code examples: [MIT license](http://opensource.org/licenses/mit-license.html).
+background-image: url(img/background.png)
 
 ---
 
@@ -241,17 +232,19 @@ template: inverse
 
 class: split-50-50
 
-## Get in touch! Slides: [bit.ly/neic-2017-coderefinery](http://bit.ly/neic-2017-coderefinery)
+## Slides: [bit.ly/neic-2017-coderefinery](http://bit.ly/neic-2017-coderefinery)
 
 .column[
-### [coderefinery.org](http://coderefinery.org)
+## Get in touch!
 
-### [@coderefine](https://twitter.com/coderefine)
+## [coderefinery.org](http://coderefinery.org)
 
-### [github.com/coderefinery](https://github.com/coderefinery)
+## [@coderefine](https://twitter.com/coderefine)
 
-### [coderefinery@googlegroups.com](https://groups.google.com/group/coderefinery)
+## [github.com/coderefinery](https://github.com/coderefinery)
+
+## [coderefinery@googlegroups.com](https://groups.google.com/group/coderefinery)
 ]
 .column[
-<img src="img/magic.jpg" style="height: 280px;"/>
+<img src="img/logo.jpg" style="height: 250px;"/>
 ]
