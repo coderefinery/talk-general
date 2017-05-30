@@ -502,6 +502,8 @@ template: inverse
 
 (Ty Wilkins - https://about.gitlab.com/2015/07/03/our-new-logo/, CC BY-SA 4.0)
 
+### Challenge: long term funding
+
 ---
 
 ## Plan: Continuous integration service
