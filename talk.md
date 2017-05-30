@@ -87,18 +87,18 @@ class: split-60-40
 - Funded for two years
 - We are a team of enthusiasts located in DK, FI, NO, SE
 
-### Team
+### Team (emphasis: present at this conference)
 
-- Bjørn Lindi
-- Erik Edelmann
-- Jyry Suvilehto
+- **Bjørn Lindi**
+- **Erik Edelmann**
+- **Jyry Suvilehto**
 - Lukasz Bartosz Berger
 - Nikolai Denissov
-- Radovan Bast
+- **Radovan Bast**
 - Risto Laurikainen
 - Sabry Razick
 - Sri Harsha Vathsavayi
-- Thor Wikfeldt
+- **Thor Wikfeldt**
 
 ### Alumni
 
