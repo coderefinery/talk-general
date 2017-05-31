@@ -155,6 +155,21 @@ class: split-60-40
 class: split-50-50
 
 .column[
+## E-mail workflow
+
+<img src="img/email.svg" style="height: 400px;"/>
+]
+.column[
+## Version control
+
+<img src="img/centralized.svg" style="height: 400px;"/>
+]
+
+---
+
+class: split-50-50
+
+.column[
 ## Centralized workflow
 
 <img src="img/centralized.svg" style="height: 400px;"/>
