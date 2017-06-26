@@ -176,8 +176,17 @@ template: inverse
 
 ## Use Git
 
-- Enables forking workflow
+### Subversion
+
+- Commits are often too small (incomplete) or too large (too many unrelated changes)
+
+### Git
+
 - Allows to edit commits (you can commit often *and* have nice commits)
+- Allows to commit without network
+- Enables forking workflow
+- Lightweight branches
+- Simple branching and merging
 
 ---
 
