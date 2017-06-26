@@ -153,80 +153,6 @@ class: split-60-40
 
 ---
 
-## Branching model
-
-<img src="img/branching-model.svg" style="height: 360px;"/>
-
----
-
-## Documentation
-
-- Close to the code (minimize barrier to contribute)
-- **Versions**
-- **Branches**
-- Lightweight markup
-- Readable on any device
-- Division into tutorials and keyword reference
-- Tutorials contain good defaults
-- Ready examples that one can copy-paste to get quickly started
-
-### Current gold standard
-
-- Hosting: [GitHub](https://github.com) or [GitLab](https://gitlab.com) or [Bitbucket](https://bitbucket.org)
-- Markup: [RST](http://docutils.sourceforge.net/rst.html) or [Markdown](http://daringfireball.net/projects/markdown/)
-- Rendering: [Sphinx](http://www.sphinx-doc.org) or [GitBook](https://www.gitbook.com)
-- Deployed to: [Read the Docs](https://readthedocs.org) or [GitBook](https://www.gitbook.com)
-
----
-
-## Building portable and modular code with CMake
-
-- Separation of source and build path
-- Portability
-- Language support
-- Supports modular code development
-- Provides tools
-- Popular
-- General
-
----
-
-class: split-50-50
-
-.column[
-## Centralized workflow
-
-<img src="img/centralized.svg" style="height: 400px;"/>
-]
-.column[
-## Code review workflow
-
-<img src="img/forking-overview.svg" style="height: 400px;"/>
-]
-
----
-
-## Use code review
-
-### Peer review process in publishing
-
-- Papers are reviewed before they are published
-- Maintain standards of quality
-- Improve performance
-- Provide credibility
-
-### Code review
-
-- Code is reviewed before it is integrated
-- Improve quality
-- Learning
-- Knowledge transfer
-- [GitHub](https://github.com)/[GitLab](https://gitlab.com)/[Bitbucket](https://bitbucket.org) offer a web solution for code review
-
-*"We don't need code review because we are just two."*
-
----
-
 ## Git repository hosting for Nordic research software
 
 - Repository hosting
@@ -242,13 +168,110 @@ class: split-50-50
 
 ---
 
-## Plan: Continuous integration service
+template: inverse
 
-- [Travis CI](https://travis-ci.org), [GitLab CI](https://about.gitlab.com/gitlab-ci/), [Jenkins](https://jenkins.io), [Drone](https://github.com/drone/drone), [AppVeyor](https://www.appveyor.com), ...
-- Test every changeset
-- We plan to deploy a service which will make it easier for researchers to test their code
+## Recommendations for ARC development and release workflow
 
-<img src="img/travis.jpg" style="width: 800px;"/>
+---
+
+## Use Git
+
+- Enables forking workflow
+- Allows to edit commits (you can commit often *and* have nice commits)
+
+---
+
+## Issue tracking
+
+- Track issues closer to source code
+- Cross-reference commits, issues, and merge requests
+- Use GitLab issue tracker
+
+---
+
+## Use https://source.coderefinery.org
+
+---
+
+## Documentation
+
+- Move documentation closer to sources: same repository
+- Simplifies versioning of documentation
+- Difficult to coordinate across two repositories
+- Documentation is part of code patches
+- Use Markdown or reStructuredText, Sphinx, and Read the Docs
+
+---
+
+## Semantic versioning
+
+- This is essentially already used without naming it
+
+---
+
+## Change branching model
+
+- Trunk/master collects commits towards next major version
+- No communication/coordination needed after a commit has been accepted
+
+---
+
+## Semantic branching model
+
+<img src="img/branching-model.svg" style="height: 360px;"/>
+
+---
+
+## Sort commits before they go to trunk/master
+
+- Continuous release preparation
+
+---
+
+## Configure and build code using CMake instead of Autotools
+
+- Portability
+- Excellent support for modular code development
+- Good tooling
+
+---
+
+class: split-50-50
+
+.column[
+## Centralized workflow
+
+<img src="img/centralized.svg" style="height: 400px;"/>
+]
+.column[
+## Forking workflow
+
+<img src="img/forking-overview.svg" style="height: 400px;"/>
+]
+
+---
+
+## Use forking workflow
+
+---
+
+## Use code review
+
+- Like peer review in publishing
+- Maintain standards of quality
+- Allows to enforce good commit messages (and therefore minimize work to generate changelog and list of features)
+- Improve quality
+- Learning
+- Knowledge transfer
+- [GitHub](https://github.com)/[GitLab](https://gitlab.com)/[Bitbucket](https://bitbucket.org) offer a web solution for code review
+
+---
+
+## Use a continuous integration service
+
+- Test automatically
+- Assist maintenance and release preparation
+- Automatically build tarballs
 
 ---
 
