@@ -533,16 +533,18 @@ template: inverse
 
 ---
 
-## Plan: Nordic-wide code repository hosting platform
+## Git repository hosting for Nordic research software
 
 - Repository hosting
+- Collaboration
 - Code review
 - Issue tracking
 - Documentation
 
-<img src="img/gitlab-logo.png" style="width: 400px;"/>
+<img src="img/gitlab-logo.png" style="width: 300px;"/>
 
-### Challenge: long term funding
+- http://coderefinery.org/repository/
+- https://source.coderefinery.org
 
 ---
 
