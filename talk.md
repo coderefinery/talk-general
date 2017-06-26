@@ -214,7 +214,7 @@ template: inverse
 
 ## Branching model
 
-<img src="img/branches.jpg" style="height: 360px;"/>
+<img src="img/branching-model.svg" style="height: 360px;"/>
 
 ---
 
