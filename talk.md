@@ -8,6 +8,13 @@ background-image: url(img/background.png)
 
 ---
 
+template: inverse
+
+## 1. Introduce the CodeRefinery project
+## 2. Recommendations for ARC release cycle
+
+---
+
 layout: false
 class: split-50-50
 
@@ -166,82 +173,48 @@ class: split-60-40
 - http://coderefinery.org/repository/
 - https://source.coderefinery.org
 
+## Plan: continuous integration service for Nordic research software
+
 ---
 
 template: inverse
 
-## Recommendations for ARC development and release workflow
+## Recommendations for ARC development and release cycle
 
 ---
 
-## Use Git
+## Track versions with Git
 
 ### Subversion
 
+- Centralized
+- One server keeps track of versions
+- Working copies are "thin clients"
 - Commits are often too small (incomplete) or too large (too many unrelated changes)
+- Simple user interface
+
+---
+
+## Track versions with Git
+
+### Subversion
+
+- Centralized
+- One server keeps track of versions
+- Working copies are "thin clients"
+- Commits are often too small (incomplete) or too large (too many unrelated changes)
+- Simple user interface
 
 ### Git
 
-- Allows to edit commits (you can commit often *and* have nice commits)
+- Distributed
+- Clones ("working copies") are full copies and equivalent
+- Allows to **edit commits** (you can commit often *and* have nice commits)
 - Allows to commit without network
-- Enables forking workflow
+- Enables **forking workflow**
 - Lightweight branches
 - Simple branching and merging
-
----
-
-## Issue tracking
-
-- Track issues closer to source code
-- Cross-reference commits, issues, and merge requests
-- Use GitLab issue tracker
-
----
-
-## Use https://source.coderefinery.org
-
----
-
-## Documentation
-
-- Move documentation closer to sources: same repository
-- Simplifies versioning of documentation
-- Difficult to coordinate across two repositories
-- Documentation is part of code patches
-- Use Markdown or reStructuredText, Sphinx, and Read the Docs
-
----
-
-## Semantic versioning
-
-- This is essentially already used without naming it
-
----
-
-## Change branching model
-
-- Trunk/master collects commits towards next major version
-- No communication/coordination needed after a commit has been accepted
-
----
-
-## Semantic branching model
-
-<img src="img/branching-model.svg" style="height: 360px;"/>
-
----
-
-## Sort commits before they go to trunk/master
-
-- Continuous release preparation
-
----
-
-## Configure and build code using CMake instead of Autotools
-
-- Portability
-- Excellent support for modular code development
-- Good tooling
+- User interface first overwhelming, later turns simple
 
 ---
 
@@ -262,6 +235,17 @@ class: split-50-50
 
 ## Use forking workflow
 
+- Keeps list of branches is central repository clean
+- Allows to write-protect central repository
+- Enables code review (can be done at branch level as well)
+- Enables external contributions
+- Enables to decentralize development
+- Simplifies development of derivative code
+- Derivative code is good for the base code
+- Risk: fragmentation
+
+*"But code review slows things down?"*
+
 ---
 
 ## Use code review
@@ -273,6 +257,15 @@ class: split-50-50
 - Learning
 - Knowledge transfer
 - [GitHub](https://github.com)/[GitLab](https://gitlab.com)/[Bitbucket](https://bitbucket.org) offer a web solution for code review
+- Couple code review with automated testing
+
+---
+
+## Issue tracking
+
+- Track issues close to source code
+- Cross-reference commits, issues, and pull/merge requests
+- Use GitLab issue tracker
 
 ---
 
@@ -281,6 +274,120 @@ class: split-50-50
 - Test automatically
 - Assist maintenance and release preparation
 - Automatically build tarballs
+
+---
+
+## Use https://source.coderefinery.org
+
+- Private and public repositories
+- Data stays in the Nordics
+- Mutual support of Nordic projects
+- Code review and issue tracking in one place
+- Soon continuous integration
+- Soon hopefully also websites via GitLab pages
+
+---
+
+## Documentation
+
+- Move documentation closer to sources: same repository
+- Simplifies versioning of documentation
+- Difficult to coordinate across two repositories
+- Documentation is part of code patches
+- Use [Markdown](https://daringfireball.net/projects/markdown/syntax) or [reStructuredText](http://docutils.sourceforge.net/rst.html), [Sphinx](http://www.sphinx-doc.org), and [Read the Docs](https://readthedocs.org)
+- Use lightweight markup
+- Do not maintain own servers
+- Wiki-based documentation is often difficult to version
+
+---
+
+## Documentation markup
+
+### Lightweight
+
+```markdown
+# This is a title
+
+We can write plain text but also style text to be *emphasized*
+or **bold**. Of course we can do much more.
+```
+
+### Little less lightweight
+
+```tex
+\documentclass[12pt]{article}
+\begin{document}
+
+\section{This is a title}
+
+We can write plain text but also style text to be \emph{emphasized}
+or \textbf{bold}. Of course we can do much more.
+
+\end{document}
+```
+
+---
+
+## [Semantic versioning](http://semver.org)
+
+- http://semver.org
+- This is essentially already used without naming it
+
+### Given a version number MAJOR.MINOR.PATCH, increment the:
+
+- MAJOR when you make .blue[API-breaking changes]
+- MINOR when you add .blue[backwards-compatible functionality]
+- PATCH when you make .blue[backwards-compatible bug fixes]
+
+Communicate to users/clients about what to expect from new versions
+
+---
+
+## Change branching model
+
+- Trunk/master collects commits towards next major version
+- Write-protect trunk/master
+- Sort commits before they go to trunk/master
+- Developers/team decide about the scope of a commit by choosing the appropriate target branch
+- No communication/coordination needed after a commit has been accepted
+- Continuous release preparation
+
+---
+
+## Semantic branching model
+
+- https://dev-cafe.github.io/branching-model/
+
+<img src="img/branching-model.svg" style="height: 360px;"/>
+
+---
+
+## Configure and build code using CMake instead of Autotools
+
+- Portability
+- Excellent support for modular code development
+- Good tooling
+
+---
+
+## Conclusions
+
+### Impressions
+
+- ARC project has very well documented policies
+- Excellent manuals and documentation
+- Openness
+- Very professional release cycle
+
+### Recommendations
+
+- Git
+- GitLab (or GitHub)
+- Code review
+- Documentation goes with sources
+- Use CI to build and test code
+
+### Do not change tools before preparing a support structure
 
 ---
 
