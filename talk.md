@@ -181,6 +181,8 @@ template: inverse
 
 ## Recommendations for ARC development and release cycle
 
+### .blue[Disclaimer: given by outside person and friend who understands that there is history and a large developer and user base]
+
 ---
 
 ## Track versions with Git
@@ -286,6 +288,8 @@ class: split-50-50
 - Code review and issue tracking in one place
 - Soon continuous integration (recipes and service for pilot projects)
 - Soon hopefully also websites via GitLab pages
+
+### .blue[ARC is a visible and prominent code and could help CodeRefinery to secure services for smaller clients]
 
 ---
 
