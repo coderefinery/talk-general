@@ -10,6 +10,8 @@ background-image: url(img/background.png)
 
 template: inverse
 
+# .blue[How CodeRefinery can support ARC software and vice versa]
+
 ## 1. Introduce the CodeRefinery project
 ## 2. Recommendations for ARC release cycle
 
