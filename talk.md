@@ -301,33 +301,6 @@ class: split-50-50
 
 ---
 
-## Documentation markup
-
-### Lightweight
-
-```markdown
-# This is a title
-
-We can write plain text but also style text to be *emphasized*
-or **bold**. Of course we can do much more.
-```
-
-### Little less lightweight
-
-```tex
-\documentclass[12pt]{article}
-\begin{document}
-
-\section{This is a title}
-
-We can write plain text but also style text to be \emph{emphasized}
-or \textbf{bold}. Of course we can do much more.
-
-\end{document}
-```
-
----
-
 ## [Semantic versioning](http://semver.org)
 
 - http://semver.org
