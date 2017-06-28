@@ -263,17 +263,18 @@ class: split-50-50
 
 ## Issue tracking
 
-- Track issues close to source code
+- Currently ARC tracks issues on Bugzilla
+- Recommendation: track issues close to source code
 - Cross-reference commits, issues, and pull/merge requests
-- Use GitLab issue tracker
+- GitLab offers a lean but powerful issue tracker
 
 ---
 
-## Use a continuous integration service
+## Use a continuous integration/deployment service
 
 - Test automatically
 - Assist maintenance and release preparation
-- Automatically build tarballs
+- Automatically build tarballs and packages
 
 ---
 
@@ -283,7 +284,7 @@ class: split-50-50
 - Data stays in the Nordics
 - Mutual support of Nordic projects
 - Code review and issue tracking in one place
-- Soon continuous integration
+- Soon continuous integration (recipes and service for pilot projects)
 - Soon hopefully also websites via GitLab pages
 
 ---
