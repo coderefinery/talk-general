@@ -367,11 +367,13 @@ Communicate to users/clients about what to expect from new versions
 - Documentation goes with sources
 - Use CI to build and test code
 
-### Do not change tools before preparing a support structure
+### .blue[Do not change tools before preparing a support structure]
 
 ---
 
 class: split-50-50
+
+## Slides: [bit.ly/nordugrid-2017](http://bit.ly/nordugrid-2017)
 
 .column[
 ## Get in touch!
