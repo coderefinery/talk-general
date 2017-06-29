@@ -366,7 +366,7 @@ Communicate to users/clients about what to expect from new versions
 - GitLab (or GitHub)
 - Code review
 - Documentation goes with sources
-- Use CI to build and test code
+- Use CI to build, test, and deploy code
 
 ---
 
