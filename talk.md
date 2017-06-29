@@ -301,7 +301,7 @@ class: split-50-50
 - Move documentation closer to sources: same repository
 - Simplifies versioning of documentation
 - Difficult to coordinate across two repositories
-- Documentation is part of code patches
+- **Documentation is part of code patches**
 - Use [Markdown](https://daringfireball.net/projects/markdown/syntax) or [reStructuredText](http://docutils.sourceforge.net/rst.html), [Sphinx](http://www.sphinx-doc.org), and [Read the Docs](https://readthedocs.org)
 - Use lightweight markup
 - Do not maintain own servers
