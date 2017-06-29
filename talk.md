@@ -241,8 +241,8 @@ class: split-50-50
 
 - Allows to write-protect central repository
 - Enables code review (can be done at branch level as well)
-- Enables external contributions
 - Enables to decentralize development
+- Simplifies external contributions
 - Simplifies development of derivative code
 - Derivative code is good for the base code
 - Keeps list of branches is central repository clean
