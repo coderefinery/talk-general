@@ -267,7 +267,7 @@ class: split-50-50
 
 ## Issue tracking
 
-- Currently ARC tracks issues on Bugzilla
+- Currently ARC tracks issues on [Bugzilla](http://bugzilla.nordugrid.org)
 - Recommendation: track issues close to source code
 - Cross-reference commits, issues, and pull/merge requests
 - GitLab offers a lean but powerful issue tracker
