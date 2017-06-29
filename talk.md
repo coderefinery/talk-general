@@ -246,7 +246,7 @@ class: split-50-50
 - Simplifies development of derivative code
 - Derivative code is good for the base code
 - Keeps list of branches is central repository clean
-- Risk: fragmentation
+- Risk: community fragmentation
 
 *"But code review slows things down?"*
 
