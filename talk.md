@@ -279,6 +279,7 @@ class: split-50-50
 - Test automatically
 - Assist maintenance and release preparation
 - Automatically build tarballs and packages
+- At each update: spin up a Docker container, build and test, report back
 
 ---
 
