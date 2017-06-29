@@ -203,7 +203,7 @@ template: inverse
 
 ### Subversion
 
-- Centralized
+- .blue[Centralized]
 - One server keeps track of versions
 - Working copies are "thin clients"
 - Commits are often too small (incomplete) or too large (too many unrelated changes)
@@ -211,7 +211,7 @@ template: inverse
 
 ### Git
 
-- Distributed
+- .blue[Distributed]
 - Clones ("working copies") are full copies and equivalent
 - Allows to **edit commits** (you can commit often *and* have nice commits)
 - Allows to commit without network
@@ -239,13 +239,13 @@ class: split-50-50
 
 ## Use forking workflow
 
-- Keeps list of branches is central repository clean
 - Allows to write-protect central repository
 - Enables code review (can be done at branch level as well)
 - Enables external contributions
 - Enables to decentralize development
 - Simplifies development of derivative code
 - Derivative code is good for the base code
+- Keeps list of branches is central repository clean
 - Risk: fragmentation
 
 *"But code review slows things down?"*
@@ -323,7 +323,7 @@ Communicate to users/clients about what to expect from new versions
 
 ---
 
-## Change branching model
+## Consider adapting the branching model
 
 - Trunk/master collects commits towards next major version
 - Write-protect trunk/master
@@ -350,7 +350,7 @@ Communicate to users/clients about what to expect from new versions
 
 ---
 
-## Conclusions
+## Conclusions 1/2
 
 ### Impressions
 
@@ -367,7 +367,14 @@ Communicate to users/clients about what to expect from new versions
 - Documentation goes with sources
 - Use CI to build and test code
 
-### .blue[Do not change tools before preparing a support structure]
+---
+
+## Conclusions 2/2
+
+- Maintenance work load will not disappear but may shift
+- Good code review takes time
+- Already modest code review can have significant effect
+- .blue[Do not change tools before preparing a support structure]
 
 ---
 
