@@ -42,23 +42,21 @@ class: split-50-50
 
 (c) Joe Paradiso
 
+
 ---
 
-class: split-60-40
 
-## Goals: Better science with better software
+## Problem: Red Queen's Race
 
-.column[
-<img src="img/bromance.jpg" style="height: 360px;"/>
+<img src="img/red_queen.jpg" style="height: 360px;"/>
 
-(c) The New Yorker, Oct 17, 2016
-]
-.column[
-- Provide researchers with **training**, **infrastructure**, and **guides** in the necessary tools
-  and techniques to create sustainable, modular, reusable, and reproducible
-  software
-- Build **strong partnerships** with related initiatives
-]
+```
+"A slow sort of country!" said the Queen. "Now, here, you see,
+it takes all the running you can do, to keep in the same place.
+If you want to get somewhere else, you must run at least twice
+as fast as that!"
+- Lewis Carroll, Through the Looking Glass
+```
 
 ---
 
@@ -172,7 +170,6 @@ class: split-60-40
 template: inverse
 
 ## What we preach
-
 
 ---
 
@@ -396,7 +393,7 @@ get_bmi()
 - Hosting: [GitHub](https://github.com) or [GitLab](https://gitlab.com) or [Bitbucket](https://bitbucket.org)
 - Markup: [RST](http://docutils.sourceforge.net/rst.html) or [Markdown](http://daringfireball.net/projects/markdown/)
 - Rendering: [Sphinx](http://www.sphinx-doc.org) or [GitBook](https://www.gitbook.com)
-- Deployed to: [Read the Docs](https://readthedocs.org) or [GitBook](https://www.gitbook.com)
+- Deployed to: [Read the Docs](https://readthedocs.org), [GitHub Pages](https://pages.github.com/)
 
 ---
 
@@ -534,15 +531,15 @@ template: inverse
 
 <img src="img/gitlab-logo.png" style="width: 300px;"/>
 
-- http://coderefinery.org/repository/
-- https://source.coderefinery.org
+- [http://coderefinery.org/repository/](http://coderefinery.org/repository)
+- [https://source.coderefinery.org](https://source.coderefinery.or)
 
 ---
 
 ## Why GitLab?
 
 - Repositories typically need to be private at least until research has been published
-- University bureaucracy can be difficult for small, pay-per-seat per-user services
+- Research institute bureaucracy can be difficult for small, pay-per-seat per-user services
 
 ---
 
@@ -560,7 +557,7 @@ template: inverse
 
 - More complex CI pipelines typically require trust
 - Even a minimal test data set may be considered sensitive data
-- Private GitLab CI runners are the solution to this
+- Per-project GitLab CI runners are the solution to this
 - How do we support researchers creating and maintaining their own CI runners?
 
 ## How much DevOps do you need for science?
@@ -568,18 +565,18 @@ template: inverse
 
 ## Idea: System for publishing/distributing environments (VM Images, Containers)
 
+- Many technical platforms exist
+
 ## Challenges
 
 - Where does the impulse publish environments come from?
-
-
----
-
+- What incentivizes a researcher to care about reproducibility of results?
 
 ---
 
-## Idea: Resource Entitlement Management System
+## A message from our Sponsors: REMS
 
+- Resource Entitlement Management System
 - [www.csc.fi/rems](http://www.csc.fi/rems)
 - Models an application process to access a **resource**
 - Federated Identity
@@ -604,30 +601,6 @@ class: split-60-40
 ### Challenge: disciplines are at different levels
 ]
 .column[
-- Dec 2016 - Helsinki
-- Feb 2017 - Stockholm
-- May 2017 - Copenhagen
-- May 2017 - Umeå
-- Jun 2017 - Tromsø
-- Oct 2017 - Aarhus
-- Nov 2017 - Linköping
-- Dec 2017 - Helsinki
-- Feb 2018 - Trondheim
-- Mar 2018 - Turku
-- Apr 2018 - Odense
-- May 2018 - Uppsala
-- Jun 2018 - Oslo
-- Aug 2018 - Reykjavík
-]
-
-
----
-
-## Upcoming events
-
-
-### 3-day workshops
-
 - [Aarhus, Oct 24-26](http://coderefinery.org/workshops/2017-10-24-aarhus/)
 - Linköping, Nov 7-9
 - Espoo, Dec 12-14
@@ -638,12 +611,12 @@ class: split-60-40
 - Oslo Jun 2018
 - Reykjavik Aug 2018
 
-#### [Find them here](http://coderefinery.org/workshops/)
-#### [Sign up to be notified](http://tinyurl.com/CodeRefineryNotify)
-
-
 ### Seminars and meetups
 - [Umeå, Oct 16](http://coderefinery.org/events/2017-10-16-umea/) Git-themed one day workshop
+
+#### [Find them here](http://coderefinery.org/workshops/)
+#### [Sign up to be notified](http://tinyurl.com/CodeRefineryNotify)
+]
 
 ---
 
