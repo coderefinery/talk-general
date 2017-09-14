@@ -18,7 +18,7 @@ class: split-50-50
 - Facilitates the development and operation of high-quality e-Infrastructure solutions in areas of joint Nordic interest
 - Distributed organisation consisting of technical experts from academic high-performance computing centres
 - Across the Nordic countries (Denmark, Finland, Iceland, Norway, Sweden)
-- Ca. 65 persons contracted by NeIC
+- Ca. 100 persons contracted by NeIC
 
 ---
 
@@ -29,7 +29,7 @@ class: split-50-50
 ]
 .column[
 - Quality of scientific software is **critical to modern research**
-
+- Reproducibility of most computations is questionable
 - Scientists often **lack the necessary training** in practices to
   enable them to collaboratively write high-quality scientific software
 ]
@@ -54,7 +54,7 @@ class: split-60-40
 (c) The New Yorker, Oct 17, 2016
 ]
 .column[
-- Provide researchers with **infrastructure**, **training**, and **guides** in the necessary tools
+- Provide researchers with **training**, **infrastructure**, and **guides** in the necessary tools
   and techniques to create sustainable, modular, reusable, and reproducible
   software
 - Build **strong partnerships** with related initiatives
@@ -79,6 +79,7 @@ class: split-60-40
 - Managing complexity and collaborative modular development.
 - Provide infrastructure services.
 
+(commons conservancy?)
 ---
 
 .left-column[
@@ -136,31 +137,42 @@ class: split-60-40
 
 ---
 
+template: inverse
+
+## Reproducible research
+
+---
+
+template: inverse
+
+## Why should **only** the publications benefit humanity as a whole?
+
+## If your results are not reproducible, do they really benefit humanity?
+
+---
+
+
 class: split-60-40
 
-## Coming to a city near you
+## To reproduce results you need
 
 .column[
-<img src="img/map.jpg" style="height: 380px;"/>
+<img src="img/Laboratory_tripod.jpg" style="height: 380px">
+- By <a href="//commons.wikimedia.org/w/index.php?title=User:NagayaS&amp;action=edit&amp;redlink=1" class="new" title="User:NagayaS (page does not exist)">NagayaS</a> - <span class="int-own-work" lang="en">Own work</span>, <br /><a href="http://creativecommons.org/licenses/by-sa/4.0" title="Creative Commons Attribution-Share Alike 4.0">CC BY-SA 4.0</a>, <a href="https://commons.wikimedia.org/w/index.php?curid=56343942">Link</a>
 
-### Challenge: disciplines are at different levels
+
 ]
 .column[
-- Dec 2016 - Helsinki
-- Feb 2017 - Stockholm
-- May 2017 - Copenhagen
-- May 2017 - Umeå
-- Jun 2017 - Tromsø
-- Oct 2017 - Aarhus
-- Nov 2017 - Linköping
-- Dec 2017 - Helsinki
-- Feb 2018 - Trondheim
-- Mar 2018 - Turku
-- Apr 2018 - Odense
-- May 2018 - Uppsala
-- Jun 2018 - Oslo
-- Aug 2018 - Reykjavík
+- the right version of the code
+- the right version of the environment
+- the right version of data
 ]
+---
+
+template: inverse
+
+## What we preach
+
 
 ---
 
@@ -198,6 +210,7 @@ template: inverse
 - Working on several features in parallel
 - Reproducibility
 - Bug exposure can be traced back: **code history is extremely valuable**
+- Attribution can be determined after the fact: **important for legal reasons**
 
 ### Working with others
 
@@ -374,7 +387,7 @@ get_bmi()
 - **Branches**
 - Lightweight markup
 - Readable on any device
-- Division into tutorials and keyword reference
+- Division into tutorials and API reference
 - Tutorials contain good defaults
 - Ready examples that one can copy-paste to get quickly started
 
@@ -396,27 +409,6 @@ get_bmi()
 - Provides tools
 - Popular
 - General
-
----
-
-template: inverse
-
-## How can you publish a Nature paper?
-
----
-
-## How to publish a Nature paper
-
-- Ask the Nature IT admins to give you access to their server
-- Promise to submit a high quality paper
-  in the right place and using the right format and style
-- Once you get access simply upload your article sources
-- Make sure the issue looks good
-- If somebody complains later, make corrections
-
----
-
-<img src="img/bizzaro-world.jpg" style="height: 420px;"/>
 
 ---
 
@@ -517,12 +509,11 @@ class: split-50-50
 
 ---
 
-## Suggestions for future topics
+## Suggestions and requests for future topics
 
 - Contribution guides
 - How to open-source a project
 - Software licenses
-- Mixed-language development
 - Reproducible science
 
 ---
@@ -548,6 +539,13 @@ template: inverse
 
 ---
 
+## Why GitLab?
+
+- Repositories typically need to be private at least until research has been published
+- University bureaucracy can be difficult for small, pay-per-seat per-user services
+
+---
+
 ## Plan: Continuous integration service
 
 - [Travis CI](https://travis-ci.org), [GitLab CI](https://about.gitlab.com/gitlab-ci/), [Jenkins](https://jenkins.io), [Drone](https://github.com/drone/drone), [AppVeyor](https://www.appveyor.com), ...
@@ -558,42 +556,94 @@ template: inverse
 
 ---
 
-## Idea: Code sharing platform - discoverable and citable
+## CI Challenges:
 
-### Open-source software
+- More complex CI pipelines typically require trust
+- Even a minimal test data set may be considered sensitive data
+- Private GitLab CI runners are the solution to this
+- How do we support researchers creating and maintaining their own CI runners?
 
-- [GitHub](https://github.com)/[GitLab](https://gitlab.com)/[Bitbucket](https://bitbucket.org)
-- Often anonymous download
+## How much DevOps do you need for science?
+---
 
-### Closed-source software
+## Idea: System for publishing/distributing environments (VM Images, Containers)
 
-- Typically has paid maintainers
-- Own distribution websites
+## Challenges
 
-### Open-use software
+- Where does the impulse publish environments come from?
 
-- Typically no budget
-- Often "home-cooked" solutions
-- Often anonymous download not enough
-- Maintenance burden
+
+---
+
+
+---
+
+## Idea: Resource Entitlement Management System
+
+- [www.csc.fi/rems](http://www.csc.fi/rems)
+- Models an application process to access a **resource**
+- Federated Identity
+- Configurable application workflow
+- Does not limit how resource should be delivered
+- Version 1 is LGPL, Version 2 is under the process of being opened with a
+  permissive license
+
+<img src="img/rems.png" style="width: 600px;"/>
+
+
+---
+
+
+class: split-60-40
+
+## Coming to a city near you
+
+.column[
+<img src="img/map.jpg" style="height: 380px;"/>
+
+### Challenge: disciplines are at different levels
+]
+.column[
+- Dec 2016 - Helsinki
+- Feb 2017 - Stockholm
+- May 2017 - Copenhagen
+- May 2017 - Umeå
+- Jun 2017 - Tromsø
+- Oct 2017 - Aarhus
+- Nov 2017 - Linköping
+- Dec 2017 - Helsinki
+- Feb 2018 - Trondheim
+- Mar 2018 - Turku
+- Apr 2018 - Odense
+- May 2018 - Uppsala
+- Jun 2018 - Oslo
+- Aug 2018 - Reykjavík
+]
+
 
 ---
 
 ## Upcoming events
 
+
 ### 3-day workshops
 
-- [Copenhagen, May 9-11](http://coderefinery.org/workshops/2017-05-09-copenhagen/)
-- [Tromsø, Jun 19-21](http://coderefinery.org/workshops/2017-06-19-tromso/)
-- Many more after summer
+- [Aarhus, Oct 24-26](http://coderefinery.org/workshops/2017-10-24-aarhus/)
+- Linköping, Nov 7-9
+- Espoo, Dec 12-14
+- Trondheim, Feb 2018
+- Turku, Mar 2018
+- Odense, Apr 2018
+- Uppsala, May 2018
+- Oslo Jun 2018
+- Reykjavik Aug 2018
 
-### [NeIC 2017 conference](http://neic2017.nordforsk.org)
+#### [Find them here](http://coderefinery.org/workshops/)
+#### [Sign up to be notified](http://tinyurl.com/CodeRefineryNotify)
 
-- [Umeå, May 29](http://neic2017.nordforsk.org/workshops/coderefinery/): Mixed Martial Arts - Interfacing Fortran, C, C++, and Python for Great Good!
 
 ### Seminars and meetups
-
-- [Stockholm, May 19](http://coderefinery.org/workshops/2017-05-19-stockholm/)
+- [Umeå, Oct 16](http://coderefinery.org/events/2017-10-16-umea/) Git-themed one day workshop
 
 ---
 
@@ -613,3 +663,12 @@ class: split-50-50
 .column[
 <img src="img/logo.jpg" style="height: 250px;"/>
 ]
+
+---
+
+template: inverse
+
+## In case we have time: one more thing
+
+## [Notebooks.csc.fi](https://notebooks.csc.fi)
+
