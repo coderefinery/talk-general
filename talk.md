@@ -94,7 +94,7 @@ class: split-60-40
 ---
 
 .left-column[
-<img src="img/neic.png" style="height: 50px;"/>
+<img src="img/neic.png" style="height: 40px;"/>
 
 <img src="img/csc.png" style="height: 90px;"/>
 
@@ -108,7 +108,7 @@ class: split-60-40
 ## CodeRefinery launched September 2016
 
 - Nordic e-Infrastructure Collaboration project
-- Funded for two years
+- Funded for two years (**preparing a follow-up!**)
 - We are a team of enthusiasts located in DK, FI, NO, SE
 
 ### Team
