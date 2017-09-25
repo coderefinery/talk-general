@@ -8,6 +8,12 @@ background-image: url(img/background.png)
 
 ---
 
+template: inverse
+
+## How CodeRefinery can help researchers with modular and reprodicible software development
+
+---
+
 layout: false
 class: split-50-50
 
@@ -164,7 +170,17 @@ class: split-40-60
 
 ---
 
-## Simulations and analysis with untested software do not constitute science
+template: inverse
+
+# Testing
+
+<img src="img/unit-testing.jpg" style="width: 500px;"/>
+
+([@dave1010](https://twitter.com/dave1010/status/613601365529657344))
+
+---
+
+## Simulations and analysis with .blue[untested software] do not constitute science
 
 "Before relying on a new experimental device, an experimental scientist always
 establishes its accuracy. A new detector is calibrated when the scientist
@@ -207,50 +223,18 @@ class: split-60-40
 
 ---
 
-
-
-
-
-
-
-
-
-
 template: inverse
 
-## Reproducible research
+# Reproducible research
 
 ---
 
-template: inverse
+## To reproduce computational results you need
 
-## Why should **only** the publications benefit humanity as a whole?
-
-## If your results are not reproducible, do they really benefit humanity?
-
----
-
-class: split-60-40
-
-## To reproduce results you need
-
-.column[
-<img src="img/Laboratory_tripod.jpg" style="height: 380px">
-- By <a href="//commons.wikimedia.org/w/index.php?title=User:NagayaS&amp;action=edit&amp;redlink=1" class="new" title="User:NagayaS (page does not exist)">NagayaS</a> - <span class="int-own-work" lang="en">Own work</span>, <br /><a href="http://creativecommons.org/licenses/by-sa/4.0" title="Creative Commons Attribution-Share Alike 4.0">CC BY-SA 4.0</a>, <a href="https://commons.wikimedia.org/w/index.php?curid=56343942">Link</a>
-
-
-]
-.column[
-- the right version of the code
-- the right version of the environment
-- the right version of data
-]
-
----
-
-template: inverse
-
-## What we preach
+- The code
+- The right version of the code
+- The right version of the environment
+- The data
 
 ---
 
@@ -447,16 +431,13 @@ class: split-50-50
 ### Peer review process in publishing
 
 - Papers are reviewed before they are published
-- Maintain standards of quality
-- Improve performance
-- Provide credibility
+- Maintain standards of quality and credibility
 
 ### Code review
 
 - Code is reviewed before it is integrated
 - Improve quality
-- Learning
-- Knowledge transfer
+- Learning and knowledge transfer
 - [GitHub](https://github.com)/[GitLab](https://gitlab.com)/[Bitbucket](https://bitbucket.org) offer a web solution for code review
 
 *"We don't need code review because we are just two."*
@@ -474,15 +455,6 @@ class: split-50-50
 - Read and discuss code written in your group
 - Read code written by others
 - Read the classics (source code behind classic tools and libraries written by the masters)
-
----
-
-## Suggestions and requests for future topics
-
-- Contribution guides
-- How to open-source a project
-- Software licenses
-- Reproducible science
 
 ---
 
@@ -531,12 +503,11 @@ template: inverse
 - Web server: make it easy for groups to serve web pages
 - Continuous integration service: make it easy to test code
 
-### Observations/criticism (consume with grain of salt)
+### Observations/criticism
 
 - Often technically easy but politically difficult
 - Sometimes fear of committing to useful long-term services
 - 1-2 year commitments too short to motivate people to adopt
-- Huge long-term cost in being slow implementing services
 
 ---
 
@@ -578,7 +549,7 @@ You can sign up to get notified when registration opens
 - Allow code to be cited
 - Document examples
 
-### If your friends code
+### If your friends/customers code
 
 - Please let them know about us: [coderefinery.org](http://coderefinery.org)
 
