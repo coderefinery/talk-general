@@ -12,6 +12,8 @@ template: inverse
 
 ## How CodeRefinery can help researchers with modular and reprodicible software development
 
+### .blue[How can CodeRefinery help DeIC and how can DeIC help CodeRefinery]
+
 ---
 
 layout: false
