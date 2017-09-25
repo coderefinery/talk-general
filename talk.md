@@ -10,7 +10,7 @@ background-image: url(img/background.png)
 
 template: inverse
 
-## How CodeRefinery can help researchers with modular and reprodicible software development
+## How CodeRefinery can help researchers with modular and reproducible software development
 
 ---
 
@@ -231,10 +231,22 @@ template: inverse
 
 ## To reproduce computational results you need
 
-- The code
-- The right version of the code
-- The right version of the environment
-- The data
+### - The code: .red[share]
+### - The right version of the code: .red[version control]
+### - The right version of the environment: .red[containers, share]
+### - The data: .red[share]
+
+---
+
+## Resistance against sharing software
+
+"Will I get scooped?"
+
+"Somebody will find mistakes."
+
+"It's really ugly and unfinished code - people should not see this."
+
+"I spent 5 years building this - why should the other group save these 5 years?"
 
 ---
 
@@ -329,7 +341,7 @@ Function/module has side effects: modifies or depends on global state
 
 ## blender: fruits $\rightarrow$ shake
 
-## oven: ingredients $\rightarrow$ cake
+## oven: (ingredients, temperature, time) $\rightarrow$ cake
 
 ## .blue[Pure functions are easier to]
 
@@ -339,26 +351,6 @@ Function/module has side effects: modifies or depends on global state
 - Parallelize
 - Simplify
 - Optimize
-
----
-
-## Documentation
-
-- Close to the code (minimize barrier to contribute)
-- **Versions**
-- **Branches**
-- Lightweight markup
-- Readable on any device
-- Division into tutorials and API reference
-- Tutorials contain good defaults
-- Ready examples that one can copy-paste to get quickly started
-
-### Current gold standard
-
-- Hosting: [GitHub](https://github.com) or [GitLab](https://gitlab.com) or [Bitbucket](https://bitbucket.org)
-- Markup: [RST](http://docutils.sourceforge.net/rst.html) or [Markdown](http://daringfireball.net/projects/markdown/)
-- Rendering: [Sphinx](http://www.sphinx-doc.org) or [GitBook](https://www.gitbook.com)
-- Deployed to: [Read the Docs](https://readthedocs.org), [GitHub Pages](https://pages.github.com/)
 
 ---
 
@@ -460,7 +452,7 @@ class: split-50-50
 
 template: inverse
 
-## Infrastructure plans
+# Infrastructure services
 
 ---
 
@@ -481,15 +473,22 @@ template: inverse
 
 ## Why GitLab?
 
-- Repositories typically need to be private at least until research has been published
-- Research institute bureaucracy can be difficult for small, pay-per-seat per-user services
+- Many research groups need the possibility to keep code private at least until research has been published
+- GitLab.com is an alternative but data leaves the continent
+- GitHub and Bitbucket are expensive for large organizations
+
+### Why Nordic GitLab?
+
+- Basically every organization hosts own GitLab instance
+- Join forces
+- Minimize maintenance effort
+- Data stays in the Nordics
+- .blue[Partnering with DeIC]
 
 ---
 
 ## Plan: Continuous integration service
 
-- [Travis CI](https://travis-ci.org), [GitLab CI](https://about.gitlab.com/gitlab-ci/), [Jenkins](https://jenkins.io), [Drone](https://github.com/drone/drone), [AppVeyor](https://www.appveyor.com), ...
-- Test every changeset
 - We plan to deploy a service which will make it easier for researchers to test their code
 
 <img src="img/travis.jpg" style="width: 800px;"/>
