@@ -43,20 +43,6 @@ class: split-50-50
 
 ---
 
-## Problem: Red Queen's Race
-
-<img src="img/red_queen.jpg" style="height: 360px;"/>
-
-```
-"A slow sort of country!" said the Queen. "Now, here, you see,
-it takes all the running you can do, to keep in the same place.
-If you want to get somewhere else, you must run at least twice
-as fast as that!"
-- Lewis Carroll, Through the Looking Glass
-```
-
----
-
 class: split-60-40
 
 ## Goals: Better science with better software
@@ -132,6 +118,35 @@ class: split-60-40
 
 ---
 
+class: split-40-60
+
+## Workshops and events
+
+.column[
+- Dec 2016 - **Helsinki**
+- Feb 2017 - **Stockholm**
+- May 2017 - **Copenhagen**
+- May 2017 - Stockholm
+- May 2017 - Umeå
+- Jun 2017 - **Tromsø**
+- Sep 2017 - Manchester
+- Oct 2017 - Umeå
+- Oct 2017 - **Aarhus**
+- Nov 2017 - **Linköping**
+- Dec 2017 - **Helsinki**
+- Feb 2018 - **Trondheim**
+- Mar 2018 - **Turku**
+- Apr 2018 - **Odense**
+- May 2018 - **Uppsala**
+- Jun 2018 - **Oslo**
+- Aug 2018 - **Reykjavík**
+]
+.column[
+<img src="img/map.jpg" style="height: 380px;"/>
+]
+
+---
+
 ## [Ten simple rules for making research software more robust](https://doi.org/10.1371/journal.pcbi.1005412)
 
 **M. Taschuk, G. Wilson** (2017). PLoS Comput Biol 13(4): e1005412.
@@ -148,6 +163,58 @@ class: split-60-40
 - Produce identical results when given identical inputs
 
 ---
+
+## Simulations and analysis with untested software do not constitute science
+
+"Before relying on a new experimental device, an experimental scientist always
+establishes its accuracy. A new detector is calibrated when the scientist
+observes its responses to known input signals. The results of this calibration
+are compared against the expected response. **An experimental scientist would
+never conduct an experiment with uncalibrated detectors - that would be
+unscientific**. So too, simulations and analysis with untested software do not
+constitute science."
+
+(copied from [Testing and Continuous Integration with
+Python](http://katyhuff.github.io/python-testing/), created by Kathryn Huff,
+see also the Testing chapter in [Effective Computation In
+Physics](http://physics.codes) by Anthony Scopatz and Kathryn Huff)
+
+---
+
+## Automated testing
+
+### Motivation
+
+- More robust code
+- Simplify collaboration
+- Documentation which is up to date by definition
+- Make it easier to contribute code
+- Guides towards modular code structure
+- Guides towards **simpler code**
+
+### .blue[Automatic testing makes it more difficult to write complicated code]
+
+---
+
+class: split-60-40
+
+.column[
+<img src="img/suit.jpg" style="width: 400px;"/>
+]
+.column[
+### Suiting up to modify untested code
+]
+
+---
+
+
+
+
+
+
+
+
+
 
 template: inverse
 
@@ -181,42 +248,13 @@ class: split-60-40
 
 ---
 
-class: split-40-60
-
-## Workshops and events
-
-.column[
-- Dec 2016 - **Helsinki**
-- Feb 2017 - **Stockholm**
-- May 2017 - **Copenhagen**
-- May 2017 - Stockholm
-- May 2017 - Umeå
-- Jun 2017 - **Tromsø**
-- Sep 2017 - Manchester
-- Oct 2017 - Umeå
-- Oct 2017 - **Aarhus**
-- Nov 2017 - **Linköping**
-- Dec 2017 - **Helsinki**
-- Feb 2018 - **Trondheim**
-- Mar 2018 - **Turku**
-- Apr 2018 - **Odense**
-- May 2018 - **Uppsala**
-- Jun 2018 - **Oslo**
-- Aug 2018 - **Reykjavík**
-]
-.column[
-<img src="img/map.jpg" style="height: 380px;"/>
-]
-
----
-
 template: inverse
 
 ## What we preach
 
 ---
 
-## Code complexity/viscosity: simple vs. easy
+## Code complexity: simple vs. easy
 
 <img src="img/development-speed.svg" style="width: 600px;"/>
 
@@ -271,118 +309,12 @@ template: inverse
 
 ---
 
-## Automated testing
+## Modular code development
 
-```python
-def get_bmi(mass_kg, height_m):
-    """
-    Calculates the body mass index.
-    """
-    return mass_kg/(height_m**2)
+- Build complex behavior from simple components
+- Composition is key to managing complexity
 
-
-def test_get_bmi():
-    bmi = get_bmi(mass_kg=90.0, height_m=1.91)
-    expected_result = 24.670376
-    assert abs(bmi - expected_result) < 1.0e-6
-```
-
-### Motivation
-
-- More robust code
-- Simplify collaboration
-- Documentation which is up to date by definition
-- Make it easier to contribute code
-- Guides towards modular code structure
-
----
-
-class: split-60-40
-
-.column[
-<img src="img/suit.jpg" style="width: 400px;"/>
-]
-.column[
-### Suiting up to modify untested code
-]
-
----
-
-### Good code (pure: no side effects)
-
-```python
-# function which computes the body mass index
-def get_bmi(mass_kg, height_m):
-    return mass_kg/(height_m**2)
-
-# compute the body mass index
-bmi = get_bmi(mass_kg=90.0, height_m=1.91))
-```
-
-### Less good code (impure: side effects)
-
-```python
-mass_kg = 90.0
-height_m = 1.91
-bmi = 0.0
-
-# function which computes the body mass index
-def get_bmi():
-    global bmi
-    bmi = mass_kg/(height_m**2)
-
-# compute the body mass index
-get_bmi()
-```
-
----
-
-## Enemy of the state
-
-.left-column[
-<img src="img/mad.jpg" style="width: 150px;"/>
-]
-.right-column[
-### Strive for pure functions, fear the state
-
-- Pure functions do not have side effects
-- Side effects lead to bugs and increase complexity
-- Pure functions are easier to
-    - Test
-    - Understand
-    - Reuse
-    - Parallelize
-    - Simplify
-    - Refactor
-    - Optimize
-]
-
----
-
-## Equational reasoning
-
-- We start with a function:
-  $$ f(x) $$
-- We wish to evaluate this:
-  $$ y = f(a) + f(b) \times [f(c) - f(c)] $$
-- We can simplify:
-  $$ y = f(a) + f(b) \times 0 $$
-  $$ y = f(a) $$
-- Another example:
-  $$ z = f(a) + f(b) + f(c) + f(d) $$
-- We know we can rearrange (important for concurrency):
-  $$ z = f(b) + f(d) + f(c) + f(a) $$
-
----
-
-## Concurrency
-
-- Concurrency in imperative code is very hard
-- You are totally lost in the dark without a good thread checker
-- In a pure, immutable world concurrency is nearly trivial!
-- Prefer immutable data to mutable data
-
-<img src="img/floor-loom-diagram.jpg" style="width: 55%;"/>
+<img src="img/knit_vs_lego.jpg" style="width: 100%;"/>
 
 (Slide taken from [Complexity in software development by Jonas Juselius](https://github.com/scisoft/complexity))
 
@@ -390,33 +322,39 @@ get_bmi()
 
 ## Modular code development
 
-### Modular design is good - examples:
-
-- Lego
-- Car manufacturing
-- Design of your phone or laptop
-- Modular composition when you order a laptop
-- Success of USB
-- Erasmus study program
-
-### Advantages
-
 - Separation of concerns
-- Composability
-- Leveraging functionality
+- Documented interfaces
+- Loose coupling: minimize dependencies
+- Cohesion: do one thing only
+- Prefer pure over stateful
+
+### Pure
+
+Function/module has no side effects: independent of global state
+
+### Stateful
+
+Function/module has side effects: modifies or depends on global state
+
 
 ---
 
-## Composition
+## .red[function: input $\rightarrow$ output]
 
-- Build complex behavior from simple components
-- We can reason about the components and the composite
-- Composition is key to managing complexity
-- Modularity does not imply simplicity, but is enabled by it
+## f: $x \rightarrow x^2$
 
-<img src="img/knit_vs_lego.jpg" style="width: 100%;"/>
+## blender: fruits $\rightarrow$ shake
 
-(Slide taken from [Complexity in software development by Jonas Juselius](https://github.com/scisoft/complexity))
+## oven: ingredients $\rightarrow$ cake
+
+## .blue[Pure functions are easier to]
+
+- Test
+- Understand
+- Reuse
+- Parallelize
+- Simplify
+- Optimize
 
 ---
 
@@ -560,13 +498,15 @@ class: split-50-50
 
 ## Suggestion: Code reading sessions
 
-- Read and discuss code written in your group
-- Read code written by others
-- Read code in the standard library
-
+### "If you don't have time to read, you don't have the time (or the tools) to write."
+([Stephen King’s Top 20 Rules for Writers](http://www.openculture.com/2014/03/stephen-kings-top-20-rules-for-writers.html))
 
 ### "Whenever you write, strive for originality, but if you have to steal, steal from the best."
 (Woody Allen in Anything Else, 2003)
+
+- Read and discuss code written in your group
+- Read code written by others
+- Read the classics (source code behind classic tools and libraries written by the masters)
 
 ---
 
@@ -620,7 +560,7 @@ template: inverse
 # Ideas
 
 - Binary sharing platform with versions and DOIs: reproducibility, visibility, and credit
-- Docker registry: reproducible environments
+- Container registry: reproducible environments
 - Web server: make it easy for groups to serve web pages
 - Continuous integration service: make it easy to test code
 
@@ -656,6 +596,18 @@ You can sign up to get notified when registration opens
 - https://www.pdc.kth.se/news/news-repository/coderefinery-workshop-in-espoo
 - https://www.pdc.kth.se/newsletter/2017-1/pdc-newsletter-2017-no.-1
 - https://csc.fi/de/web/blog/post/-/blogs/coderefinery-and-the-red-queen-s-race
+
+---
+
+# Take home messages
+
+- Test code
+- Share and publish code
+- Peer-review code
+- Track versions
+- Cite code
+- Allow code to be cited
+- Document examples
 
 ---
 
