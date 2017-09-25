@@ -18,7 +18,7 @@ class: split-50-50
 - Facilitates the development and operation of high-quality e-Infrastructure solutions in areas of joint Nordic interest
 - Distributed organisation consisting of technical experts from academic high-performance computing centres
 - Across the Nordic countries (Denmark, Finland, Iceland, Norway, Sweden)
-- Ca. 65 persons contracted by NeIC
+- Ca. 100 persons contracted by NeIC
 
 ---
 
@@ -29,7 +29,7 @@ class: split-50-50
 ]
 .column[
 - Quality of scientific software is **critical to modern research**
-
+- Reproducibility of most computations is questionable
 - Scientists often **lack the necessary training** in practices to
   enable them to collaboratively write high-quality scientific software
 ]
@@ -41,6 +41,20 @@ class: split-50-50
 <img src="img/joe-paradiso-modular-synth-front.jpg" style="height: 450px;"/>
 
 (c) Joe Paradiso
+
+---
+
+## Problem: Red Queen's Race
+
+<img src="img/red_queen.jpg" style="height: 360px;"/>
+
+```
+"A slow sort of country!" said the Queen. "Now, here, you see,
+it takes all the running you can do, to keep in the same place.
+If you want to get somewhere else, you must run at least twice
+as fast as that!"
+- Lewis Carroll, Through the Looking Glass
+```
 
 ---
 
@@ -136,6 +150,38 @@ class: split-60-40
 
 ---
 
+template: inverse
+
+## Reproducible research
+
+---
+
+template: inverse
+
+## Why should **only** the publications benefit humanity as a whole?
+
+## If your results are not reproducible, do they really benefit humanity?
+
+---
+
+class: split-60-40
+
+## To reproduce results you need
+
+.column[
+<img src="img/Laboratory_tripod.jpg" style="height: 380px">
+- By <a href="//commons.wikimedia.org/w/index.php?title=User:NagayaS&amp;action=edit&amp;redlink=1" class="new" title="User:NagayaS (page does not exist)">NagayaS</a> - <span class="int-own-work" lang="en">Own work</span>, <br /><a href="http://creativecommons.org/licenses/by-sa/4.0" title="Creative Commons Attribution-Share Alike 4.0">CC BY-SA 4.0</a>, <a href="https://commons.wikimedia.org/w/index.php?curid=56343942">Link</a>
+
+
+]
+.column[
+- the right version of the code
+- the right version of the environment
+- the right version of data
+]
+
+---
+
 class: split-60-40
 
 ## Coming to a city near you
@@ -161,6 +207,11 @@ class: split-60-40
 - Jun 2018 - Oslo
 - Aug 2018 - Reykjavík
 ]
+---
+
+template: inverse
+
+## What we preach
 
 ---
 
@@ -198,6 +249,7 @@ template: inverse
 - Working on several features in parallel
 - Reproducibility
 - Bug exposure can be traced back: **code history is extremely valuable**
+- Attribution can be determined after the fact: **important for legal reasons**
 
 ### Working with others
 
@@ -374,7 +426,7 @@ get_bmi()
 - **Branches**
 - Lightweight markup
 - Readable on any device
-- Division into tutorials and keyword reference
+- Division into tutorials and API reference
 - Tutorials contain good defaults
 - Ready examples that one can copy-paste to get quickly started
 
@@ -383,7 +435,7 @@ get_bmi()
 - Hosting: [GitHub](https://github.com) or [GitLab](https://gitlab.com) or [Bitbucket](https://bitbucket.org)
 - Markup: [RST](http://docutils.sourceforge.net/rst.html) or [Markdown](http://daringfireball.net/projects/markdown/)
 - Rendering: [Sphinx](http://www.sphinx-doc.org) or [GitBook](https://www.gitbook.com)
-- Deployed to: [Read the Docs](https://readthedocs.org) or [GitBook](https://www.gitbook.com)
+- Deployed to: [Read the Docs](https://readthedocs.org), [GitHub Pages](https://pages.github.com/)
 
 ---
 
@@ -517,12 +569,11 @@ class: split-50-50
 
 ---
 
-## Suggestions for future topics
+## Suggestions and requests for future topics
 
 - Contribution guides
 - How to open-source a project
 - Software licenses
-- Mixed-language development
 - Reproducible science
 
 ---
@@ -543,8 +594,15 @@ template: inverse
 
 <img src="img/gitlab-logo.png" style="width: 300px;"/>
 
-- http://coderefinery.org/repository/
-- https://source.coderefinery.org
+- [http://coderefinery.org/repository/](http://coderefinery.org/repository)
+- [https://source.coderefinery.org](https://source.coderefinery.or)
+
+---
+
+## Why GitLab?
+
+- Repositories typically need to be private at least until research has been published
+- Research institute bureaucracy can be difficult for small, pay-per-seat per-user services
 
 ---
 
@@ -593,7 +651,11 @@ template: inverse
 
 ### Seminars and meetups
 
-- [Stockholm, May 19](http://coderefinery.org/workshops/2017-05-19-stockholm/)
+- [Umeå, Oct 16](http://coderefinery.org/events/2017-10-16-umea/) Git-themed one day workshop
+
+#### [Find them here](http://coderefinery.org/workshops/)
+#### [Sign up to be notified](http://tinyurl.com/CodeRefineryNotify)
+]
 
 ---
 
