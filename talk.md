@@ -13,7 +13,8 @@ class: split-50-50
 
 <img src="img/neic.png" style="height: 180px;"/>
 
-- Facilitates the development and operation of high-quality .blue[e-infrastructure solutions] in areas of joint Nordic interest
+- Facilitates the development and operation of high-quality .blue[e-infrastructure solutions]
+  in areas of .blue[joint Nordic interest]
 - .blue[Distributed organisation] consisting of technical experts from academic high-performance computing centres
 - Across the Nordic countries (Denmark, Finland, Iceland, Norway, Sweden)
 - Ca. 100 persons contracted by NeIC
@@ -180,7 +181,7 @@ class: split-60-40
 
 ---
 
-class: split-60-40
+class: split-40-60
 
 ## Workshops and events
 
@@ -637,25 +638,17 @@ template: inverse
 
 ---
 
-## Upcoming events
+# Upcoming events
 
-### 3-day workshops
+### [Umeå, Oct 16](http://coderefinery.org/events/2017-10-16-umea/): Git-themed one day workshop
+### [Aarhus, Oct 24-26](http://coderefinery.org/events/2017-10-24-aarhus/): 3-day workshop
+### Linköping, Nov 7-9: 3-day workshop
+### Espoo, Dec 12-14: 3-day workshop
 
-- [Copenhagen, May 9-11](http://coderefinery.org/workshops/2017-05-09-copenhagen/)
-- [Tromsø, Jun 19-21](http://coderefinery.org/workshops/2017-06-19-tromso/)
-- Many more after summer
+## Find all events here: [coderefinery.org/workshops/](http://coderefinery.org/workshops/)
 
-### [NeIC 2017 conference](http://neic2017.nordforsk.org)
-
-- [Umeå, May 29](http://neic2017.nordforsk.org/workshops/coderefinery/): Mixed Martial Arts - Interfacing Fortran, C, C++, and Python for Great Good!
-
-### Seminars and meetups
-
-- [Umeå, Oct 16](http://coderefinery.org/events/2017-10-16-umea/) Git-themed one day workshop
-
-#### [Find them here](http://coderefinery.org/workshops/)
-#### [Sign up to be notified](http://tinyurl.com/CodeRefineryNotify)
-]
+You can sign up to get notified when registration opens
+(see [coderefinery.org/workshops/](http://coderefinery.org/workshops/)).
 
 ---
 
@@ -680,7 +673,7 @@ class: split-70-30
 
 ## Twitter: [@coderefine](https://twitter.com/coderefine)
 
-## Code: [github.com/coderefinery](https://github.com/coderefinery)
+## Sources: [github.com/coderefinery](https://github.com/coderefinery)
 
 ## Discuss: [coderefinery@googlegroups.com](https://groups.google.com/group/coderefinery)
 
