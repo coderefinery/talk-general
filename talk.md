@@ -11,12 +11,10 @@ background-image: url(img/background.png)
 layout: false
 class: split-50-50
 
-<img src="img/neic.png" style="height: 80px;"/>
+<img src="img/neic.png" style="height: 180px;"/>
 
-### Nordic e-Infrastructure Collaboration
-
-- Facilitates the development and operation of high-quality e-Infrastructure solutions in areas of joint Nordic interest
-- Distributed organisation consisting of technical experts from academic high-performance computing centres
+- Facilitates the development and operation of high-quality .blue[e-infrastructure solutions] in areas of joint Nordic interest
+- .blue[Distributed organisation] consisting of technical experts from academic high-performance computing centres
 - Across the Nordic countries (Denmark, Finland, Iceland, Norway, Sweden)
 - Ca. 100 persons contracted by NeIC
 
