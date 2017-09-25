@@ -378,39 +378,6 @@ Function/module has side effects: modifies or depends on global state
 
 ---
 
-## Building portable and modular code with CMake
-
-- Separation of source and build path
-- Portability
-- Language support
-- Supports modular code development
-- Provides tools
-- Popular
-- General
-
----
-
-template: inverse
-
-## How can you publish a Nature paper?
-
----
-
-## How to publish a Nature paper
-
-- Ask the Nature IT admins to give you access to their server
-- Promise to submit a high quality paper
-  in the right place and using the right format and style
-- Once you get access simply upload your article sources
-- Make sure the issue looks good
-- If somebody complains later, make corrections
-
----
-
-<img src="img/bizzaro-world.jpg" style="height: 420px;"/>
-
----
-
 class: split-50-50
 
 .column[
@@ -599,7 +566,9 @@ You can sign up to get notified when registration opens
 
 ---
 
-# Take home messages
+## Take home messages
+
+### For those who code
 
 - Test code
 - Share and publish code
@@ -608,6 +577,14 @@ You can sign up to get notified when registration opens
 - Cite code
 - Allow code to be cited
 - Document examples
+
+### If your friends code
+
+- Please let them know about us: [coderefinery.org](http://coderefinery.org)
+
+### For those who decide about budgets
+
+- Help us to remove obstacles and launch services that the community needs
 
 ---
 
