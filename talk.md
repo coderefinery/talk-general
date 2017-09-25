@@ -182,29 +182,31 @@ class: split-60-40
 
 class: split-60-40
 
-## Coming to a city near you
+## Workshops and events
 
+.column[
+- Dec 2016 - **Helsinki**
+- Feb 2017 - **Stockholm**
+- May 2017 - **Copenhagen**
+- May 2017 - Stockholm
+- May 2017 - Umeå
+- Jun 2017 - **Tromsø**
+- Sep 2017 - Manchester
+- Oct 2017 - Umeå
+- Oct 2017 - **Aarhus**
+- Nov 2017 - **Linköping**
+- Dec 2017 - **Helsinki**
+- Feb 2018 - **Trondheim**
+- Mar 2018 - **Turku**
+- Apr 2018 - **Odense**
+- May 2018 - **Uppsala**
+- Jun 2018 - **Oslo**
+- Aug 2018 - **Reykjavík**
+]
 .column[
 <img src="img/map.jpg" style="height: 380px;"/>
+]
 
-### Challenge: disciplines are at different levels
-]
-.column[
-- Dec 2016 - Helsinki
-- Feb 2017 - Stockholm
-- May 2017 - Copenhagen
-- May 2017 - Umeå
-- Jun 2017 - Tromsø
-- Oct 2017 - Aarhus
-- Nov 2017 - Linköping
-- Dec 2017 - Helsinki
-- Feb 2018 - Trondheim
-- Mar 2018 - Turku
-- Apr 2018 - Odense
-- May 2018 - Uppsala
-- Jun 2018 - Oslo
-- Aug 2018 - Reykjavík
-]
 ---
 
 template: inverse
@@ -657,19 +659,33 @@ template: inverse
 
 ---
 
-class: split-50-50
+<img src="img/logo.jpg" style="height: 250px;"/>
+
+## CodeRefinery in the press
+
+- https://neic.no/news/2017/03/15/better-software-leads-to-better-science/
+- https://www.deic.dk/news/2017-05-10/CodeRefinery
+- https://www.pdc.kth.se/news/news-repository/coderefinery-workshop-in-espoo
+- https://www.pdc.kth.se/newsletter/2017-1/pdc-newsletter-2017-no.-1
+- https://csc.fi/de/web/blog/post/-/blogs/coderefinery-and-the-red-queen-s-race
+
+---
+
+class: split-70-30
 
 .column[
-## Get in touch!
+# Get in touch!
 
-## [coderefinery.org](http://coderefinery.org)
+## Web: [coderefinery.org](http://coderefinery.org)
 
-## [@coderefine](https://twitter.com/coderefine)
+## Twitter: [@coderefine](https://twitter.com/coderefine)
 
-## [github.com/coderefinery](https://github.com/coderefinery)
+## Code: [github.com/coderefinery](https://github.com/coderefinery)
 
-## [coderefinery@googlegroups.com](https://groups.google.com/group/coderefinery)
+## Discuss: [coderefinery@googlegroups.com](https://groups.google.com/group/coderefinery)
+
+## Questions: [support@coderefinery.org](mailto:support@coderefinery.org)
 ]
 .column[
-<img src="img/logo.jpg" style="height: 250px;"/>
+<img src="img/logo.jpg" style="height: 150px;"/>
 ]
