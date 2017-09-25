@@ -617,24 +617,19 @@ template: inverse
 
 ---
 
-## Idea: Code sharing platform - discoverable and citable
+# Ideas
 
-### Open-source software
+- Binary sharing platform with versions and DOIs: reproducibility, visibility, and credit
+- Docker registry: reproducible environments
+- Web server: make it easy for groups to serve web pages
+- Continuous integration service: make it easy to test code
 
-- [GitHub](https://github.com)/[GitLab](https://gitlab.com)/[Bitbucket](https://bitbucket.org)
-- Often anonymous download
+### Observations/criticism (consume with grain of salt)
 
-### Closed-source software
-
-- Typically has paid maintainers
-- Own distribution websites
-
-### Open-use software
-
-- Typically no budget
-- Often "home-cooked" solutions
-- Often anonymous download not enough
-- Maintenance burden
+- Often technically easy but politically difficult
+- Sometimes fear of committing to useful long-term services
+- 1-2 year commitments too short to motivate people to adopt
+- Huge long-term cost in being slow implementing services
 
 ---
 
