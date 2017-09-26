@@ -481,7 +481,7 @@ template: inverse
 
 - Many research groups need the possibility to keep code private at least until research has been published
 - GitLab.com is an alternative but data leaves the continent
-- GitHub and Bitbucket are expensive for large organizations
+- GitHub and Bitbucket are potentially expensive for large organizations
 
 ### Why Nordic GitLab?
 
@@ -489,13 +489,13 @@ template: inverse
 - Join forces
 - Minimize maintenance effort
 - Data stays in the Nordics
-- .blue[Partnering with DeIC]
+- .blue[Partnering with DeiC]
 
 ---
 
 ## Plan: Continuous integration service
 
-.blue[Partnering with DeIC] we plan to deploy a service which will make it easier
+.blue[Partnering with DeiC] we plan to deploy a service which will make it easier
 for researchers to test their code
 
 <img src="img/travis.jpg" style="width: 800px;"/>
