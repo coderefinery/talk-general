@@ -479,7 +479,7 @@ template: inverse
 
 - Many research groups need the possibility to keep code private at least until research has been published
 - GitLab.com is an alternative but data leaves the continent
-- GitHub and Bitbucket are expensive for large organizations
+- GitHub and Bitbucket are potentially expensive for large organizations
 
 ### Why Nordic GitLab?
 
