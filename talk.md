@@ -14,6 +14,8 @@ template: inverse
 
 ### .blue[How can CodeRefinery help DeiC and how can DeiC help CodeRefinery]
 
+## These slides: [bit.ly/deic-2017](http://bit.ly/deic-2017)
+
 ---
 
 layout: false
