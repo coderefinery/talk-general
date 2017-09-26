@@ -238,7 +238,10 @@ template: inverse
 
 ---
 
-## Resistance against sharing software
+## We have tools for reproducible software: .red[we need to build the culture]
+
+
+### Resistance against sharing software
 
 "Will I get scooped?"
 
@@ -501,12 +504,14 @@ template: inverse
 - Container registry: reproducible environments
 - Web server: make it easy for groups to serve web pages
 - Continuous integration service: make it easy to test code
+- Software certification
 
 ### Observations/criticism
 
 - Often technically easy but politically difficult
-- Sometimes fear of committing to useful long-term services
+- Sometimes fear of committing to long-term services
 - 1-2 year commitments too short to motivate people to adopt
+- Groups often need 1 year to move to or from a service
 
 ---
 
