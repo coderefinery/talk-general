@@ -553,13 +553,13 @@ You can sign up to get notified when registration opens
 - Allow code to be cited
 - Document examples
 
-### If your friends/customers code
+### If your friends/customers/colleagues code
 
 - Please let them know about us: [coderefinery.org](http://coderefinery.org)
 
 ### For those who decide about budgets
 
-- Help us to remove obstacles and launch services that the community needs
+- Help us to remove obstacles and launch long-term services that the community needs
 
 ---
 
