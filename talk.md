@@ -170,92 +170,18 @@ class: split-40-60
 
 ---
 
-template: inverse
-
-# Testing
-
-<img src="img/unit-testing.jpg" style="width: 500px;"/>
-
-([@dave1010](https://twitter.com/dave1010/status/613601365529657344))
-
----
-
-## Simulations and analysis with .blue[untested software] do not constitute science
-
-"Before relying on a new experimental device, an experimental scientist always
-establishes its accuracy. A new detector is calibrated when the scientist
-observes its responses to known input signals. The results of this calibration
-are compared against the expected response. **An experimental scientist would
-never conduct an experiment with uncalibrated detectors - that would be
-unscientific**. So too, simulations and analysis with untested software do not
-constitute science."
-
-(copied from [Testing and Continuous Integration with
-Python](http://katyhuff.github.io/python-testing/), created by Kathryn Huff,
-see also the Testing chapter in [Effective Computation In
-Physics](http://physics.codes) by Anthony Scopatz and Kathryn Huff)
-
----
-
-## Automated testing
-
-### Motivation
-
-- More robust code
-- Simplify collaboration
-- Documentation which is up to date by definition
-- Make it easier to contribute code
-- Guides towards modular code structure
-- Guides towards **simpler code**
-
-### .blue[Automatic testing makes it more difficult to write complicated code]
-
----
-
-class: split-60-40
+class: split-50-50
 
 .column[
-<img src="img/suit.jpg" style="width: 400px;"/>
+## E-mail workflow
+
+<img src="img/email.svg" style="height: 400px;"/>
 ]
 .column[
-### Suiting up to modify untested code
+## Version control
+
+<img src="img/centralized.svg" style="height: 400px;"/>
 ]
-
----
-
-template: inverse
-
-# Reproducible research
-
----
-
-## To reproduce computational results you need
-
-### - The code: .red[share]
-### - The right version of the code: .red[version control]
-### - The right version of the environment: .red[containers, share]
-### - The data: .red[share]
-
----
-
-## We have tools for reproducible software: .red[we need to build the culture]
-
-
-### Resistance against sharing software
-
-"Will I get scooped?"
-
-"Somebody will find mistakes."
-
-"It's really ugly and unfinished code - people should not see this."
-
-"I spent 5 years building this - why should the other group save these 5 years?"
-
----
-
-## Code complexity: simple vs. easy
-
-<img src="img/development-speed.svg" style="width: 600px;"/>
 
 ---
 
@@ -305,70 +231,6 @@ template: inverse
 ## Branching model
 
 <img src="img/branching-model.svg" style="height: 360px;"/>
-
----
-
-## Modular code development
-
-- Build complex behavior from simple components
-- Composition is key to managing complexity
-
-<img src="img/knit_vs_lego.jpg" style="width: 100%;"/>
-
-(Slide taken from [Complexity in software development by Jonas Juselius](https://github.com/scisoft/complexity))
-
----
-
-## Modular code development
-
-- Separation of concerns
-- Documented interfaces
-- Loose coupling: minimize dependencies
-- Cohesion: do one thing only
-- Prefer pure over stateful
-
-### Pure
-
-Function/module has no side effects: independent of global state
-
-### Stateful
-
-Function/module has side effects: modifies or depends on global state
-
-
----
-
-## .red[function: input $\rightarrow$ output]
-
-## f: $x \rightarrow x^2$
-
-## blender: fruits $\rightarrow$ shake
-
-## oven: (ingredients, temperature, time) $\rightarrow$ cake
-
-## .blue[Pure functions are easier to]
-
-- Test
-- Understand
-- Reuse
-- Parallelize
-- Simplify
-- Optimize
-
----
-
-class: split-50-50
-
-.column[
-## E-mail workflow
-
-<img src="img/email.svg" style="height: 400px;"/>
-]
-.column[
-## Version control
-
-<img src="img/centralized.svg" style="height: 400px;"/>
-]
 
 ---
 
@@ -455,6 +317,144 @@ class: split-50-50
 
 template: inverse
 
+# Testing
+
+<img src="img/unit-testing.jpg" style="width: 500px;"/>
+
+([@dave1010](https://twitter.com/dave1010/status/613601365529657344))
+
+---
+
+## Simulations and analysis with .blue[untested software] do not constitute science
+
+"Before relying on a new experimental device, an experimental scientist always
+establishes its accuracy. A new detector is calibrated when the scientist
+observes its responses to known input signals. The results of this calibration
+are compared against the expected response. **An experimental scientist would
+never conduct an experiment with uncalibrated detectors - that would be
+unscientific**. So too, simulations and analysis with untested software do not
+constitute science."
+
+(copied from [Testing and Continuous Integration with
+Python](http://katyhuff.github.io/python-testing/), created by Kathryn Huff,
+see also the Testing chapter in [Effective Computation In
+Physics](http://physics.codes) by Anthony Scopatz and Kathryn Huff)
+
+---
+
+## Automated testing
+
+### Motivation
+
+- More robust code
+- Simplify collaboration
+- Documentation which is up to date by definition
+- Make it easier to contribute code
+- Guides towards modular code structure
+- Guides towards **simpler code**
+
+### .blue[Automatic testing makes it more difficult to write complicated code]
+
+---
+
+class: split-60-40
+
+.column[
+<img src="img/suit.jpg" style="width: 400px;"/>
+]
+.column[
+### Suiting up to modify untested code
+]
+
+---
+
+template: inverse
+
+# Reproducible research
+
+---
+
+## To reproduce computational results you need
+
+### - The code: .red[share]
+### - The right version of the code: .red[version control]
+### - The right version of the environment: .red[containers, share]
+### - The data: .red[share]
+
+---
+
+## We have tools for reproducible software: .red[we need to build the culture]
+
+
+### Resistance against sharing software
+
+"Will I get scooped?"
+
+"Somebody will find mistakes."
+
+"It's really ugly and unfinished code - people should not see this."
+
+"I spent 5 years building this - why should the other group save these 5 years?"
+
+---
+
+## Modular code development
+
+- Build complex behavior from simple components
+- Composition is key to managing complexity
+
+<img src="img/knit_vs_lego.jpg" style="width: 100%;"/>
+
+(Slide taken from [Complexity in software development by Jonas Juselius](https://github.com/scisoft/complexity))
+
+---
+
+## Modular code development
+
+- Separation of concerns
+- Documented interfaces
+- Loose coupling: minimize dependencies
+- Cohesion: do one thing only
+- Prefer pure over stateful
+
+### Pure
+
+Function/module has no side effects: independent of global state
+
+### Stateful
+
+Function/module has side effects: modifies or depends on global state
+
+
+---
+
+## .red[function: input $\rightarrow$ output]
+
+## f: $x \rightarrow x^2$
+
+## blender: fruits $\rightarrow$ shake
+
+## oven: (ingredients, temperature, time) $\rightarrow$ cake
+
+## .blue[Pure functions are easier to]
+
+- Test
+- Understand
+- Reuse
+- Parallelize
+- Simplify
+- Optimize
+
+---
+
+## Code complexity: simple vs. easy
+
+<img src="img/development-speed.svg" style="width: 600px;"/>
+
+---
+
+template: inverse
+
 # Infrastructure services
 
 ---
@@ -469,8 +469,9 @@ template: inverse
 
 <img src="img/gitlab-logo.png" style="width: 300px;"/>
 
-- [http://coderefinery.org/repository/](http://coderefinery.org/repository)
-- [https://source.coderefinery.org](https://source.coderefinery.or)
+## [http://coderefinery.org/repository/](http://coderefinery.org/repository)
+
+## [https://source.coderefinery.org](https://source.coderefinery.or)
 
 ---
 
@@ -492,7 +493,8 @@ template: inverse
 
 ## Plan: Continuous integration service
 
-- We plan to deploy a service which will make it easier for researchers to test their code
+.blue[Partnering with DeIC] we plan to deploy a service which will make it easier
+for researchers to test their code
 
 <img src="img/travis.jpg" style="width: 800px;"/>
 
@@ -500,17 +502,17 @@ template: inverse
 
 # Ideas
 
-- Binary sharing platform with versions and DOIs: reproducibility, visibility, and credit
-- Container registry: reproducible environments
-- Web server: make it easy for groups to serve web pages
-- Continuous integration service: make it easy to test code
-- Software certification
+- .blue[Binary sharing platform with versions and DOIs]: reproducibility, visibility, and credit
+- .blue[Container registry]: reproducible environments
+- .blue[Web server]: make it easy for groups to serve web pages
+- .blue[Continuous integration service]: make it easy to test code
+- .blue[Software certification]
 
 ### Observations/criticism
 
 - Often technically easy but politically difficult
 - Sometimes fear of committing to long-term services
-- 1-2 year commitments too short to motivate people to adopt
+- 1-2 year commitments too short to motivate people to move
 - Groups often need 1 year to move to or from a service
 
 ---
