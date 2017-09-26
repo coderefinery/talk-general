@@ -34,7 +34,7 @@ class: split-50-50
 ]
 .column[
 - Quality of scientific software is **critical to modern research**
-- **Reproducibility** of most computations is questionable
+- **Reproducibility** of many computations is questionable
 - Scientists often **lack the necessary training** in practices to
   enable them to collaboratively write high-quality scientific software
 ]
