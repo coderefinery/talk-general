@@ -581,6 +581,8 @@ class: split-70-30
 ## Discuss: [coderefinery@googlegroups.com](https://groups.google.com/group/coderefinery)
 
 ## Questions: [support@coderefinery.org](mailto:support@coderefinery.org)
+
+## These slides: [bit.ly/deic-2017](http://bit.ly/deic-2017)
 ]
 .column[
 <img src="img/logo.jpg" style="height: 150px;"/>
