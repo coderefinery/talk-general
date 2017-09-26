@@ -201,7 +201,6 @@ template: inverse
 - ... we do not distribute the code.
 - ... we are a research group and not a software company.
 - ... I do not have time to learn it. It's publish or perish.
-- ... I am interested in science and not in software engineering.
 
 ---
 
