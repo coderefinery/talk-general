@@ -487,13 +487,13 @@ template: inverse
 - Join forces
 - Minimize maintenance effort
 - Data stays in the Nordics
-- .blue[Partnering with DeIC]
+- .blue[Partnering with DeiC]
 
 ---
 
 ## Plan: Continuous integration service
 
-.blue[Partnering with DeIC] we plan to deploy a service which will make it easier
+.blue[Partnering with DeiC] we plan to deploy a service which will make it easier
 for researchers to test their code
 
 <img src="img/travis.jpg" style="width: 800px;"/>
