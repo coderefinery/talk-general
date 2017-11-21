@@ -516,10 +516,7 @@ for researchers to test their code
 
 # Upcoming events
 
-### [Umeå, Oct 16](http://coderefinery.org/events/2017-10-16-umea/): Git-themed one day workshop
-### [Aarhus, Oct 24-26](http://coderefinery.org/events/2017-10-24-aarhus/): 3-day workshop
-### Linköping, Nov 7-9: 3-day workshop
-### Espoo, Dec 12-14: 3-day workshop
+### [Espoo, Dec 12-14](http://coderefinery.org/workshops/2017-12-12-espoo/): 3-day workshop
 
 ## Find all events here: [coderefinery.org/workshops/](http://coderefinery.org/workshops/)
 
