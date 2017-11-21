@@ -379,6 +379,9 @@ template: inverse
 
 ## We have tools for reproducible software: .red[we need to build the culture]
 
+Software sustainability is not being treated on equal footing with research
+data management.
+
 
 ### Resistance against sharing software
 
