@@ -665,6 +665,8 @@ class: split-70-30
 .column[
 # Get in touch!
 
+## These slides: http://bit.ly/narvik-2017
+
 ## Web: [coderefinery.org](http://coderefinery.org)
 
 ## Twitter: [@coderefine](https://twitter.com/coderefine)
