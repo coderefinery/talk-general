@@ -15,17 +15,6 @@ template: inverse
 ---
 
 layout: false
-class: split-50-50
-
-<img src="img/neic.png" style="height: 180px;"/>
-
-- Facilitates the development and operation of high-quality .blue[e-infrastructure solutions]
-  in areas of .blue[joint Nordic interest]
-- .blue[Distributed organisation] consisting of technical experts from academic high-performance computing centres
-- Across the Nordic countries (Denmark, Finland, Iceland, Norway, Sweden)
-- Ca. 100 persons contracted by NeIC
-
----
 
 ## Software is transforming research
 
@@ -38,6 +27,37 @@ class: split-50-50
 - Scientists often **lack the necessary training** in practices to
   enable them to collaboratively write high-quality scientific software
 ]
+
+---
+
+template: inverse
+
+# Reproducible research
+
+---
+
+## To reproduce computational results you need
+
+### - The code: .red[share]
+### - The right version of the code: .red[version control]
+### - The right version of the environment: .red[containers, share]
+### - The data: .red[share]
+
+---
+
+## We have tools for reproducible software: .red[we need to build the culture]
+
+### For research data we have
+
+- Policies
+- Openness requirement
+- Ownership awareness
+- Licensing awareness
+- Management plans
+
+### For research software we have
+
+- ...
 
 ---
 
@@ -83,6 +103,18 @@ class: split-60-40
 - Training in skills and tools for students/researchers who write code.
 - Managing complexity and collaborative modular development.
 - Provide infrastructure services.
+
+---
+
+class: split-50-50
+
+<img src="img/neic.png" style="height: 180px;"/>
+
+- Facilitates the development and operation of high-quality .blue[e-infrastructure solutions]
+  in areas of .blue[joint Nordic interest]
+- .blue[Distributed organisation] consisting of technical experts from academic high-performance computing centres
+- Across the Nordic countries (Denmark, Finland, Iceland, Norway, Sweden)
+- Ca. 100 persons contracted by NeIC
 
 ---
 
@@ -514,37 +546,6 @@ get_bmi()
 ### Simple is better than complex
 
 - If you cannot understand or explain a function on a cold gray Monday morning before coffee, it is too complex. (Quote adapted from [Pieter Hintjens, Social Architecture, 2009](https://www.gitbook.com/book/hintjens/social-architecture/details))
-
----
-
-template: inverse
-
-# Reproducible research
-
----
-
-## To reproduce computational results you need
-
-### - The code: .red[share]
-### - The right version of the code: .red[version control]
-### - The right version of the environment: .red[containers, share]
-### - The data: .red[share]
-
----
-
-## We have tools for reproducible software: .red[we need to build the culture]
-
-### For research data we have
-
-- Policies
-- Openness requirement
-- Ownership awareness
-- Licensing awareness
-- Management plans
-
-### For research software we have
-
-- ...
 
 ---
 
