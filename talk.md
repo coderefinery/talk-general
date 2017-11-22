@@ -186,19 +186,6 @@ class: split-50-50
 
 ---
 
-template: inverse
-
-## "I don't need version control because ..."
-
-- ... it is just me.
-- ... we are only two people.
-- ... I carefully test my code.
-- ... we do not distribute the code.
-- ... we are a research group and not a software company.
-- ... I do not have time to learn it. It's publish or perish.
-
----
-
 ## Motivation for version control
 
 ### Relevant also in a single-person universe
@@ -243,40 +230,6 @@ class: split-50-50
 
 ---
 
-## .blue[2017: Are you using peer review in publishing?]
-
-### *Of course! What else?*
-
----
-
-## .blue[2017: Are you using peer review in publishing?]
-
-### *Of course! What else?*
-
-## .blue[2017: Are you using code review in code development?]
-
-### *I don't know what it is.*
-### *I don't know how to do it.*
-### *I don't have time to do it.*
-
----
-
-## .blue[2017: Are you using peer review in publishing?]
-
-### *Of course! What else?*
-
-## .blue[2017: Are you using code review in code development?]
-
-### *I don't know what it is.*
-### *I don't know how to do it.*
-### *I don't have time to do it.*
-
-## .blue[202X: Are you using code review in code development?]
-
-### *Of course! What else?*
-
----
-
 ## Use code review
 
 ### Peer review process in publishing
@@ -309,6 +262,14 @@ class: split-50-50
 
 ---
 
+## Documentation
+
+- Versioned
+- Close to code (same repository)
+- Use existing services like https://readthedocs.org
+
+---
+
 template: inverse
 
 # Testing
@@ -336,6 +297,27 @@ Physics](http://physics.codes) by Anthony Scopatz and Kathryn Huff)
 
 ---
 
+## Testing in a nutshell
+
+In software tests, expected results are compared with observed results in order
+to establish accuracy:
+
+```python
+def get_bmi(mass_kg, height_m):
+    """
+    Calculates the body mass index.
+    """
+    return mass_kg/(height_m**2)
+
+
+def test_get_bmi():
+    bmi = get_bmi(mass_kg=90.0, height_m=1.91)
+    expected_result = 24.670376
+    assert abs(bmi - expected_result) < 1.0e-6
+```
+
+---
+
 ## Automated testing
 
 ### Motivation
@@ -348,6 +330,37 @@ Physics](http://physics.codes) by Anthony Scopatz and Kathryn Huff)
 - Guides towards **simpler code**
 
 ### .blue[Automatic testing makes it more difficult to write complicated code]
+
+---
+
+## Tests guide towards modular code structure
+
+#### Good code: pure and easy to test
+
+```python
+# function which computes the body mass index
+def get_bmi(mass_kg, height_m):
+    return mass_kg/(height_m**2)
+
+# compute the body mass index
+bmi = get_bmi(mass_kg=90.0, height_m=1.91))
+```
+
+#### Less good code: has side effects and is difficult to test
+
+```python
+mass_kg = 90.0
+height_m = 1.91
+bmi = 0.0
+
+# function which computes the body mass index
+def get_bmi():
+    global bmi
+    bmi = mass_kg/(height_m**2)
+
+# compute the body mass index
+get_bmi()
+```
 
 ---
 
@@ -364,64 +377,78 @@ class: split-60-40
 
 template: inverse
 
-# Reproducible research
+# Managing complexity and modular code development
 
 ---
 
-## To reproduce computational results you need
+## Simple vs. easy
 
-### - The code: .red[share]
-### - The right version of the code: .red[version control]
-### - The right version of the environment: .red[containers, share]
-### - The data: .red[share]
+<img src="img/development-speed.svg" style="width: 80%;"/>
 
 ---
 
-## We have tools for reproducible software: .red[we need to build the culture]
+## Modular design is good
 
-Software sustainability is not being treated on equal footing with research
-data management.
+### Examples
 
+- Lego
+- Car manufacturing
+- Design of your phone or laptop
+- Modular composition when you order a laptop
+- Success of USB
+- Study programs
 
-### Resistance against sharing software
+### Advantages
 
-"Will I get scooped?"
-
-"Somebody will find mistakes."
-
-"It's really ugly and unfinished code - people should not see this."
-
-"I spent 5 years building this - why should the other group save these 5 years?"
+- Separation of concerns
+- Composability
+- Leveraging functionality
 
 ---
 
-## Modular code development
+## Purity
 
-- Build complex behavior from simple components
-- Composition is key to managing complexity
+- Pure functions have no notion of state: They take input values and return
+  values
+- Given the same input, a pure function *always* returns the same value
+- Function calls can be optimized away
+- Pure function == data
 
-<img src="img/knit_vs_lego.jpg" style="width: 100%;"/>
+
+<img src="img/bugbarrier.jpg" style="width: 40%;"/>
 
 (Slide taken from [Complexity in software development by Jonas Juselius](https://github.com/scisoft/complexity))
 
 ---
 
-## Modular code development
+## Example: pure vs. stateful
 
-- Separation of concerns
-- Documented interfaces
-- Loose coupling: minimize dependencies
-- Cohesion: do one thing only
-- Prefer pure over stateful
+### a) pure
 
-### Pure
+```python
+# function which computes the body mass index
+def get_bmi(mass_kg, height_m):
+    return mass_kg/(height_m**2)
 
-Function/module has no side effects: independent of global state
+# compute the body mass index
+bmi = get_bmi(mass_kg=90.0, height_m=1.91))
+```
 
-### Stateful
+### b) stateful
 
-Function/module has side effects: modifies or depends on global state
+```python
+mass_kg = 90.0
+height_m = 1.91
+bmi = 0.0
 
+# function which computes the body mass index
+def get_bmi():
+    global bmi
+    bmi = mass_kg/(height_m**2)
+
+# compute the body mass index
+get_bmi()
+```
 
 ---
 
@@ -444,9 +471,80 @@ Function/module has side effects: modifies or depends on global state
 
 ---
 
-## Code complexity: simple vs. easy
+## Composition
 
-<img src="img/development-speed.svg" style="width: 600px;"/>
+- Build complex behavior from simple components
+- Composition is key to managing complexity
+
+<img src="img/knit_vs_lego.jpg" style="width: 100%;"/>
+
+(Slide taken from [Complexity in software development by Jonas Juselius](https://github.com/scisoft/complexity))
+
+---
+
+## Divide and conquer
+
+- Split the code up
+- Construct your program from parts:
+  - functions
+  - modules
+  - packages (Python) or libraries (C or or C++ or Fortran)
+- Split functions/units when they get too long or are hard to name
+
+---
+
+## Encapsulation
+
+- Hide internals by language or by convention (header file in C/C++,
+  public/private in Fortran, underscores and `__all__` in Python)
+- Import as little as possible
+- Export as little as possible
+- Document and version interfaces
+
+---
+
+## Simplicity and clarity before elegance before efficiency
+
+### Avoid premature optimization
+
+- Do not optimize
+- If you have to optimize, optimize later
+- If you have to optimize, measure, do not guess
+
+### Simple is better than complex
+
+- If you cannot understand or explain a function on a cold gray Monday morning before coffee, it is too complex. (Quote adapted from [Pieter Hintjens, Social Architecture, 2009](https://www.gitbook.com/book/hintjens/social-architecture/details))
+
+---
+
+template: inverse
+
+# Reproducible research
+
+---
+
+## To reproduce computational results you need
+
+### - The code: .red[share]
+### - The right version of the code: .red[version control]
+### - The right version of the environment: .red[containers, share]
+### - The data: .red[share]
+
+---
+
+## We have tools for reproducible software: .red[we need to build the culture]
+
+### For research data we have
+
+- Policies
+- Openness requirement
+- Ownership awareness
+- Licensing awareness
+- Management plans
+
+### For research software we have
+
+- ...
 
 ---
 
@@ -488,9 +586,9 @@ template: inverse
 
 ---
 
-## Plan: Continuous integration service
+## Alpha: Continuous integration service
 
-.blue[Partnering with DeiC] we plan to deploy a service which will make it easier
+.blue[Partnering with DeiC] we are about to deploy a service which will make it easier
 for researchers to test their code
 
 <img src="img/travis.jpg" style="width: 800px;"/>
@@ -541,13 +639,15 @@ You can sign up to get notified when registration opens
 
 ### For those who code
 
+- Track versions
 - Test code
 - Share and publish code
 - Peer-review code
-- Track versions
 - Cite code
 - Allow code to be cited
+- Choose a license
 - Document examples
+- Keep documentation in your code repository
 
 ### If your friends/customers/colleagues code
 
