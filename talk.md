@@ -438,6 +438,52 @@ template: inverse
 
 ---
 
+## Composition
+
+- Build complex behavior from simple components
+- Composition is key to managing complexity
+
+<img src="img/knit_vs_lego.jpg" style="width: 100%;"/>
+
+(Slide taken from [Complexity in software development by Jonas Juselius](https://github.com/scisoft/complexity))
+
+---
+
+## Divide and conquer
+
+- Split the code up
+- Construct your program from parts:
+  - functions
+  - modules
+  - packages (Python) or libraries (C or or C++ or Fortran)
+- Split functions/units when they get too long or are hard to name
+
+---
+
+## Encapsulation
+
+- Hide internals by language or by convention (header file in C/C++,
+  public/private in Fortran, underscores and `__all__` in Python)
+- Import as little as possible
+- Export as little as possible
+- Document and version interfaces
+
+---
+
+## Simplicity and clarity before elegance before efficiency
+
+### Avoid premature optimization
+
+- Do not optimize
+- If you have to optimize, optimize later
+- If you have to optimize, measure, do not guess
+
+### Simple is better than complex
+
+- If you cannot understand or explain a function on a cold gray Monday morning before coffee, it is too complex. (Quote adapted from [Pieter Hintjens, Social Architecture, 2009](https://www.gitbook.com/book/hintjens/social-architecture/details))
+
+---
+
 ## Purity
 
 - Pure functions have no notion of state: They take input values and return
@@ -500,52 +546,6 @@ get_bmi()
 - Parallelize
 - Simplify
 - Optimize
-
----
-
-## Composition
-
-- Build complex behavior from simple components
-- Composition is key to managing complexity
-
-<img src="img/knit_vs_lego.jpg" style="width: 100%;"/>
-
-(Slide taken from [Complexity in software development by Jonas Juselius](https://github.com/scisoft/complexity))
-
----
-
-## Divide and conquer
-
-- Split the code up
-- Construct your program from parts:
-  - functions
-  - modules
-  - packages (Python) or libraries (C or or C++ or Fortran)
-- Split functions/units when they get too long or are hard to name
-
----
-
-## Encapsulation
-
-- Hide internals by language or by convention (header file in C/C++,
-  public/private in Fortran, underscores and `__all__` in Python)
-- Import as little as possible
-- Export as little as possible
-- Document and version interfaces
-
----
-
-## Simplicity and clarity before elegance before efficiency
-
-### Avoid premature optimization
-
-- Do not optimize
-- If you have to optimize, optimize later
-- If you have to optimize, measure, do not guess
-
-### Simple is better than complex
-
-- If you cannot understand or explain a function on a cold gray Monday morning before coffee, it is too complex. (Quote adapted from [Pieter Hintjens, Social Architecture, 2009](https://www.gitbook.com/book/hintjens/social-architecture/details))
 
 ---
 
