@@ -1,27 +1,90 @@
-name: inverse
-layout: true
-class: middle
+class: center, middle
+
+<img src="img/coderefinery.png" style="height: 200px;"/>
+
+# The CodeRefinery project
+
+## Radovan Bast [@\_\_radovan](https://twitter.com/__radovan)
+
+Nordic e-Infrastructure Collaboration/
+UiT The Arctic University of Norway
+
+## Slides (text is CC-BY): http://add-link.here
 
 ---
 
-background-image: url(img/background.png)
+## About me
+
+- Theoretical chemist turned research software engineer.
+- I write research software and teach programming to researchers and lead the
+  [CodeRefinery project](https://coderefinery.org).
+
+.left-column[
+### Projects
+
+- DIRAC
+- Dalton
+- OpenRSP
+- XCint
+- XCFun
+- Numgrid
+- GIMIC
+- Parselglossy
+- Autocmake
+- Runtest
+- Sonar
+- Smeshing
+]
+
+.right-column[
+### Credits/inspiration
+
+- Roberto Di Remigio
+- Jonas Juselius
+- Richard Darst
+- Thor Wikfeldt
+- CodeRefinery team
+]
 
 ---
 
-template: inverse
+## CodeRefinery
 
-## How CodeRefinery can help researchers with modular and reproducible software development
+We teach tools and practices for the
+development of reproducible and reusable research software.
+
+<img src="img/map.jpg" style="width: 50%;"/>
+
+- https://coderefinery.org
+- https://coderefinery.org/workshops/
 
 ---
 
-layout: false
+## Plan
 
-## Software is transforming research
+- Why this project
+- History and funding
+- Team
+- CodeRefinery and Carpentries
+- Workshops
+- Lesson material
+- Lessons learned
+- Instructor training and hackathon
+- Nordic RSE conference
+- Nordic HPC
+- Future
+- How to get involved
 
-.column[
+---
+
+## Why?
+
+.left-column[
 <img src="img/complex-machine.jpg" style="height: 500px;"/>
 ]
-.column[
+.right-column[
+### Software is transforming research
+
 - Quality of scientific software is **critical to modern research**
 - **Reproducibility** of many computations is questionable
 - Scientists often **lack the necessary training** in practices to
@@ -30,91 +93,21 @@ layout: false
 
 ---
 
-template: inverse
+## History and funding
 
-# Reproducible research
+- **2014**: developed 1-week course "Scientific software development toolbox" at KTH within Swedish e-Science Education
+- **2015**: Proposal submitted to .emph[Nordic e-Infrastructure Collaboration (NeIC)] for a Nordic-wide program, accepted
+- **2016**: updated 1-week course "Scientific software development toolbox"
+- **Sep. 2016**: CodeRefinery project starts with 2.5 FTE budget (Norway, Sweden, Denmark, Finland)
+- **Dec. 2016**: first workshop, reduced from 5 to 3 days and adopted Carpentries teaching style
+- **2018**: Phase 2 of CodeRefinery project approved for funding by NeIC, with a 3.5 FTE budget (Norway, Sweden, Denmark, Finland, Estonia)
+- .emph[Phase 2 will conclude **Sep. 2021**]
 
----
+### Plan for after Sep. 2021
 
-## To reproduce computational results you need
-
-### - The code: .red[share]
-### - The right version of the code: .red[version control]
-### - The right version of the environment: .red[containers, share]
-### - The data: .red[share]
-
----
-
-## We have tools for reproducible software: .red[we need to build the culture]
-
-### For research data we have
-
-- Policies
-- Openness requirement
-- Ownership awareness
-- Licensing awareness
-- Management plans
-
-### For research software we have
-
-- ...
-
----
-
-## Many researchers struggle with code complexity
-
-<img src="img/joe-paradiso-modular-synth-front.jpg" style="height: 450px;"/>
-
-(c) Joe Paradiso
-
----
-
-class: split-60-40
-
-## Goals: Better science with better software
-
-.column[
-<img src="img/bromance.jpg" style="height: 360px;"/>
-
-(c) The New Yorker, Oct 17, 2016
-]
-.column[
-- Provide researchers with **infrastructure**, **training**, and **guides** in the necessary tools
-  and techniques to create sustainable, modular, reusable, and reproducible
-  software
-- Build **strong partnerships** with related initiatives
-]
-
----
-
-## FAQ: How do we differ?
-
-### [Software Carpentry](https://software-carpentry.org)
-
-- Teaching basic lab skills for research computing.
-
-### [The Software Sustainability Institute](https://www.software.ac.uk)
-
-- Cultivate better, more sustainable, research software to enable world-class
-  research (better software, better research).
-
-### [CodeRefinery](https://www.software.ac.uk)
-
-- Training in skills and tools for students/researchers who write code.
-- Managing complexity and collaborative modular development.
-- Provide infrastructure services.
-
----
-
-class: split-50-50
-
-<img src="img/neic.png" style="height: 180px;"/>
-
-- Facilitates the development and operation of high-quality .blue[e-infrastructure solutions]
-  in areas of .blue[joint Nordic interest]
-- .blue[Distributed organisation] consisting of technical experts from academic high-performance computing centres
-- Across the Nordic countries (Denmark, Finland, Iceland, Norway, Sweden)
-- Ca. 100 persons contracted by NeIC
+- Involve institutions as partners (example: Aalto University)
+- In-kind contributions from partners
+- Coordination using a smaller budget
 
 ---
 
@@ -125,556 +118,189 @@ class: split-50-50
 
 <img src="img/deic.png" style="height: 50px;"/>
 
+<img src="img/etais.png" style="height: 80px;"/>
+
 <img src="img/sigma2.jpg" style="height: 60px;"/>
 
-<img src="img/snic.png" style="height: 20px;"/>
+<img src="img/snic.png" style="height: 40px;"/>
 ]
 .right-column[
-## CodeRefinery launched September 2016
-
-- Nordic e-Infrastructure Collaboration project
-- Funded for two years (**preparing a follow-up!**)
-- We are a team of enthusiasts located in DK, FI, NO, SE
-
 ### Team
 
-- **Norway**: Bjørn Lindi, Radovan Bast, Sabry Razick
-- **Denmark**: Damon Michael Kasacjak, Erland Hochheim
+- **Norway**: Anne Fouilloux, Bjørn Lindi, Radovan Bast, Sabry Razick
+- **Denmark**: Max R. Eckardt, Emiliano Molinaro
 - **Sweden**: Thor Wikfeldt
-- **Finland**: Erik Edelmann, Jyry Suvilehto, Nikolai Denissov, Risto Laurikainen, Sri Harsha Vathsavayi
+- **Finland**: Juho Lehtonen, Stefan Negru, João M. da Silva
 
 ### Alumni
 
-- Pinja Koskinen, FI
-- Lukasz Bartosz Berger, DK
+Lukasz Bartosz Berger,
+N. Denissov,
+Erik Edelmann,
+Erland Hochheim,
+Damon Michael Kasacjak,
+Pinja Koskinen,
+Risto Laurikainen,
+Jyry Suvilehto,
+Sri Harsha Vathsavayi
 ]
 
 ---
 
-class: split-40-60
+## CodeRefinery and Carpentries
 
-## Workshops and events
-
-.column[
-- Dec 2016 - **Helsinki**
-- Feb 2017 - **Stockholm**
-- May 2017 - **Copenhagen**
-- May 2017 - Stockholm
-- May 2017 - Umeå
-- Jun 2017 - **Tromsø**
-- Sep 2017 - Manchester
-- Oct 2017 - Umeå
-- Oct 2017 - **Aarhus**
-- Nov 2017 - **Linköping**
-- Dec 2017 - **Helsinki**
-- Feb 2018 - **Trondheim**
-- Mar 2018 - **Turku**
-- Apr 2018 - **Odense**
-- May 2018 - **Uppsala**
-- Jun 2018 - **Oslo**
-- Aug 2018 - **Reykjavík**
-]
-.column[
-<img src="img/map.jpg" style="height: 380px;"/>
-]
+- No competition but collaboration
+- We use the .emph[Carpentries style of teaching]
+- Most of CodeRefinery lesson material uses the same "look"
+- Target audience are students and researchers who already code
+- Intermediate level
+- Problem: many students and researchers do not regard themselves as "developers"
+- NeIC is Carpentries platinum .emph[member organization]
+- All CodeRefinery instructors take .emph[Carpentries instructor training] and are encouraged
+  to teach Carpentries workshops
+- CodeRefinery project will co-fund .emph[Carpentries coordinator position] Nordics/Baltics
 
 ---
 
-## [Ten simple rules for making research software more robust](https://doi.org/10.1371/journal.pcbi.1005412)
+## Workshops
 
-**M. Taschuk, G. Wilson** (2017). PLoS Comput Biol 13(4): e1005412.
+- We have delivered .emph[27 workshops]
+- We have trained .emph[over 600 students and researchers]
+- Across all academic disciplines
+- Funding for 2 more years
 
-- Use **version control**
-- **Document** your code and usage
-- Make common operations easy to control
-- **Version** your releases
-- **Reuse** software (within reason)
-- Rely on **build tools** and package managers for installation
-- Do not require root or other special privileges to install or run
-- Eliminate hard-coded paths
-- Include a small **test set** that can be run to ensure the software is actually working
-- Produce identical results when given identical inputs
+### Our goal
 
----
+Advance .emph[FAIRness] of software management and development practices so that research groups can
+.emph[collaboratively develop], review, discuss, test, share, and reuse their codes.
 
-class: split-50-50
+### Repository hosting
 
-.column[
-## E-mail workflow
-
-<img src="img/email.svg" style="height: 400px;"/>
-]
-.column[
-## Version control
-
-<img src="img/centralized.svg" style="height: 400px;"/>
-]
+Code repository hosting for Nordic research software: https://coderefinery.org/repository/
 
 ---
 
-## Version control: record snapshots as you develop
+## [Lesson material](https://coderefinery.org/lessons/) (1/3)
 
-<img src="img/commits.jpg" style="width: 800px;"/>
+### Basic and collaborative Git
 
----
+- Basics, branching, merging, archaeology, using Guacamole recipe
+- Pull requests, code review, project organization
 
-## Motivation for version control
+### Git branch design
 
-### Relevant also in a single-person universe
+- Merge vs. rebase
+- How to organize branches and avoid conflicts
 
-- Undo functionality
-- Working on several features in parallel
-- Reproducibility
-- Bug exposure can be traced back: **code history is extremely valuable**
-- Attribution can be determined after the fact: **important for legal reasons**
+### Code documentation
 
-### Working with others
+- Versioned documentation, Sphinx, Read the Docs, and GitHub pages
 
-- People working in parallel on the same project
-- Simplify integration of external contributions
+### Automated testing
 
----
-
-## Version control: make it possible to collaborate
-
-<img src="img/network.jpg" style="width: 800px;"/>
+- pytest and Travis CI
 
 ---
 
-## Branching model
+## [Lesson material](https://coderefinery.org/lessons/) (2/3)
 
-<img src="img/branching-model.svg" style="height: 360px;"/>
+### Jupyter notebooks
 
----
+- Example with equations and plots, widgets, exercises
+- Working on a mybinder example
 
-class: split-50-50
+### Integrated development environments
 
-.column[
-## Centralized workflow
+- Comparison of various editors and environments
 
-<img src="img/centralized.svg" style="height: 400px;"/>
-]
-.column[
-## Code review workflow
+### Building portable code with CMake
 
-<img src="img/forking-overview.svg" style="height: 400px;"/>
-]
+- CMake-ify an example project
 
 ---
 
-## Use code review
+## [Lesson material](https://coderefinery.org/lessons/) (3/3)
 
-### Peer review process in publishing
+### Social coding and open software
 
-- Papers are reviewed before they are published
-- Maintain standards of quality and credibility
+- Sharing, open source, licenses
+- Plan is to turn this into group discussions
 
-### Code review
+### Modular code development
 
-- Code is reviewed before it is integrated
-- Improve quality
-- Learning and knowledge transfer
-- [GitHub](https://github.com)/[GitLab](https://gitlab.com)/[Bitbucket](https://bitbucket.org) offer a web solution for code review
+- Pure functions, side effects, group discussions
 
-*"We don't need code review because we are just two."*
+### Reproducible research
 
----
-
-## Suggestion: Code reading sessions
-
-### "If you don't have time to read, you don't have the time (or the tools) to write."
-([Stephen King’s Top 20 Rules for Writers](http://www.openculture.com/2014/03/stephen-kings-top-20-rules-for-writers.html))
-
-### "Whenever you write, strive for originality, but if you have to steal, steal from the best."
-(Woody Allen in Anything Else, 2003)
-
-- Read and discuss code written in your group
-- Read code written by others
-- Read the classics (source code behind classic tools and libraries written by the masters)
+- Organizing projects, sharing data, recording dependencies, environments, and steps
 
 ---
 
-## Documentation
+## CodeRefinery: what is our impact? (1/2)
 
-- Versioned
-- Close to code (same repository)
-- Use existing services like https://readthedocs.org
+<img src="img/impact1.png" style="width: 80%;"/>
 
----
-
-template: inverse
-
-# Testing
-
-<img src="img/unit-testing.jpg" style="width: 500px;"/>
-
-([@dave1010](https://twitter.com/dave1010/status/613601365529657344))
+.footnote[https://coderefinery.org]
 
 ---
 
-## Simulations and analysis with .blue[untested software] do not constitute science
+## CodeRefinery: what is our impact? (2/2)
 
-"Before relying on a new experimental device, an experimental scientist always
-establishes its accuracy. A new detector is calibrated when the scientist
-observes its responses to known input signals. The results of this calibration
-are compared against the expected response. **An experimental scientist would
-never conduct an experiment with uncalibrated detectors - that would be
-unscientific**. So too, simulations and analysis with untested software do not
-constitute science."
+<img src="img/impact2.png" style="width: 70%;"/>
 
-(copied from [Testing and Continuous Integration with
-Python](http://katyhuff.github.io/python-testing/), created by Kathryn Huff,
-see also the Testing chapter in [Effective Computation In
-Physics](http://physics.codes) by Anthony Scopatz and Kathryn Huff)
+.footnote[https://coderefinery.org]
 
 ---
 
-## Testing in a nutshell
+## Lessons learned
 
-In software tests, expected results are compared with observed results in order
-to establish accuracy:
+### Demand
 
-```python
-def get_bmi(mass_kg, height_m):
-    """
-    Calculates the body mass index.
-    """
-    return mass_kg/(height_m**2)
+- .emph[Demand for training] is huge.
+- [The Carpentries](https://carpentries.org) offer great courses in basics but there is .emph[need for more advanced courses].
 
+### Collaborative version control
 
-def test_get_bmi():
-    bmi = get_bmi(mass_kg=90.0, height_m=1.91)
-    expected_result = 24.670376
-    assert abs(bmi - expected_result) < 1.0e-6
-```
+- Around a third of workshop participants are new to .emph[version control].
+- Very few participants use .emph[code review] and .emph[automated testing] before arriving at our workshop.
 
----
+### FAIR
 
-## Automated testing
-
-### Motivation
-
-- More robust code
-- Simplify collaboration
-- Documentation which is up to date by definition
-- Make it easier to contribute code
-- Guides towards modular code structure
-- Guides towards **simpler code**
-
-### .blue[Automatic testing makes it more difficult to write complicated code]
+- .emph[Software licensing and copyright] aspects are new to most participants.
+- Code publishing and .emph[code citation principles] are new to most participants.
+- .emph[FAIR principles] in software management are far from standard.
 
 ---
 
-## Tests guide towards modular code structure
-
-#### Good code: pure and easy to test
-
-```python
-# function which computes the body mass index
-def get_bmi(mass_kg, height_m):
-    return mass_kg/(height_m**2)
-
-# compute the body mass index
-bmi = get_bmi(mass_kg=90.0, height_m=1.91))
-```
-
-#### Less good code: has side effects and is difficult to test
-
-```python
-mass_kg = 90.0
-height_m = 1.91
-bmi = 0.0
-
-# function which computes the body mass index
-def get_bmi():
-    global bmi
-    bmi = mass_kg/(height_m**2)
-
-# compute the body mass index
-get_bmi()
-```
+## Instructor training and hackathon
 
 ---
 
-class: split-60-40
-
-.column[
-<img src="img/suit.jpg" style="width: 400px;"/>
-]
-.column[
-### Suiting up to modify untested code
-]
+## Nordic RSE conference
 
 ---
 
-template: inverse
-
-# Managing complexity and modular code development
+## Nordic HPC
 
 ---
 
-## Simple vs. easy
-
-<img src="img/development-speed.svg" style="width: 80%;"/>
+## Future
 
 ---
 
-## Modular design is good
+## How to get involved
 
-### Examples
+- https://coderefinery.org
+- Community chat open to all: https://coderefinery.zulipchat.com
+- Lesson sources: https://github.com/coderefinery
+- Twitter: [@coderefine](https://twitter.com/coderefine)
+- Newsletter: https://coderefinery.org/outreach/#the-coderefinery-newsletter
+- [Instructor training](https://coderefinery.org/events/2019-11-04-stockholm/) and [hackathon](https://coderefinery.org/events/2019-11-06-stockholm/)
+- Support requests: [support@coderefinery.org](mailto:support@coderefinery.org)
 
-- Lego
-- Car manufacturing
-- Design of your phone or laptop
-- Modular composition when you order a laptop
-- Success of USB
-- Study programs
+### Let us collaborate!
 
-### Advantages
+- Lesson reuse, remixing, contributions, and suggestions .emph[most welcome]
+- Collaboration on lessons and workshops most welcome
 
-- Separation of concerns
-- Composability
-- Leveraging functionality
-
----
-
-## Composition
-
-- Build complex behavior from simple components
-- Composition is key to managing complexity
-
-<img src="img/knit_vs_lego.jpg" style="width: 100%;"/>
-
-(Slide taken from [Complexity in software development by Jonas Juselius](https://github.com/scisoft/complexity))
-
----
-
-## Divide and conquer
-
-- Split the code up
-- Construct your program from parts:
-  - functions
-  - modules
-  - packages (Python) or libraries (C or or C++ or Fortran)
-- Split functions/units when they get too long or are hard to name
-
----
-
-## Encapsulation
-
-- Hide internals by language or by convention (header file in C/C++,
-  public/private in Fortran, underscores and `__all__` in Python)
-- Import as little as possible
-- Export as little as possible
-- Document and version interfaces
-
----
-
-## Simplicity and clarity before elegance before efficiency
-
-### Avoid premature optimization
-
-- Do not optimize
-- If you have to optimize, optimize later
-- If you have to optimize, measure, do not guess
-
-### Simple is better than complex
-
-- If you cannot understand or explain a function on a cold gray Monday morning before coffee, it is too complex. (Quote adapted from [Pieter Hintjens, Social Architecture, 2009](https://www.gitbook.com/book/hintjens/social-architecture/details))
-
----
-
-## Purity
-
-- Pure functions have no notion of state: They take input values and return
-  values
-- Given the same input, a pure function *always* returns the same value
-- Function calls can be optimized away
-- Pure function == data
-
-
-<img src="img/bugbarrier.jpg" style="width: 40%;"/>
-
-(Slide taken from [Complexity in software development by Jonas Juselius](https://github.com/scisoft/complexity))
-
----
-
-## Example: pure vs. stateful
-
-### a) pure
-
-```python
-# function which computes the body mass index
-def get_bmi(mass_kg, height_m):
-    return mass_kg/(height_m**2)
-
-# compute the body mass index
-bmi = get_bmi(mass_kg=90.0, height_m=1.91))
-```
-
-### b) stateful
-
-```python
-mass_kg = 90.0
-height_m = 1.91
-bmi = 0.0
-
-# function which computes the body mass index
-def get_bmi():
-    global bmi
-    bmi = mass_kg/(height_m**2)
-
-# compute the body mass index
-get_bmi()
-```
-
----
-
-## .red[function: input $\rightarrow$ output]
-
-## f: $x \rightarrow x^2$
-
-## blender: fruits $\rightarrow$ shake
-
-## oven: (ingredients, temperature, time) $\rightarrow$ cake
-
-## .blue[Pure functions are easier to]
-
-- Test
-- Understand
-- Reuse
-- Parallelize
-- Simplify
-- Optimize
-
----
-
-template: inverse
-
-# Infrastructure services
-
----
-
-## Git repository hosting for Nordic research software
-
-- Repository hosting
-- Collaboration
-- Code review
-- Issue tracking
-- Documentation
-
-<img src="img/gitlab-logo.png" style="width: 300px;"/>
-
-## [http://coderefinery.org/repository/](http://coderefinery.org/repository)
-
-## [https://source.coderefinery.org](https://source.coderefinery.or)
-
----
-
-## Why GitLab?
-
-- Many research groups need the possibility to keep code private at least until research has been published
-- GitLab.com is an alternative but data leaves the continent
-- GitHub and Bitbucket are potentially expensive for large organizations
-
-### Why Nordic GitLab?
-
-- Basically every organization hosts own GitLab instance
-- Join forces
-- Minimize maintenance effort
-- Data stays in the Nordics
-- .blue[Partnering with DeiC]
-
----
-
-## Alpha: Continuous integration service
-
-.blue[Partnering with DeiC] we are about to deploy a service which will make it easier
-for researchers to test their code
-
-<img src="img/travis.jpg" style="width: 800px;"/>
-
----
-
-# Ideas
-
-- .blue[Binary sharing platform with versions and DOIs]: reproducibility, visibility, and credit
-- .blue[Container registry]: reproducible environments
-- .blue[Web server]: make it easy for groups to serve web pages
-- .blue[Continuous integration service]: make it easy to test code
-- .blue[Software certification]
-
-### Observations/criticism
-
-- Often technically easy but politically difficult
-- Sometimes fear of committing to long-term services
-- 1-2 year commitments too short to motivate people to move
-- Groups often need 1 year to move to or from a service
-
----
-
-# Upcoming events
-
-### [Espoo, Dec 12-14](http://coderefinery.org/workshops/2017-12-12-espoo/): 3-day workshop
-
-## Find all events here: [coderefinery.org/workshops/](http://coderefinery.org/workshops/)
-
-You can sign up to get notified when registration opens
-(see [coderefinery.org/workshops/](http://coderefinery.org/workshops/)).
-
----
-
-<img src="img/logo.jpg" style="height: 250px;"/>
-
-## CodeRefinery in the press
-
-- https://neic.no/news/2017/03/15/better-software-leads-to-better-science/
-- https://www.deic.dk/news/2017-05-10/CodeRefinery
-- https://www.pdc.kth.se/news/news-repository/coderefinery-workshop-in-espoo
-- https://www.pdc.kth.se/newsletter/2017-1/pdc-newsletter-2017-no.-1
-- https://csc.fi/de/web/blog/post/-/blogs/coderefinery-and-the-red-queen-s-race
-
----
-
-## Take home messages
-
-### For those who code
-
-- Track versions
-- Test code
-- Share and publish code
-- Peer-review code
-- Cite code
-- Allow code to be cited
-- Choose a license
-- Document examples
-- Keep documentation in your code repository
-
-### If your friends/customers/colleagues code
-
-- Please let them know about us: [coderefinery.org](http://coderefinery.org)
-
-### For those who decide about budgets
-
-- Help us to remove obstacles and launch long-term services that the community needs
-
----
-
-class: split-70-30
-
-.column[
-# Get in touch!
-
-## Web: [coderefinery.org](http://coderefinery.org)
-
-## Twitter: [@coderefine](https://twitter.com/coderefine)
-
-## Sources: [github.com/coderefinery](https://github.com/coderefinery)
-
-## Discuss: [coderefinery@googlegroups.com](https://groups.google.com/group/coderefinery)
-
-## Questions: [support@coderefinery.org](mailto:support@coderefinery.org)
-]
-.column[
-<img src="img/logo.jpg" style="height: 150px;"/>
-]
+### These slides (text is CC-BY): http://add-link.here
