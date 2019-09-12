@@ -125,12 +125,16 @@ development of reproducible and reusable research software.
 <img src="img/snic.png" style="height: 40px;"/>
 ]
 .right-column[
-### Team
+### Staff
 
 - **Norway**: Anne Fouilloux, Bjørn Lindi, Radovan Bast, Sabry Razick
 - **Denmark**: Max R. Eckardt, Emiliano Molinaro
 - **Sweden**: Thor Wikfeldt
 - **Finland**: Juho Lehtonen, Stefan Negru, João M. da Silva
+
+### Partners
+
+- **Aalto Science IT**: Richard Darst
 
 ### Alumni
 
@@ -274,17 +278,58 @@ Code repository hosting for Nordic research software: https://coderefinery.org/r
 
 ## Instructor training and hackathon
 
+### Instructor training workshop, Stockholm, Nov. 4-5
+
+- https://coderefinery.org/events/2019-11-04-stockholm/
+- Teaching style
+- Lesson design
+- Lesson development process
+- Lesson discussion
+
+### Hackathon, Stockholm, Nov. 6-7
+
+- https://coderefinery.org/events/2019-11-06-stockholm/
+- Bring your own code or data
+- ReproHack
+- Share your expertise with others
+- Networking
+
 ---
 
 ## Nordic RSE conference
+
+- 2 day event some time in spring/summer 2020
+- Bring together research software engineers from Nordics and beyond
+- Informal presentation sessions and lot of room for discussions and networking
+- Learning from events in UK, Netherlands, Germany, US, and others
 
 ---
 
 ## Nordic HPC
 
+- https://nordichpc.github.io
+- We are a loose collaboration of computing facility staff and friends.
+- Special focus on .emph[usability and reimagining HPC] for the modern age.
+- Goal: Share solutions and problems across centers and across countries.
+- Workshop in Helsinki, Nov. 14-15: https://nordichpc.github.io/2019-11-14-helsinki/
+
 ---
 
 ## Future
+
+### Room for improvement
+
+- Less Python-centric, better cater to R and other communities
+- Better cater to humanities and social sciences
+- Bring in a bit more data aspect
+- Specialized events/workshops for the more specialized lessons
+
+### Sustainability
+
+- Recruit helpers and instructors
+- More exposure for the material
+- Establish partnerships with institutions
+- Go beyond Nordics
 
 ---
 
