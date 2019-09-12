@@ -298,7 +298,7 @@ Code repository hosting for Nordic research software: https://coderefinery.org/r
 
 ## Nordic RSE conference
 
-- 2 day event some time in spring/summer 2020
+- 2 day event some time in spring/summer 2020 (we will fix dates soon)
 - Bring together research software engineers from Nordics and beyond
 - Informal presentation sessions and lot of room for discussions and networking
 - Learning from events in UK, Netherlands, Germany, US, and others
@@ -306,6 +306,8 @@ Code repository hosting for Nordic research software: https://coderefinery.org/r
 ---
 
 ## Nordic HPC
+
+<img src="img/nordic-hpc.png" style="width: 150px;"/>
 
 - https://nordichpc.github.io
 - We are a loose collaboration of computing facility staff and friends.
