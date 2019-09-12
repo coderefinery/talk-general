@@ -1,8 +1,11 @@
-Talk: [The CodeRefinery
-Project](http://cicero.xyz/v2/remark/github/coderefinery/talk-intro/master/talk.md/).
 
-This talk is created using [Cicero](http://cicero.xyz/), which can be
-[run locally](https://github.com/bast/cicero).
+
+# CodeRefinery presentations
+
+- [Introduction to the CodeRefinery project](http://cicero.xyz/v3/remark/0.14.0/github.com/coderefinery/presentations/master/talk-intro.md/)
+- [Ultra-short introduction to the CodeRefinery project](http://cicero.xyz/v2/remark/github/coderefinery/presentations/master/talk-flash.md/) (a bit dated)
+
+Slides served using [Cicero](http://cicero.xyz), which can be [run locally](https://github.com/bast/cicero).
 
 
 ## License
