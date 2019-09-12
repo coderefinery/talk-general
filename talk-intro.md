@@ -9,7 +9,7 @@ class: center, middle
 Nordic e-Infrastructure Collaboration/
 UiT The Arctic University of Norway
 
-## Slides (text is CC-BY): http://add-link.here
+## Slides (text is CC-BY): http://bit.ly/coderefinery-delft-2019
 
 ---
 
@@ -381,4 +381,4 @@ Code repository hosting for Nordic research software: https://coderefinery.org/r
 - Lesson reuse, remixing, contributions, and suggestions .emph[most welcome]
 - Collaboration on lessons and workshops most welcome
 
-### These slides (text is CC-BY): http://add-link.here
+### These slides (text is CC-BY): http://bit.ly/coderefinery-delft-2019
