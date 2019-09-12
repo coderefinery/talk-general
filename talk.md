@@ -298,9 +298,11 @@ Code repository hosting for Nordic research software: https://coderefinery.org/r
 
 ## Nordic RSE conference
 
-- 2 day event some time in spring/summer 2020 (we will fix dates soon)
+- 2 day event some time in spring/summer 2020
+- We will fix dates soon
 - Bring together research software engineers from Nordics and beyond
-- Informal presentation sessions and lot of room for discussions and networking
+- Informal presentation sessions and tutorials
+- Lot of room for discussions and networking
 - Learning from events in UK, Netherlands, Germany, US, and others
 
 ---
@@ -319,6 +321,8 @@ Code repository hosting for Nordic research software: https://coderefinery.org/r
 
 ## Future
 
+- Workshops!
+
 ### Room for improvement
 
 - Less Python-centric, better cater to R and other communities
@@ -329,6 +333,7 @@ Code repository hosting for Nordic research software: https://coderefinery.org/r
 ### Sustainability
 
 - Recruit helpers and instructors
+- Instructor training
 - More exposure for the material
 - Establish partnerships with institutions
 - Go beyond Nordics
