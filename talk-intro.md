@@ -184,6 +184,18 @@ Code repository hosting for Nordic research software: https://coderefinery.org/r
 
 ---
 
+## Workshop preparation
+
+- More and more requested workshops
+- Local organizer and a good room are very important
+- Participants fill out pre-workshop survey at the time of registration
+- Post-workshop survey sent out 3-6 months after workshop
+- Recruiting local helpers
+- Instructors and local helpers meet over video before the workshop and discuss
+  [our manuals](https://github.com/coderefinery/manuals) and the workshop schedule
+
+---
+
 ## [Lesson material](https://coderefinery.org/lessons/) (1/3)
 
 ### Basic and collaborative Git
@@ -240,6 +252,18 @@ Code repository hosting for Nordic research software: https://coderefinery.org/r
 
 ---
 
+## Lesson design and maintenance
+
+- Backwards lesson design process
+- Iterative improvements
+- Changes are submitted as pull requests
+- Non-trivial suggestions are submitted as issues (proposals) and discussed
+- We would like to make it easier to experiment with new ideas and try them in workshops
+- Coming up with good examples is a challenge
+- So far no official lesson owners/maintainers yet
+
+---
+
 ## CodeRefinery: what is our impact? (1/2)
 
 <img src="img/impact1.png" style="width: 80%;"/>
@@ -262,6 +286,7 @@ Code repository hosting for Nordic research software: https://coderefinery.org/r
 
 - .emph[Demand for training] is huge.
 - [The Carpentries](https://carpentries.org) offer great courses in basics but there is .emph[need for more advanced courses].
+- More advanced courses need to become more diverse to be able to mix and match and offer different kinds of workshops.
 
 ### Collaborative version control
 
