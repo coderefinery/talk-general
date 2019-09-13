@@ -188,6 +188,7 @@ Code repository hosting for Nordic research software: https://coderefinery.org/r
 
 - More and more requested workshops
 - Local organizer and a good room are very important
+- List of practical requirements: https://coderefinery.org/workshop-requirements/
 - Participants fill out pre-workshop survey at the time of registration
 - Post-workshop survey sent out 3-6 months after workshop
 - Recruiting local helpers
