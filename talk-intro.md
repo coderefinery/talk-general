@@ -67,15 +67,15 @@ development of reproducible and reusable research software.
 
 - Why this project
 - History and funding
-- Team
+- Team and community
 - CodeRefinery and Carpentries
-- Workshops
-- Lesson material
-- Lessons learned
-- Instructor training and hackathon
-- Nordic RSE conference
-- Nordic HPC
-- Future
+- Our curriculum
+- Moving online and scaling up
+- Instructor training
+- Nordic research software engineers
+- The value of the network
+- Research Software Hour
+- Future and challenges
 - How to get involved
 
 ---
