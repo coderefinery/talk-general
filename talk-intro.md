@@ -322,6 +322,27 @@ focused on the computational skills than publications. Nordic-RSE is the
 
 ---
 
+class: center, middle, inverse
+
+# Value of the network
+
+---
+
+## Cross-border training
+
+### [Python for scientific computing](https://aaltoscicomp.github.io/python-for-scicomp/)
+
+- Collaboration of Aalto, Stockholm, Oslo, and Tromsø
+- We created a workshop in two weeks
+
+
+### [Instructor training](https://coderefinery.github.io/instructor-training/)
+
+- 1 event in collaboration with TU Delft and NL eScience Center
+- 1 event in collaboration with [Focus CoE](https://www.hpccoe.eu/)
+
+---
+
 ## Nordic HPC
 
 <img src="img/nordic-hpc.png" style="width: 150px;"/>
@@ -347,9 +368,14 @@ analyzing and improving someone's research code, and discussion.
 
 ---
 
-class: center, middle, inverse
+## Future and challenges
 
-# Value: network and collaborative workshops
+- .emph[Funding]
+- Better credit for volunteers and in-kind contributions
+- Go beyond Nordics
+- Possibly establish a non-profit organization
+- Governance model
+- Welcoming atmosphere and diversity
 
 ---
 
