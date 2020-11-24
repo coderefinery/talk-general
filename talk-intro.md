@@ -333,12 +333,15 @@ Code repository hosting for Nordic research software: https://coderefinery.org/r
 - Lesson sources: https://github.com/coderefinery
 - Twitter: [@coderefine](https://twitter.com/coderefine)
 - Newsletter: https://coderefinery.org/outreach/#the-coderefinery-newsletter
-- [Instructor training](https://coderefinery.org/events/2019-11-04-stockholm/) and [hackathon](https://coderefinery.org/events/2019-11-06-stockholm/)
 - Support requests: [support@coderefinery.org](mailto:support@coderefinery.org)
+- Progression: workshop participant -> .emph[helper/ exercise leader] -> instructor training -> instructor -> lesson contributor
+- **We hope for support from institutions and our employers** to keep this project going
+
 
 ### Let us collaborate!
 
-- Lesson reuse, remixing, contributions, and suggestions .emph[most welcome]
-- Collaboration on lessons and workshops most welcome
+- Lesson reuse, remixing, contributions, and suggestions most welcome
+- .emph[Collaboration on lessons and workshops] most welcome
+
 
 ### These slides (text is CC-BY): http://add-link.here
