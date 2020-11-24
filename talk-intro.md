@@ -83,7 +83,9 @@ development of reproducible and reusable research software.
 ## Why?
 
 .left-column50[
-<img src="img/complex-machine.jpg" style="height: 500px;"/>
+<img src="img/complex-machine.jpg" style="height: 450px;"/>
+
+.cite[citation/source for this image needed]
 ]
 .right-column50[
 ### Software is transforming research
