@@ -146,17 +146,16 @@ development of reproducible and reusable research software.
 
 ### Last 3 workshops
 
-- 8 volunteer instructors
+- 8 volunteer instructors (also TU Delft and NL eScience Center)
 - over 60 volunteer helpers
 ]
 
 ---
 
-## Typical curriculum: 6 half-days
+## Typical curriculum: 3 days or 6 half-days
 
-- .emph[Basic and collaborative Git]:
-  Basics, branching, merging, archaeology, using Guacamole recipe
-  Pull requests, code review, project organization
+- .emph[Basic and collaborative Git]: Basics, branching, merging, archaeology,
+  pull requests, code review, project organization
 - .emph[Social coding and open software]: Sharing, open source, licenses
 - .emph[Reproducible research]: Organizing projects, sharing data, recording dependencies, environments, and steps
 - .emph[Jupyter notebooks]: Deploy a reproducible notebook on [Binder](https://mybinder.org/)
@@ -203,6 +202,7 @@ development of reproducible and reusable research software.
 | Other workshops            |    5                          |   14                          |
 | Number of persons trained  |  477                          | 1073                          |
 
+- Reminder: ~ 3 FTE project
 - [Number of participants by countries](https://github.com/coderefinery/workshop-data/blob/main/README.md)
 
 ---
@@ -262,38 +262,22 @@ development of reproducible and reusable research software.
 
 - .emph[Demand for training] is huge.
 - [The Carpentries](https://carpentries.org) offer great courses in basics but there is .emph[need for more advanced courses].
-- More advanced courses need to become more diverse to be able to mix and match and offer different kinds of workshops.
+- There is definitely also need for [HPC
+  Carpentry](https://hpc-carpentry.github.io/) lessons (Teaching basic skills
+  for high-performance computing). We have co-organized an instructor training
+  event together with [Focus CoE](https://www.hpccoe.eu/).
 
-### Collaborative version control
 
-- Around a third of workshop participants are new to .emph[version control].
-- Very few participants use .emph[code review] and .emph[automated testing] before arriving at our workshop.
+### Community growth
 
-### FAIR
+- Online workshops allowed us to increase reach.
+- They require more organizers/instructors/helpers but helpers are also easier
+  to recruit if they don't have to travel.
 
-- .emph[Software licensing and copyright] aspects are new to most participants.
-- Code publishing and .emph[code citation principles] are new to most participants.
-- .emph[FAIR principles] in software management are far from standard.
 
----
+### We are a Nordic project but this is not a Nordic-only problem
 
-## Instructor training and hackathon
-
-### Instructor training workshop, Stockholm, Nov. 4-5
-
-- https://coderefinery.org/events/2019-11-04-stockholm/
-- Teaching style
-- Lesson design
-- Lesson development process
-- Lesson discussion
-
-### Hackathon, Stockholm, Nov. 6-7
-
-- https://coderefinery.org/events/2019-11-06-stockholm/
-- Bring your own code or data
-- ReproHack
-- Share your expertise with others
-- Networking
+- Let's solve this together. Our funding runs out end of 2021.
 
 ---
 
