@@ -59,7 +59,7 @@ development of reproducible and reusable research software.
 <img src="img/map.jpg" style="width: 50%;"/>
 
 - https://coderefinery.org
-- https://coderefinery.org/workshops/
+- https://coderefinery.org/workshops/past/
 
 ---
 
