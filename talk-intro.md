@@ -68,8 +68,8 @@ development of reproducible and reusable research software.
 - Why this project
 - History and funding
 - Team and community
-- CodeRefinery and Carpentries
 - Our curriculum
+- CodeRefinery and Carpentries
 - Moving online and scaling up
 - Instructor training
 - Nordic research software engineers
@@ -152,6 +152,20 @@ development of reproducible and reusable research software.
 
 ---
 
+## Typical curriculum: 6 half-days
+
+- .emph[Basic and collaborative Git]:
+  Basics, branching, merging, archaeology, using Guacamole recipe
+  Pull requests, code review, project organization
+- .emph[Social coding and open software]: Sharing, open source, licenses
+- .emph[Reproducible research]: Organizing projects, sharing data, recording dependencies, environments, and steps
+- .emph[Jupyter notebooks]: Deploy a reproducible notebook on [Binder](https://mybinder.org/)
+- .emph[Code documentation]: Versioned documentation, Sphinx, Read the Docs, and GitHub pages
+- .emph[Automated testing]: pytest and GitHub Actions
+- .emph[Modular code development]: Pure functions, side effects, group discussions
+
+---
+
 ## CodeRefinery and [Carpentries](https://carpentries.org/)
 
 - Carpentries "teach foundational coding and data science skills to researchers worldwide"
@@ -196,62 +210,6 @@ Code repository hosting for Nordic research software: https://coderefinery.org/r
 - Recruiting local helpers
 - Instructors and local helpers meet over video before the workshop and discuss
   [our manuals](https://github.com/coderefinery/manuals) and the workshop schedule
-
----
-
-## [Lesson material](https://coderefinery.org/lessons/) (1/3)
-
-### Basic and collaborative Git
-
-- Basics, branching, merging, archaeology, using Guacamole recipe
-- Pull requests, code review, project organization
-
-### Git branch design
-
-- Merge vs. rebase
-- How to organize branches and avoid conflicts
-
-### Code documentation
-
-- Versioned documentation, Sphinx, Read the Docs, and GitHub pages
-
-### Automated testing
-
-- pytest and Travis CI
-
----
-
-## [Lesson material](https://coderefinery.org/lessons/) (2/3)
-
-### Jupyter notebooks
-
-- Example with equations and plots, widgets, exercises
-- Working on a mybinder example
-
-### Integrated development environments
-
-- Comparison of various editors and environments
-
-### Building portable code with CMake
-
-- CMake-ify an example project
-
----
-
-## [Lesson material](https://coderefinery.org/lessons/) (3/3)
-
-### Social coding and open software
-
-- Sharing, open source, licenses
-- Plan is to turn this into group discussions
-
-### Modular code development
-
-- Pure functions, side effects, group discussions
-
-### Reproducible research
-
-- Organizing projects, sharing data, recording dependencies, environments, and steps
 
 ---
 
