@@ -13,6 +13,12 @@ UiT The Arctic University of Norway
 
 ---
 
+class: center, middle, inverse
+
+# Teaching research software development and connecting Nordic research software engineers
+
+---
+
 ## About me
 
 - Theoretical chemist turned research software engineer.
