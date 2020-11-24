@@ -9,7 +9,7 @@ class: center, middle
 Nordic e-Infrastructure Collaboration/
 UiT The Arctic University of Norway
 
-## Slides (text is CC-BY): http://add-link.here
+## Slides (text is CC-BY): https://bit.ly/coderefinery-plan-e
 
 ---
 
@@ -398,4 +398,4 @@ analyzing and improving someone's research code, and discussion.
 - .emph[Collaboration on lessons and workshops] most welcome
 
 
-### These slides (text is CC-BY): http://add-link.here
+### These slides (text is CC-BY): https://bit.ly/coderefinery-plan-e
