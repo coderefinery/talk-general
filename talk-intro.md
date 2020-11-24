@@ -194,21 +194,16 @@ development of reproducible and reusable research software.
 
 ---
 
-## Workshops
+## Number of workshops and persons trained over time
 
-- We have delivered .emph[27 workshops]
-- We have trained .emph[over 600 students and researchers]
-- Across all academic disciplines
-- Funding for 2 more years
+|                            | Phase 1 (Sep 2016 - Aug 2018) | Phase 2 (Sep 2018 - Nov 2020) |
+|----------------------------|-------------------------------|-------------------------------|
+| Full workshops             |   13                          |   17                          |
+| Instructor training events |                               |    3                          |
+| Other workshops            |    5                          |   14                          |
+| Number of persons trained  |  477                          | 1073                          |
 
-### Our goal
-
-Advance .emph[FAIRness] of software management and development practices so that research groups can
-.emph[collaboratively develop], review, discuss, test, share, and reuse their codes.
-
-### Repository hosting
-
-Code repository hosting for Nordic research software: https://coderefinery.org/repository/
+- [Number of participants by countries](https://github.com/coderefinery/workshop-data/blob/main/README.md)
 
 ---
 
