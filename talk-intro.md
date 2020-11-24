@@ -19,14 +19,19 @@ class: center, middle, inverse
 
 ---
 
+.left-column50[
 ## About me
+
+<img src="img/avatar.jpeg" style="width: 50%;"/>
 
 - Theoretical chemist turned research software engineer.
 - I write research software and teach programming to researchers and lead the
   [CodeRefinery project](https://coderefinery.org).
+- Co-author of the CMake Cookbook.
+]
 
-.left-column[
-### Projects
+.right-column50[
+### Code projects
 
 - DIRAC
 - Dalton
@@ -40,16 +45,8 @@ class: center, middle, inverse
 - Runtest
 - Sonar
 - Smeshing
-]
-
-.right-column[
-### Credits/inspiration
-
-- Roberto Di Remigio
-- Jonas Juselius
-- Richard Darst
-- Thor Wikfeldt
-- CodeRefinery team
+- Blob
+- SMARTool
 ]
 
 ---
@@ -85,10 +82,10 @@ development of reproducible and reusable research software.
 
 ## Why?
 
-.left-column[
+.left-column50[
 <img src="img/complex-machine.jpg" style="height: 500px;"/>
 ]
-.right-column[
+.right-column50[
 ### Software is transforming research
 
 - Quality of scientific software is **critical to modern research**
@@ -117,7 +114,7 @@ development of reproducible and reusable research software.
 
 ---
 
-.left-column[
+.left-column50[
 <img src="img/neic.png" style="height: 40px;"/>
 
 <img src="img/csc.png" style="height: 90px;"/>
@@ -130,7 +127,7 @@ development of reproducible and reusable research software.
 
 <img src="img/snic.png" style="height: 40px;"/>
 ]
-.right-column[
+.right-column50[
 ### Staff
 
 - **Norway**: Anne Fouilloux, Bjørn Lindi, Radovan Bast, Sabry Razick
