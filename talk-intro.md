@@ -116,42 +116,38 @@ development of reproducible and reusable research software.
 
 ---
 
-.left-column50[
+## Team and community
+
+.left-column30[
 <img src="img/neic.png" style="height: 40px;"/>
 
 <img src="img/csc.png" style="height: 90px;"/>
 
-<img src="img/deic.png" style="height: 50px;"/>
+<img src="img/deic.png" style="height: 40px;"/>
 
 <img src="img/etais.png" style="height: 80px;"/>
 
 <img src="img/sigma2.jpg" style="height: 60px;"/>
 
-<img src="img/snic.png" style="height: 40px;"/>
+<img src="img/snic.png" style="height: 35px;"/>
 ]
-.right-column50[
-### Staff
+.right-column70[
+### Staff and hubs
 
-- **Norway**: Anne Fouilloux, Bjørn Lindi, Radovan Bast, Sabry Razick
-- **Denmark**: Max R. Eckardt, Emiliano Molinaro
-- **Sweden**: Thor Wikfeldt
-- **Finland**: Juho Lehtonen, Stefan Negru, João M. da Silva
+- 12 persons are on contract (~ 3 FTE)
+- Major in-kind partner: [Aalto Scientific Computing](https://scicomp.aalto.fi/)
+- Major training hubs: Aalto, Stockholm, Oslo, Trondheim
 
-### Partners
 
-- **Aalto Science IT**: Richard Darst
+### Network
 
-### Alumni
+- 173 persons on <https://coderefinery.zulipchat.com/>
+- 552 followers on [@coderefine](https://twitter.com/coderefine)
 
-Lukasz Bartosz Berger,
-N. Denissov,
-Erik Edelmann,
-Erland Hochheim,
-Damon Michael Kasacjak,
-Pinja Koskinen,
-Risto Laurikainen,
-Jyry Suvilehto,
-Sri Harsha Vathsavayi
+### Last 3 workshops
+
+- 8 volunteer instructors
+- over 60 volunteer helpers
 ]
 
 ---

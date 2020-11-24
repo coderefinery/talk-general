@@ -28,13 +28,23 @@ a {
   color: #e8daef;
 }
 
-.left-column60 {
-  width: 60%;
+.left-column30 {
+  width: 30%;
+  float: left;
+}
+
+.left-column40 {
+  width: 40%;
   float: left;
 }
 
 .left-column50 {
   width: 50%;
+  float: left;
+}
+
+.left-column60 {
+  width: 60%;
   float: left;
 }
 
@@ -48,6 +58,15 @@ a {
   float: right;
 }
 
+.right-column60 {
+  width: 60%;
+  float: right;
+}
+
+.right-column70 {
+  width: 70%;
+  float: right;
+}
 
 .footnote {
   position: absolute;
