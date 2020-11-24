@@ -71,7 +71,7 @@ development of reproducible and reusable research software.
 - Our curriculum
 - CodeRefinery and Carpentries
 - Moving online and scaling up
-- Instructor training
+- Impact
 - Nordic research software engineers
 - The value of the network
 - Research Software Hour
@@ -227,6 +227,8 @@ development of reproducible and reusable research software.
 - Participants can register as teams ("bring your own breakout room")
 - Installation sessions and helper preparation sessions
 - [Operation manuals](https://coderefinery.github.io/manuals/)
+- Asynchronous Q&A via [HackMD](https://hackmd.io/) ->
+  we publish these ([example](https://coderefinery.github.io/2020-10-20-online/#questions-answers-and-feedback))
 - An .emph[effective team work!]
 - Right now running the 3rd workshop at this scale
 
