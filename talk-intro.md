@@ -281,14 +281,44 @@ development of reproducible and reusable research software.
 
 ---
 
-## Nordic RSE conference
+class: center, middle, inverse
 
-- 2 day event some time in spring/summer 2020
-- We will fix dates soon
-- Bring together research software engineers from Nordics and beyond
+# Nordic research software engineers
+
+---
+
+A **research software engineer** is someone involved in research, but more
+focused on the computational skills than publications. Nordic-RSE is the
+**network** of these people in the Nordics and Baltics.
+
+<img src="img/nordic-rse-map.png" style="width: 50%;"/>
+
+- https://nordic-rse.org/
+- https://nordic-rse.org/map/
+
+---
+
+## Nordic RSE: status
+
+- Not a formal organization yet
+- Few volunteers who think this needs to be done and do it
+- Discuss on https://coderefinery.zulipchat.com
+- Weekly community calls
+- Learning from and connecting with organizations in UK, Netherlands, Germany, US, Belgium, and others
+- Organizing events: .emph[Online get-together Nov 30 - Dec 2, 2020], first conference May 27-28, 2021, Stockholm.
+- We need to improve: diversity.
+
+---
+
+<img src="img/nordic-rse-get-together.png" style="width: 70%;"/>
+
+### https://nordic-rse.org/events/2020-online-get-together/
+
+- Bring together research software engineers from Nordics/Baltics and beyond
 - Informal presentation sessions and tutorials
-- Lot of room for discussions and networking
-- Learning from events in UK, Netherlands, Germany, US, and others
+- Discussions and networking
+- Not only about tools, also about career development
+- 77 registrations so far - **registration still open!**
 
 ---
 
@@ -304,24 +334,22 @@ development of reproducible and reusable research software.
 
 ---
 
-## Future
+## Research Software Hour
 
-- Workshops!
+- Richard Darst (Aalto), Anne Fouilloux (Oslo), and Radovan Bast (Tromsø)
+- https://researchsoftwarehour.github.io/
+- Every Thursday evening on [Twitch](https://www.twitch.tv/rshour)
 
-### Room for improvement
+**Research Software Hour** is an online stream/show about scientific computing and
+research software. It is designed to provide the skills typically picked up via
+informal networks: each week, we do some combination of exploring new tools,
+analyzing and improving someone's research code, and discussion.
 
-- Less Python-centric, better cater to R and other communities
-- Better cater to humanities and social sciences
-- Bring in a bit more data aspect
-- Specialized events/workshops for the more specialized lessons
+---
 
-### Sustainability
+class: center, middle, inverse
 
-- Recruit helpers and instructors
-- Instructor training
-- More exposure for the material
-- Establish partnerships with institutions
-- Go beyond Nordics
+# Value: network and collaborative workshops
 
 ---
 
