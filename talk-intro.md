@@ -156,18 +156,19 @@ Sri Harsha Vathsavayi
 
 ---
 
-## CodeRefinery and Carpentries
+## CodeRefinery and [Carpentries](https://carpentries.org/)
 
-- No competition but collaboration
-- We use the .emph[Carpentries style of teaching]
+- Carpentries "teach foundational coding and data science skills to researchers worldwide"
+- No competition but .emph[collaboration]
+- We use an .emph[interactive style of teaching], like Carpentries
 - Most of CodeRefinery lesson material uses the same "look"
-- Target audience are students and researchers who already code
+- Target audience are **students and researchers who already write code**
 - Intermediate level
 - Problem: many students and researchers do not regard themselves as "developers"
 - NeIC is Carpentries platinum .emph[member organization]
 - All CodeRefinery instructors take .emph[Carpentries instructor training] and are encouraged
   to teach Carpentries workshops
-- CodeRefinery project will co-fund .emph[Carpentries coordinator position] Nordics/Baltics
+- CodeRefinery project co-funds a .emph[Carpentries coordinator position] Nordics/Baltics
 
 ---
 
