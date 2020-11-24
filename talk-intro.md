@@ -207,16 +207,34 @@ development of reproducible and reusable research software.
 
 ---
 
-## Workshop preparation
+## A vision of reaching many people at once
 
-- More and more requested workshops
-- Local organizer and a good room are very important
-- List of practical requirements: https://coderefinery.org/workshop-requirements/
-- Participants fill out pre-workshop survey at the time of registration
-- Post-workshop survey sent out 3-6 months after workshop
-- Recruiting local helpers
-- Instructors and local helpers meet over video before the workshop and discuss
-  [our manuals](https://github.com/coderefinery/manuals) and the workshop schedule
+![The first idea... accept everyone, stream for everyone else](img/inspiration-1.png)
+
+--
+
+![A bit later... crazy but genius](img/inspiration-2.png)
+
+---
+
+## Scaling up during 2020
+
+<img src="img/scaling-up.png" style="width: 50%;"/>
+
+- Lectures & code-along exercises in the main room: .emph[stream and also record]
+- Get help and group exercises in a breakout room
+- 100 participants, 20+ helpers
+- Participants can register as teams ("bring your own breakout room")
+- Installation sessions and helper preparation sessions
+- [Operation manuals](https://coderefinery.github.io/manuals/)
+- An .emph[effective team work!]
+- Right now running the 3rd workshop at this scale
+
+
+### More details
+
+- Blog post: https://coderefinery.org/blog/2020/07/31/mega-coderefinery/
+- [Presentation at CarpentryCon@Home 2020](https://github.com/coderefinery/carpentrycon-2020)
 
 ---
 
