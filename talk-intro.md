@@ -182,6 +182,18 @@ development of reproducible and reusable research software.
 
 ---
 
+## Lesson design and maintenance
+
+- .emph[All lessons are CC-BY and developed in the open]
+- Reverse lesson design process: .emph[start from learner personas and learning outcomes]
+- Iterative improvements
+- Changes are submitted as pull requests
+- Non-trivial suggestions are submitted as issues (proposals) and discussed
+- We would like to make it easier to experiment with new ideas and try them in workshops
+- So far no official lesson owners/maintainers yet
+
+---
+
 ## Workshops
 
 - We have delivered .emph[27 workshops]
@@ -210,18 +222,6 @@ Code repository hosting for Nordic research software: https://coderefinery.org/r
 - Recruiting local helpers
 - Instructors and local helpers meet over video before the workshop and discuss
   [our manuals](https://github.com/coderefinery/manuals) and the workshop schedule
-
----
-
-## Lesson design and maintenance
-
-- Backwards lesson design process
-- Iterative improvements
-- Changes are submitted as pull requests
-- Non-trivial suggestions are submitted as issues (proposals) and discussed
-- We would like to make it easier to experiment with new ideas and try them in workshops
-- Coming up with good examples is a challenge
-- So far no official lesson owners/maintainers yet
 
 ---
 
