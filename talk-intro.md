@@ -351,7 +351,8 @@ class: center, middle, inverse
 - We are a loose collaboration of computing facility staff and friends.
 - Special focus on .emph[usability and reimagining HPC] for the modern age.
 - Goal: Share solutions and problems across centers and across countries.
-- Workshop in Helsinki, Nov. 14-15: https://nordichpc.github.io/2019-11-14-helsinki/
+- We had our first Workshop in Helsinki, 2019:
+  https://nordichpc.github.io/2019-11-14-helsinki/
 
 ---
 
