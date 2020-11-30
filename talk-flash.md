@@ -59,8 +59,7 @@ development of reproducible and reusable research software.
   - 19 other workshops/events
   - 3 instructor training events
   - **over 1400 persons trained**
-- last 3 workshops: **8 volunteer instructors** (also TU Delft and NL eScience Center),
-  over **60 volunteer helpers**
+- last 3 workshops: **8 volunteer instructors**, over **60 volunteer helpers**
 ]
 
 ---
@@ -75,21 +74,11 @@ development of reproducible and reusable research software.
 - Automated testing
 - Modular code development
 
----
 
-## CodeRefinery and [Carpentries](https://carpentries.org/)
+### CodeRefinery and [Carpentries](https://carpentries.org/)
 
 - Carpentries "teach foundational coding and data science skills to researchers worldwide"
-- No competition but .emph[collaboration]
-- We use an .emph[interactive style of teaching], like Carpentries
-- Most of CodeRefinery lesson material uses the same "look"
-- Target audience are **students and researchers who already write code**
-- Intermediate level
-- Problem: many students and researchers do not regard themselves as "developers"
-- NeIC is Carpentries platinum .emph[member organization]
-- All CodeRefinery instructors take .emph[Carpentries instructor training] and are encouraged
-  to teach Carpentries workshops
-- CodeRefinery project co-funds a .emph[Carpentries coordinator position] Nordics/Baltics
+- Our target audience are **students and researchers who already write code**
 
 ---
 
