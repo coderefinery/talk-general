@@ -54,10 +54,11 @@ development of reproducible and reusable research software.
 
 ### Workshops
 
-- **30 full workshops**
-- 19 other workshops/events
-- 3 instructor training events
-- **over 1400 persons trained**
+- Since 2016:
+  - **30 full workshops**
+  - 19 other workshops/events
+  - 3 instructor training events
+  - **over 1400 persons trained**
 - last 3 workshops: **8 volunteer instructors** (also TU Delft and NL eScience Center),
   over **60 volunteer helpers**
 ]
