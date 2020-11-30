@@ -67,14 +67,13 @@ development of reproducible and reusable research software.
 
 ## Typical curriculum: 3 days or 6 half-days
 
-- .emph[Basic and collaborative Git]: Basics, branching, merging, archaeology,
-  pull requests, code review, project organization
-- .emph[Social coding and open software]: Sharing, open source, licenses
-- .emph[Reproducible research]: Organizing projects, sharing data, recording dependencies, environments, and steps
-- .emph[Jupyter notebooks]: Deploy a reproducible notebook on [Binder](https://mybinder.org/)
-- .emph[Code documentation]: Versioned documentation, Sphinx, Read the Docs, and GitHub pages
-- .emph[Automated testing]: pytest and GitHub Actions
-- .emph[Modular code development]: Pure functions, side effects, group discussions
+- Basic and collaborative Git
+- Social coding and open software
+- Reproducible research
+- Jupyter notebooks
+- Code documentation
+- Automated testing
+- Modular code development
 
 ---
 
@@ -97,8 +96,6 @@ development of reproducible and reusable research software.
 ## A vision of reaching many people at once
 
 ![The first idea... accept everyone, stream for everyone else](img/inspiration-1.png)
-
---
 
 ![A bit later... crazy but genius](img/inspiration-2.png)
 
