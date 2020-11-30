@@ -9,7 +9,7 @@ class: center, middle
 Nordic e-Infrastructure Collaboration/
 UiT The Arctic University of Norway
 
-## Slides (text is CC-BY): http://add-link.here
+Slides (text is CC-BY): https://bit.ly/coderefinery-nordic-rse-2020
 
 ---
 
@@ -138,4 +138,4 @@ development of reproducible and reusable research software.
 - .emph[Collaboration on lessons and workshops] most welcome
 
 
-### These slides (text is CC-BY): http://add-link.here
+### These slides (text is CC-BY): https://bit.ly/coderefinery-nordic-rse-2020
